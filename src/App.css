@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #ffffff;
+}
+
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+.desktop-layout {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-container {
+  height: calc(100vh - 80px);
+  position: relative;
+  padding-top: 140px;
+  overflow: hidden;
+}
+
+.carousel-content {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.carousel-content.slide-left {
+  transform: translateX(-100%);
+}
+
+.carousel-content.slide-right {
+  transform: translateX(100%);
+}
+.mobile-layout {
+  min-height: 100vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.mobile-pages {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  scroll-margin-top: 140px;
+}
+.gap-5 {
+  gap: 3rem !important;
+}
+
+.gap-2 {
+  gap: 0.5rem !important;
+}
+.fw-black {
+  font-weight: 900 !important;
+}
+@media (max-width: 767px) {
+  .mobile-page {
+    min-height: 100vh;
+    padding: 1rem 0;
+  }
+  
+  .carousel-container {
+    padding-top: 120px;
+  }
+  .mobile-layout .d-flex.justify-content-between {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem;
+  }
+  .mobile-layout .d-flex.justify-content-between.align-items-start {
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+  
+  .mobile-layout .text-start {
+    text-align: center !important;
+  }
+  .mobile-layout .order-1 img {
+    height: 50vh !important;
+    min-height: 300px !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .carousel-container {
+    padding-top: 120px;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
