@@ -47,8 +47,8 @@ const HomePage: React.FC<HomePageProps> = ({ translations: t, isMobile = false }
         </Col>
         <Col lg={6} className="p-0 order-1 order-lg-2">
           <div className="h-100 d-flex align-items-center justify-content-center bg-light">
-<img src="https://steidl-partner.de/wp-content/themes/steidl/img/steidl-home-big.jpg"
-              alt="Martin Steidl"
+<img src="src/images/Wolfram-Birkmayer.jpg"
+              alt="Wolfram Birkmayer"
               className="w-100 h-100"
               style={{ objectFit: 'cover', minHeight: isMobile ? '300px' : '400px' }}
             />

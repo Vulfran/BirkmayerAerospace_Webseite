@@ -36,9 +36,9 @@ export const translations = {
     contactPrivacyText: 'If you have any questions about this privacy policy, please contact us at info@steidl-partner.de.'
   },
   de: {
-    pages: ['Martin Steidl', 'Projekte', 'Über mich', 'Faktenprofil', 'Downloads', 'Kontakt', 'Datenschutz'],
-    mainTitle: 'Kleine und mittlere Industrieunternehmen zukunftsfähig machen',
-    mainText1: 'Alle Unternehmen erleben Zeiten bedeutender Veränderungen oder sogar Krisen. Ob sie bereit sind, die neuesten Veränderungen zu bewältigen oder nicht, sie alle stehen vor der Aufgabe, sich auf das Geschäft der Zukunft vorzubereiten. Meine Aufgabe ist es, Führungskräfte zu unterstützen, die mit Veränderungen konfrontiert sind, und gemeinsam mit ihnen die zukünftigen Wege ihrer Unternehmen zu planen und umzusetzen. Manchmal werde ich auch von Banken und anderen Investoren beauftragt, die Verantwortung für den zukünftigen Kurs von Unternehmen zu übernehmen. Ich verbinde neue Ansätze mit altbewährten Werten.',
+    pages: ['Wolfram Birkmayer', 'Projekte', 'Über mich', 'Faktenprofil', 'Downloads', 'Kontakt', 'Datenschutz'],
+    mainTitle: 'Luftfahrt und hochregulierte Industrien sicher, zuverlässig und marktreif',
+    mainText1: 'Märkte verändern sich schnell: strengere Vorschriften, kürzere Entwicklungszyklen, wachsende Innovationsanforderungen. Ich unterstütze Entwicklungs- und Produktionsleiter dabei, Produkte schneller, sicherer, zertifizierbar und wettbewerbsfähig zu liefern. Mit über 35 Jahren Erfahrung bei Airbus und Rolls-Royce bringe ich tiefgehendes Know-how in Systems- & Safety Engineering (ARP4754B, ARP4761A), Umweltgefahrenschutz (HIRF, EMC, Blitzschutz), Industrialisierung, MBSE, ALM-Integration und agilen Methoden ein. Ob operativ, als Coach oder auf Managementebene – mein Fokus liegt auf der Beschleunigung der Time-to-Market, Verbesserung der Lieferpünktlichkeit, Steigerung der Produktzuverlässigkeit und Reduzierung der Gesamtbetriebskosten – für nachhaltigen Erfolg und technologische Führerschaft in anspruchsvollen Branchen.',
     mainText2: 'Bitte zögern Sie nicht,',
     references: 'Referenzen',
     atAnyTime: 'jederzeit anzufordern.',
