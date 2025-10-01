@@ -1,8 +1,8 @@
 export const projects = [
   {
-    title: 'CEO',
-    subtitle: 'Holding company, 220 employees, sales of EUR 66 million',
-    description: 'In the wake of restructuring measures, I was commissioned to manage the strategic turnaround and to assume responsibility for the entire group\'s operations. The success of the new strategy depended in particular on an effective integration of the cultures at the various enterprise locations. The production and assembly planning were reorganised and corresponding standards were introduced to facilitate the process. Acting in the capacity of a personal liaison to the creditors, I assumed responsibility for the implementation of the standards.'
+    title: 'Leiter Produktionsoptimierung Endmontagelinie eines Flugzeugherstellers',
+    subtitle: 'Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR',
+    description: 'Ein globaler Luftfahrtkonzern hatte mit chronischen Lieferverzögerungen und hohen Fehlerquoten in einer zentralen Endmontagelinie zu kämpfen, was Kundenverträge und Rentabilität gefährdete.'
   },
   {
     title: 'CRO',
