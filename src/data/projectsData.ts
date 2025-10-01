@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Leiter Produktionsoptimierung Endmontagelinie eines Flugzeugherstellers',
     subtitle: 'Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR',
-    description: 'Ein globaler Luftfahrtkonzern hatte mit chronischen Lieferverzögerungen und hohen Fehlerquoten in einer zentralen Endmontagelinie zu kämpfen, was Kundenverträge und Rentabilität gefährdete.'
+    description: 'Herausforderung: Ein globaler Luftfahrtkonzern hatte mit chronischen Lieferverzögerungen und hohen Fehlerquoten in einer zentralen Endmontagelinie zu kämpfen, was Kundenverträge und Rentabilität gefährdete. Vorgehen: Als Leiter des On-Time-Delivery-Verbesserungsprogramms in der Produktionsorganisation des Executive Vice President führte ich ein 30-köpfiges internationales Team. Wir optimierten die Arbeitsabläufe, führten ein Echtzeit-Performance-Tracking ein und implementierten gezielte Qualitätsmaßnahmen. Durch Clear Engineering und strategische Führung gelang die enge Abstimmung mit mehreren internationalen Fertigungseinheiten. Wirkung: Die termingerechte Auslieferung stieg von 25 % auf 100 % in nur zehn Monaten, Qualitätsmängel sanken um 75 %. Die eingeführten Leistungskennzahlen wurden konzernweit zum Standard.'
   },
   {
     title: 'CRO',
