@@ -67,9 +67,9 @@ function App() {
 
       {/* Page content below the hero */}
       <main className="container mx-auto p-4">
-        <h2 className="text-2xl font-semibold">Über uns</h2>
+        <h2 className="text-2xl font-semibold">Luftfahrt & hochregulierte Industrien – Produkte sicher, zuverlässig und marktreif machen</h2>
         <p className="mt-4 text-muted-foreground">
-          Dies ist eine grundlegende Beispielseite, die die Startbildschirm-Hero-Sektion mit Hintergrundbild zeigt.
+          Unternehmen in hochregulierten Märkten stehen unter Druck: mehr Innovation, kürzere Entwicklungszeiten, strengere Zertifizierungen. Ich unterstütze Unternehmen dabei, Produktentwicklung, Engineering und Serienfertigung schneller, sicherer und effizienter zu gestalten. Operativ, coachend und auf Managementebene verkürze ich Time-to-Market, erhöhe Lieferpünktlichkeit, steigere Produktzuverlässigkeit und reduziere Total Cost of Ownership – für Compliance, Resilienz und nachhaltige technologische Marktführerschaft.
         </p>
       </main>
     </div>
