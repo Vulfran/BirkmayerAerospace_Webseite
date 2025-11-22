@@ -21,7 +21,7 @@ function App() {
         <div className="bg-white/10 backdrop-blur-sm text-white">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">
             <img
-              src={`${import.meta.env.BASE_URL}logo_merch1.png`}
+              src={`${import.meta.env.BASE_URL}logo_merch5.png`}
               alt="Birkmayer Aerospace Logo"
               className="h-10"
             />
