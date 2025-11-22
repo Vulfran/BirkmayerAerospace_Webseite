@@ -14,6 +14,7 @@ function App() {
   const [lang, setLang] = useState<"de" | "en">(() =>
     (localStorage.getItem("lang") as "de" | "en") || "de"
   );
+  const [mobileOpen, setMobileOpen] = useState<boolean>(false);
 
   useEffect(() => {
     localStorage.setItem("lang", lang);
@@ -38,34 +39,57 @@ function App() {
               alt="Birkmayer Aerospace Logo"
               className="h-10"
             />
-            <NavigationMenu>
-              <NavigationMenuList className="gap-4">
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/" className="hover:underline text-white">
-                    {t("nav.home")}
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/about" className="hover:underline text-white">
-                    {t("nav.about")}
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/contact" className="hover:underline text-white">
-                    {t("nav.contact")}
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-            <button
-              onClick={() => setLang((l) => (l === "de" ? "en" : "de"))}
-              aria-label="Toggle language"
-              className="ml-4 px-3 py-1 rounded bg-white/20 text-white hover:bg-white/30"
-            >
-              {lang.toUpperCase()}
-            </button>
+            <nav className="flex items-center gap-4">
+              <div className="hidden md:flex">
+                <NavigationMenu>
+                  <NavigationMenuList className="gap-4">
+                    <NavigationMenuItem>
+                      <NavigationMenuLink href="/" className="hover:underline text-white">
+                        {t("nav.home")}
+                      </NavigationMenuLink>
+                    </NavigationMenuItem>
+                    <NavigationMenuItem>
+                      <NavigationMenuLink href="/about" className="hover:underline text-white">
+                        {t("nav.about")}
+                      </NavigationMenuLink>
+                    </NavigationMenuItem>
+                    <NavigationMenuItem>
+                      <NavigationMenuLink href="/contact" className="hover:underline text-white">
+                        {t("nav.contact")}
+                      </NavigationMenuLink>
+                    </NavigationMenuItem>
+                  </NavigationMenuList>
+                </NavigationMenu>
+              </div>
+
+              {/* language toggle */}
+              <button
+                onClick={() => setLang((l) => (l === "de" ? "en" : "de"))}
+                aria-label="Toggle language"
+                className="ml-2 px-3 py-1 rounded bg-white/20 text-white hover:bg-white/30"
+              >
+                {lang.toUpperCase()}
+              </button>
+
+              {/* mobile menu button */}
+              <button
+                onClick={() => setMobileOpen((s) => !s)}
+                aria-label="Open menu"
+                className="md:hidden ml-2 p-2 rounded bg-white/10 hover:bg-white/20"
+              >
+                <span className="text-xl">☰</span>
+              </button>
+            </nav>
           </div>
         </div>
+        {/* Mobile menu panel */}
+        {mobileOpen && (
+          <div className="md:hidden absolute top-full right-4 mt-2 w-44 bg-white/10 backdrop-blur-sm text-white rounded shadow z-30">
+            <a href="/" className="block px-4 py-2 hover:bg-white/20">{t("nav.home")}</a>
+            <a href="/about" className="block px-4 py-2 hover:bg-white/20">{t("nav.about")}</a>
+            <a href="/contact" className="block px-4 py-2 hover:bg-white/20">{t("nav.contact")}</a>
+          </div>
+        )}
       </header>
 
       {/* Hero: fullscreen background image from public/ */}
