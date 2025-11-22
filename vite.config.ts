@@ -5,7 +5,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/website-template/', // 🔥 Add this line — replace <repo-name>!
+  base: '/BirkmayerAerospace_Webseite/', // 🔥 Add this line — replace <repo-name>!
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
