@@ -1,14 +1,31 @@
 // src/App.tsx
+import { useEffect, useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
+import de from "@/locales/de.json";
+import en from "@/locales/en.json";
 // Table component removed
 
 function App() {
-  // removed unused tableData
+  const [lang, setLang] = useState<"de" | "en">(() =>
+    (localStorage.getItem("lang") as "de" | "en") || "de"
+  );
+
+  useEffect(() => {
+    localStorage.setItem("lang", lang);
+  }, [lang]);
+
+  const translations = { de, en } as const;
+  const t = (key: string) =>
+    (key
+      .split(".")
+      .reduce((o: any, k: string) => (o && o[k] !== undefined ? o[k] : undefined), translations[lang]) as
+      | string
+      | undefined) ?? key;
 
   return (
     <div className="min-h-screen text-foreground">
@@ -25,21 +42,28 @@ function App() {
               <NavigationMenuList className="gap-4">
                 <NavigationMenuItem>
                   <NavigationMenuLink href="/" className="hover:underline text-white">
-                    Home
+                    {t("nav.home")}
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink href="/about" className="hover:underline text-white">
-                    About
+                    {t("nav.about")}
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink href="/contact" className="hover:underline text-white">
-                    Contact
+                    {t("nav.contact")}
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
+            <button
+              onClick={() => setLang((l) => (l === "de" ? "en" : "de"))}
+              aria-label="Toggle language"
+              className="ml-4 px-3 py-1 rounded bg-white/20 text-white hover:bg-white/30"
+            >
+              {lang.toUpperCase()}
+            </button>
           </div>
         </div>
       </header>
@@ -55,22 +79,16 @@ function App() {
       >
         <div className="h-full w-full bg-black/30 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-6xl font-bold">
-              Willkommen bei Birkmayer Aerospace
-            </h1>
-            <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
-              Innovative Lösungen für Ihre Luftfahrtprojekte.
-            </p>
+            <h1 className="text-4xl md:text-6xl font-bold">{t("hero.title")}</h1>
+            <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">{t("hero.subtitle")}</p>
           </div>
         </div>
       </section>
 
       {/* Page content below the hero */}
       <main className="container mx-auto p-4">
-        <h2 className="text-2xl font-semibold">Luftfahrt & hochregulierte Industrien – Produkte sicher, zuverlässig und marktreif machen</h2>
-        <p className="mt-4 text-muted-foreground">
-          Unternehmen in hochregulierten Märkten stehen unter Druck: mehr Innovation, kürzere Entwicklungszeiten, strengere Zertifizierungen. Ich unterstütze Unternehmen dabei, Produktentwicklung, Engineering und Serienfertigung schneller, sicherer und effizienter zu gestalten. Operativ, coachend und auf Managementebene verkürze ich Time-to-Market, erhöhe Lieferpünktlichkeit, steigere Produktzuverlässigkeit und reduziere Total Cost of Ownership – für Compliance, Resilienz und nachhaltige technologische Marktführerschaft.
-        </p>
+        <h2 className="text-2xl font-semibold">{t("about.title")}</h2>
+        <p className="mt-4 text-muted-foreground">{t("about.text")}</p>
       </main>
     </div>
   );

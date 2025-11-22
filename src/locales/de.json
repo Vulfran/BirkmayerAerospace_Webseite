@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Willkommen bei Birkmayer Aerospace",
+    "subtitle": "Innovative Lösungen für Ihre Luftfahrtprojekte."
+  },
+  "about": {
+    "title": "Über uns",
+    "text": "Dies ist eine grundlegende Beispielseite, die die Startbildschirm-Hero-Sektion mit Hintergrundbild zeigt."
+  }
+}

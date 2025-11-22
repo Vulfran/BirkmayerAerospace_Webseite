@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Birkmayer Aerospace",
+    "subtitle": "Innovative solutions for your aerospace projects."
+  },
+  "about": {
+    "title": "About us",
+    "text": "This is a basic example page showing the hero section with background image."
+  }
+}
