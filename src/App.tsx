@@ -44,17 +44,17 @@ function App() {
                 <NavigationMenu>
                   <NavigationMenuList className="gap-4">
                     <NavigationMenuItem>
-                      <NavigationMenuLink href="/" className="hover:underline text-white">
+                      <NavigationMenuLink href="/" className="text-white">
                         {t("nav.home")}
                       </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <NavigationMenuLink href="/about" className="hover:underline text-white">
+                      <NavigationMenuLink href="/about" className="text-white">
                         {t("nav.about")}
                       </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <NavigationMenuLink href="/contact" className="hover:underline text-white">
+                      <NavigationMenuLink href="/contact" className="text-white">
                         {t("nav.contact")}
                       </NavigationMenuLink>
                     </NavigationMenuItem>
