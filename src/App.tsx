@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
+import ProjectCarousel from "@/components/project-carousel";
 // Table component removed
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
       {/* Absolute navbar overlayed on hero image */}
       <header className="absolute top-0 left-0 w-full z-20">
         <div className="bg-white/10 backdrop-blur-sm text-white">
-          <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
             <img
               src={`${import.meta.env.BASE_URL}logo_merch5.png`}
               alt="Birkmayer Aerospace Logo"
@@ -56,6 +57,11 @@ function App() {
                     <NavigationMenuItem>
                       <NavigationMenuLink href="/contact" className="text-white">
                         {t("nav.contact")}
+                      </NavigationMenuLink>
+                    </NavigationMenuItem>
+                    <NavigationMenuItem>
+                      <NavigationMenuLink href="#projects" className="text-white">
+                        {t("nav.projects")}
                       </NavigationMenuLink>
                     </NavigationMenuItem>
                   </NavigationMenuList>
@@ -88,6 +94,7 @@ function App() {
             <a href="/" className="block px-4 py-2 hover:bg-white/20">{t("nav.home")}</a>
             <a href="/about" className="block px-4 py-2 hover:bg-white/20">{t("nav.about")}</a>
             <a href="/contact" className="block px-4 py-2 hover:bg-white/20">{t("nav.contact")}</a>
+            <a href="#projects" className="block px-4 py-2 hover:bg-white/20">{t("nav.projects")}</a>
           </div>
         )}
       </header>
@@ -101,8 +108,8 @@ function App() {
           backgroundImage: `url('${import.meta.env.BASE_URL}Home_Birkmayer.png')`,
         }}
       >
-        <div className="h-full w-full bg-black/30 flex items-center justify-center">
-          <div className="text-center text-white px-4">
+          <div className="h-full w-full bg-black/30 flex items-center justify-center">
+          <div className="text-center text-white px-6 md:px-8">
             <h1 className="text-4xl md:text-6xl font-bold">{t("hero.title")}</h1>
             <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">{t("hero.subtitle")}</p>
           </div>
@@ -110,10 +117,13 @@ function App() {
       </section>
 
       {/* Page content below the hero */}
-      <main className="container mx-auto p-4">
+      <main className="container mx-auto px-6 md:px-8 py-4">
         <h2 className="text-2xl font-semibold">{t("about.title")}</h2>
         <p className="mt-4 text-muted-foreground">{t("about.text")}</p>
       </main>
+
+      {/* Projects carousel */}
+      <ProjectCarousel lang={lang} />
     </div>
   );
 }

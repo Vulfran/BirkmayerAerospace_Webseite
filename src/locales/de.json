@@ -2,7 +2,8 @@
   "nav": {
     "home": "Startseite",
     "about": "Über uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "projects": "Projekte"
   },
   "hero": {
     "title": "Willkommen bei Birkmayer Aerospace",
@@ -11,5 +12,39 @@
   "about": {
     "title": "Luftfahrt & hochregulierte Industrien – Produkte sicher, zuverlässig und marktreif machen",
     "text": "Unternehmen in hochregulierten Märkten stehen unter Druck: mehr Innovation, kürzere Entwicklungszeiten, strengere Zertifizierungen. Ich unterstütze Unternehmen dabei, Produktentwicklung, Engineering und Serienfertigung schneller, sicherer und effizienter zu gestalten. Operativ, coachend und auf Managementebene verkürze ich Time-to-Market, erhöhe Lieferpünktlichkeit, steigere Produktzuverlässigkeit und reduziere Total Cost of Ownership – für Compliance, Resilienz und nachhaltige technologische Marktführerschaft."
+  }
+  ,
+  "projects": {
+      "project1": {
+        "title": "Performance-Steigerung Endmontage",
+        "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
+        "text": "Als Leiter des On-Time-Delivery-Programms führte ich ein 30-köpfiges internationales Team, implementierte Echtzeit-Performance-Tracking und gezielte Qualitätsmaßnahmen. Ergebnis: Termintreue stieg in zehn Monaten von 25 % auf 100 %, Qualitätsmängel sanken um 75 %. Kennzahlen und Methoden wurden konzernweit übernommen.",
+        "image": "Home_Birkmayer.png"
+      },
+      "project2": {
+        "title": "Zertifizierung Hybrid-Elektroantrieb",
+        "subtitle": "Industrieunternehmen, 350.000 Mitarbeiter, Umsatz 76 Mrd. EUR",
+        "text": "Ich entwickelte eine strategische Roadmap für Systems Safety, positionierte die Safety-Funktion zentral in der Architektur und integrierte Prozesse ins ALM. Durch Kompetenzaufbau und Vernetzung mit Safety-Experten reduzierte sich die Zeit zur Definition zentraler Sicherheitsanforderungen um 75 %, Zertifizierungsrisiko und Markteintrittszeit wurden deutlich verbessert.",
+        "image": "Home_Birkmayer.png"
+      },
+      "project3": {
+        "title": "Reorganisation Engineering für Wachstum",
+        "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
+        "text": "Als Senior Manager gestaltete ich eine skalierbare Engineering-Organisation mit klaren Schnittstellen zu Programm, Vertrieb und Support und initiierte den ersten unternehmensweiten Code of Conduct. Ergebnis: Ermöglichte Wachstum für drei neue Flugzeugprogramme, verbesserte bereichsübergreifende Zusammenarbeit und etablierte ein übernommenes Governance-Modell.",
+        "image": "Home_Birkmayer.png"
+      },
+      "project4": {
+        "title": "Industrialisierung Strukturtechnologie",
+        "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
+        "text": "Als Leiter Transversales Engineering definierte ich fehlende Industrialisierungs-Standards in enger Abstimmung mit Produktion und Strukturentwicklung. Wirkung: Einführung verbindlicher Standards, 700 kg Gewichtsreduktion und 500.000 USD Kostenersparnis pro Flugzeug.",
+        "image": "Home_Birkmayer.png"
+      },
+      "project5": {
+        "title": "Neustrukturierung System-Standardteile",
+        "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
+        "text": "Ich entwickelte und verhandelte eine zentrale Organisation für System-Standardteile, standardisierte Prozesse und zeigte Leistungsverbesserungen durch Bündelung. Wirkung: Personaleinsparung um 25 % und Einsparungen von 50 Mio. € durch reduzierte Teilevielfalt in nachfolgenden Programmen.",
+        "image": "Home_Birkmayer.png"
+      },      
+    "sectionTitle": "Projekte"
   }
 }

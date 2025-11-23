@@ -2,7 +2,8 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "projects": "Projects"
   },
   "hero": {
     "title": "Welcome to Birkmayer Aerospace",
@@ -11,5 +12,39 @@
   "about": {
     "title": "Aerospace & Highly Regulated Industries – Delivering Safe, Reliable and Market-Ready Products",
     "text": "Companies in highly regulated industries face pressure: more innovation, shorter development cycles, stricter certification. I support organizations in accelerating product development, engineering, and industrialization—faster, safer, and more efficient. Operationally, as coach and at executive level, I deliver measurable improvements in time-to-market, delivery reliability, product dependability, and total cost of ownership—ensuring compliance, resilience, and sustainable technological leadership."
+  }
+  ,
+  "projects": {
+    "project1": {
+      "title": "Final Assembly Performance Improvement",
+      "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
+      "text": "As leader of the On-Time-Delivery program, I directed a 30-member international team, implemented real-time performance tracking and targeted quality measures. Result: delivery reliability increased from 25% to 100% within 10 months, defects reduced by 75%. KPIs and methods became group-wide standards.",
+      "image": "Home_Birkmayer.png"
+    },
+    "project2": {
+      "title": "Hybrid-Electric Propulsion Certification",
+      "subtitle": "Industrial Corporation, 350.000 Staff, EUR 76B Revenue",
+      "text": "I developed a strategic roadmap for Systems Safety, positioned the function at the core of the architecture, and integrated processes into ALM. Through competence building and cross-team networking, safety requirement definition time was cut by 75%, reducing certification risk and accelerating market entry.",
+      "image": "Home_Birkmayer.png"
+    },
+    "project3": {
+      "title": "Engineering Reorganization for Growth",
+      "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
+      "text": "As Senior Manager, I designed a scalable engineering structure, redefined interfaces with programs and sales, and initiated the first company-wide Code of Conduct. Result: enabled growth for three new aircraft programs, improved cross-functional collaboration, and established a governance model adopted across divisions.",
+      "image": "Home_Birkmayer.png"
+    },
+    "project4": {
+      "title": "Industrializing New Structural Technology",
+      "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
+      "text": "As Head of Transversal Engineering, I defined missing industrialization standards together with production and structures teams. Impact: 700 kg weight reduction and USD 500,000 unit cost savings per aircraft through robust standards implementation.",
+      "image": "Home_Birkmayer.png"
+    },
+    "project5": {
+      "title": "Restructuring Systems Standard Parts",
+      "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
+      "text": "I designed and negotiated a central organization for systems standard parts, standardized processes, and demonstrated performance gains through consolidation. Result: 25% workforce reduction and € 50M savings by lowering parts variety across subsequent programs.",
+      "image": "Home_Birkmayer.png"
+    },    
+    "sectionTitle": "Projects"
   }
 }
