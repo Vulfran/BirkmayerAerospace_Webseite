@@ -41,7 +41,7 @@ function ProjectCarousel({ lang }: Props) {
   const prev = () => setIndex((i) => (i - 1 + projects.length) % projects.length);
   const next = () => setIndex((i) => (i + 1) % projects.length);
 
-  const p = projects[index];
+  
 
   return (
     <section id="projects" className="my-12">
@@ -52,44 +52,95 @@ function ProjectCarousel({ lang }: Props) {
           {/* Section heading */}
           <h2 className="text-2xl font-semibold mb-4">{t("projects.sectionTitle")}</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-            {/* Image column */}
-            <div className="flex items-stretch">
-              {p.image && (
-                <img
-                  src={`${import.meta.env.BASE_URL}${p.image}`}
-                  alt={p.title}
-                  className="w-full md:h-full h-64 object-cover rounded-md shadow-sm"
-                />
+          <div className="w-full px-4 md:px-12">
+            {/* Small + medium screens: show only the active card (use prev/next to navigate) */}
+            <div className="block lg:hidden">
+              {projects.length > 0 && (
+                <div className="w-full bg-white rounded-md shadow-md overflow-hidden">
+                  {projects[index]?.image && (
+                    <img src={`${import.meta.env.BASE_URL}${projects[index].image}`} alt={projects[index].title} className="w-full object-cover h-56" />
+                  )}
+                  <div className="p-4">
+                    <h3 className="font-semibold text-xl text-foreground">{projects[index]?.title}</h3>
+                    <p className="text-sm text-foreground/75 mt-1">{projects[index]?.subtitle}</p>
+                    <p className="mt-3 text-sm text-foreground">{projects[index]?.text}</p>
+                  </div>
+                </div>
               )}
             </div>
 
-            {/* Text + controls column */}
-            <div className="flex flex-col justify-between">
-              <div>
-                <h3 className="text-2xl font-semibold">{p.title}</h3>
-                <p className="text-sm text-muted-foreground mt-1">{p.subtitle}</p>
-                <p className="mt-4 text-sm md:text-base text-muted-foreground">{p.text}</p>
+            {/* lg+ Carousel viewport */}
+            <div className="hidden lg:block relative w-full">
+              <div className="relative h-auto min-h-[520px] md:min-h-[720px] overflow-visible">
+              {projects.map((proj, i) => {
+                // compute shortest circular offset between i and index
+                let diff = i - index;
+                const n = projects.length;
+                if (diff > n / 2) diff -= n;
+                if (diff < -n / 2) diff += n;
+
+                // Only render center and immediate neighbours to keep
+                // the viewport showing at most three cards.
+                if (Math.abs(diff) > 1 && n > 3) return null;
+
+                // horizontal offset per step in viewport width (vw) to avoid
+                // percent-based overlap issues across different viewports.
+                // use a moderate vw so side cards stay inside padded container
+                const stepVw = 28; // vw shift per card (adjust to taste)
+                const translateX = `calc(-50% + ${diff * stepVw}vw)`;
+                const isCenter = diff === 0;
+
+                return (
+                  <div
+                    key={i}
+                    className={`absolute left-1/2 top-4 md:top-6 transition-all duration-500 ease-out flex flex-col items-stretch ${
+                      isCenter ? "z-20" : "z-10"
+                    }`}
+                    style={{
+                      transform: `${isCenter ? "translateX(-50%) scale(1)" : `translateX(${translateX}) scale(0.9)`}`,
+                      width: isCenter ? "48%" : "30%",
+                      opacity: isCenter ? 1 : 0.85,
+                    }}
+                  >
+                    {/* card */}
+                    <div className={`bg-white text-foreground rounded-md shadow-md overflow-hidden ${isCenter ? "ring-1 ring-black/5" : ""}`}>
+                      {proj.image && (
+                        <img
+                          src={`${import.meta.env.BASE_URL}${proj.image}`}
+                          alt={proj.title}
+                          className={`w-full object-cover ${isCenter ? "h-56 md:h-80" : "h-44 md:h-56"}`}
+                        />
+                      )}
+                      <div className="p-4 md:p-6">
+                        <h3 className={`font-semibold ${isCenter ? "text-2xl" : "text-xl"} text-foreground`}>{proj.title}</h3>
+                        <p className="text-sm text-foreground/75 mt-1">{proj.subtitle}</p>
+                        <p className={`mt-3 text-sm md:text-base text-foreground ${isCenter ? "" : "line-clamp-3"}`}>{proj.text}</p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+                </div>
               </div>
 
-              <div className="mt-6 flex items-center justify-between">
-                <div className="text-sm text-muted-foreground">{index + 1}/{projects.length}</div>
-                <div className="flex gap-2">
-                  <button
-                    onClick={prev}
-                    aria-label="Previous project"
-                    className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-2xl md:text-3xl shadow-sm"
-                  >
-                    ‹
-                  </button>
-                  <button
-                    onClick={next}
-                    aria-label="Next project"
-                    className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-2xl md:text-3xl shadow-sm"
-                  >
-                    ›
-                  </button>
-                </div>
+              {/* Controls overlay */}
+            <div className="mt-6 flex items-center justify-between relative z-30">
+              <div className="text-sm text-muted-foreground">{index + 1}/{projects.length}</div>
+              <div className="flex gap-2">
+                <button
+                  onClick={prev}
+                  aria-label="Previous project"
+                  className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-2xl md:text-3xl shadow-sm"
+                >
+                  ‹
+                </button>
+                <button
+                  onClick={next}
+                  aria-label="Next project"
+                  className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-2xl md:text-3xl shadow-sm"
+                >
+                  ›
+                </button>
               </div>
             </div>
           </div>
