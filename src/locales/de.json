@@ -10,13 +10,13 @@
     "subtitle": "Stabilisieren, transformieren, skalieren."
   },
   "about": {
-    "title": "Luftfahrt & hochregulierte Industrien – Produkte sicher, zuverlässig und marktreif machen",
-    "text": "Unternehmen in hochregulierten Märkten stehen unter Druck: mehr Innovation, kürzere Entwicklungszeiten, strengere Zertifizierungen. Ich unterstütze Unternehmen dabei, Produktentwicklung, Engineering und Serienfertigung schneller, sicherer und effizienter zu gestalten. Operativ, coachend und auf Managementebene verkürze ich Time-to-Market, erhöhe Lieferpünktlichkeit, steigere Produktzuverlässigkeit und reduziere Total Cost of Ownership – für Compliance, Resilienz und nachhaltige technologische Marktführerschaft."
+    "title": "Erfahrener Interim Executive für Produktentwicklung und Technik",
+    "text": "Als Interim Executive unterstütze ich Unternehmen dabei, die Entwicklung und Serienproduktion ihrer Produkte sowie deren Sicherheit und Zuverlässigkeit im Betrieb zu stabilisieren, zu transformieren und zu skalieren basierend auf fudnierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce in Engineering, Systementwicklung und Projektmanagement.  Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Management, Krisenbewältigung und den Aufbau leistungsstarker Teams. Strategisch denkend, tehcnisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit."
   }
   ,
   "projects": {
       "project1": {
-        "title": "Performance-Steigerung Endmontage",
+        "title": "Performance-Steigerung Endmontage von Flugzeugen",
         "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
         "text": "Als Leiter des On-Time-Delivery-Programms führte ich ein 30-köpfiges internationales Team, implementierte Echtzeit-Performance-Tracking und gezielte Qualitätsmaßnahmen. Ergebnis: Termintreue stieg in zehn Monaten von 25 % auf 100 %, Qualitätsmängel sanken um 75 %. Kennzahlen und Methoden wurden konzernweit übernommen.",
         "image": "Home_Birkmayer.png"
@@ -24,7 +24,7 @@
       "project2": {
         "title": "Zertifizierung Hybrid-Elektroantrieb",
         "subtitle": "Industrieunternehmen, 350.000 Mitarbeiter, Umsatz 76 Mrd. EUR",
-        "text": "Ich entwickelte eine strategische Roadmap für Systems Safety, positionierte die Safety-Funktion zentral in der Architektur und integrierte Prozesse ins ALM. Durch Kompetenzaufbau und Vernetzung mit Safety-Experten reduzierte sich die Zeit zur Definition zentraler Sicherheitsanforderungen um 75 %, Zertifizierungsrisiko und Markteintrittszeit wurden deutlich verbessert.",
+        "text": "Ausgangssituation beim Auftraggeber: Bei der Produktionsrate von 64 A330/A340 Flugzeugen pro Jahr war die Liefertreue schon längere Zeit bei 25%.  Das unternehmensübergreifende kontinuierliche Verbesserungsprogramm (KVP) hat nicht die erwartete Verbesserung gebracht. Die Ursache war unklar. Die Produktionsrate sollte im Folgejahr auf 74 Flugzeuge pro Jahr skaliert werden.  Aufgaben: * Die Liefertreue der Endmontagelinie von 25% auf 100% verbessern * Ursachen identifizieren, Maßnahmen definieren und Umsetzung vorantreiben * Den Leiter der Endmontagelinie unterstützen und in relevanten Gremien (innen und außen) vertreten * Organisatorische und interkulturelle Hürden überwinden im internationalen Spannungsfeld. Ergriffene Maßnahmen: * Identifikation der wesentlichen Ursachen für wesentliche Verspätungen im Endmontageprozess ** Fehlerhafte Montagepunkte für vom Käufer gelieferte Ausrüstung ** Beschädigung an der Flugzeugstruktur, Fußbodenplatten, Kabinenausstattung ** Hohe Reklamation von Geräten mit fehlerfreier Nachprüfung * Identifikation und Umsetzung der Verbesserungsmaßnahmen ** Mehrfache Korrektur der Einmeßvorrichtung für die Montagepunkte ** Behebung von Qualitätsproblemen in einem zuliefernden Werk ** Einführung von Schutzmaßnahmen beim Kabineneinbau und - ausstattung; Transporterbesserung ** Bedarfsgerechte Unterstützung bei Geräteeinbaufehlern; Verbesserter Prozess zur Zuordnung der Sicherungen.  Erzielte Erfolge: * 100% Liefertreue nach 10 Monaten erreich bei Skalierung: 64 -> 74 Flugzeugen/Jahr * Reduktion produktionsbedingter Qualitätsmängel und Reklamationen bis zu 75%.",
         "image": "Home_Birkmayer.png"
       },
       "project3": {
