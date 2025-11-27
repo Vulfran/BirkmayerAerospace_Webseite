@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -19,11 +20,12 @@ function ProjectCarousel({ lang }: Props) {
     .filter(([key]) => key !== "sectionTitle")
     .sort(([a], [b]) => a.localeCompare(b));
 
-  const projects = projectEntries.map(([, v]) => ({
+  const projects = projectEntries.map(([key, v]) => ({
     title: v?.title,
     subtitle: v?.subtitle,
     text: v?.text,
     image: v?.image,
+    anchor: key, // e.g., "project1", "project2", etc.
   }));
 
   // Fallback if no projects are defined
@@ -33,6 +35,7 @@ function ProjectCarousel({ lang }: Props) {
       subtitle: t("projects.project1.subtitle"),
       text: t("projects.project1.text"),
       image: t("projects.project1.image"),
+      anchor: "project1",
     });
   }
 
@@ -64,6 +67,12 @@ function ProjectCarousel({ lang }: Props) {
                     <h3 className="font-semibold text-xl text-foreground">{projects[index]?.title}</h3>
                     <p className="text-sm text-foreground/75 mt-1">{projects[index]?.subtitle}</p>
                     <p className="mt-3 text-sm text-foreground">{projects[index]?.text}</p>
+                    <Link 
+                      to={`/documentation#${projects[index]?.anchor}`}
+                      className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm font-medium"
+                    >
+                      {lang === "de" ? "Mehr erfahren" : "Learn more"}
+                    </Link>
                   </div>
                 </div>
               )}
@@ -115,6 +124,14 @@ function ProjectCarousel({ lang }: Props) {
                         <h3 className={`font-semibold ${isCenter ? "text-2xl" : "text-xl"} text-foreground`}>{proj.title}</h3>
                         <p className="text-sm text-foreground/75 mt-1">{proj.subtitle}</p>
                         <p className={`mt-3 text-sm md:text-base text-foreground ${isCenter ? "" : "line-clamp-3"}`}>{proj.text}</p>
+                        {isCenter && (
+                          <Link 
+                            to={`/documentation#${proj.anchor}`}
+                            className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm font-medium"
+                          >
+                            {lang === "de" ? "Mehr erfahren" : "Learn more"}
+                          </Link>
+                        )}
                       </div>
                     </div>
                   </div>
