@@ -69,7 +69,8 @@ function ProjectCarousel({ lang }: Props) {
                     <p className="mt-3 text-sm text-foreground">{projects[index]?.text}</p>
                     <Link 
                       to={`/documentation#${projects[index]?.anchor}`}
-                      className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm font-medium"
+                      className="inline-block mt-4 px-4 py-2 text-white rounded hover:opacity-90 transition-opacity text-sm font-medium"
+                      style={{ backgroundColor: '#1E2656' }}
                     >
                       {lang === "de" ? "Mehr erfahren" : "Learn more"}
                     </Link>
@@ -127,7 +128,8 @@ function ProjectCarousel({ lang }: Props) {
                         {isCenter && (
                           <Link 
                             to={`/documentation#${proj.anchor}`}
-                            className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm font-medium"
+                            className="inline-block mt-4 px-4 py-2 text-white rounded hover:opacity-90 transition-opacity text-sm font-medium"
+                            style={{ backgroundColor: '#1E2656' }}
                           >
                             {lang === "de" ? "Mehr erfahren" : "Learn more"}
                           </Link>
