@@ -6,6 +6,10 @@
     "documentation": "Dokumentation",
     "projects": "Projekte"
   },
+  "footer": {
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
   "hero": {
     "title": "Wolfram Birkmayer",
     "subtitle": "Produktentwicklung & Technik - stabilisieren, transformieren, skalieren."

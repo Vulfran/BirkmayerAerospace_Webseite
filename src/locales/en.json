@@ -6,6 +6,10 @@
     "documentation": "Documentation",
     "projects": "Projects"
   },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
   "hero": {
     "title": "Wolfram Birkmayer",
     "subtitle": "Product Development & Engineering - stabilized, transformed, scaled."
