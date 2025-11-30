@@ -4,102 +4,105 @@
 
 Diese Dokumentation bietet Ihnen einen umfassenden Überblick über unsere Dienstleistungen, Methoden und Expertise im Bereich Produktentwicklung und Technik.
 
-## Über uns
+## Erfahrener Interim Executive für Produktentwicklung und Technik
 
-Als erfahrener Interim Executive unterstützen wir Unternehmen dabei, ihre Produktentwicklung und Serienproduktion zu stabilisieren, zu transformieren und zu skalieren. Mit fundierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce bringen wir umfassende Erfahrung in folgenden Bereichen mit:
+Als Interim Executive unterstütze ich Unternehmen dabei, die Entwicklung und Serienproduktion ihrer Produkte sowie deren Sicherheit und Zuverlässigkeit im Betrieb zu stabilisieren, zu transformieren und zu skalieren, basierend auf fundierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce in Engineering, Systementwicklung und Projektmanagement.
+Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Management, Krisenbewältigung und den Aufbau leistungsstarker Teams. 
+Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. 
+Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
 
-- **Engineering**: Systementwicklung und technische Führung
-- **Projektmanagement**: Komplexe Projekte in hochregulierten Branchen
-- **Agile Transformation**: Einführung moderner Entwicklungsmethoden
-- **Prozessoptimierung**: Effizienzsteigerung in allen Bereichen
-- **Change Management**: Erfolgreiche Transformation von Organisationen
 
-## Unsere Kernkompetenzen
+## Meine Kernkompetenzen
 
-### 1. Produktentwicklung
+### 1. Projekt- und Entwicklungsmanagementkompetenzen
 
-Wir unterstützen Sie bei der Entwicklung sicherer, zuverlässiger und fehlerfreier Produkte:
+- Management komplexer technischer und organisatorischer Herausforderungen
+- Entwicklung und Umsetzung agiler Methoden (Scrum, Kanban) 
+- Change-Management, Prozessoptimierung und Integration nach Fusionen 
+- Systematisches Coaching von Fach-und Führungskräften
+- Industrialisierung
+- Skalierung der Serienproduktion 
 
-- Anforderungsmanagement und Systemarchitektur
-- Sicherheitskritische Systeme (Safety-Critical Systems)
-- Integration von ALM-Systemen (Application Lifecycle Management)
-- Zertifizierung nach Luftfahrtstandards (DO-178, DO-254, etc.)
+### 2. Führungskompetenzen
 
-### 2. Engineering-Transformation
+- Langjähriger Erfahrung in der Führung multinationaler, multidisziplinärer Teams (bis zu 60 Mitarbeitende)
+- Interkulturelles Management und souveräne Kommunikation auf Executive-Level
+- Aufbau und Führung transnationaler Engineering-Abteilungen mit Budgetverantwortung bis zu 15 Mio. EUR
+- Talentförderung, Coaching und nachhaltige Mitarbeiterentwicklung
 
-Strategische Neuausrichtung und Optimierung von Engineering-Organisationen:
+### 3. Methodenkompetenz
 
-- Aufbau skalierbarer Strukturen für parallele Entwicklungen
-- Post-Merger-Integration technischer Organisationen
-- Harmonisierung internationaler Entwicklungsprozesse
-- Definition effizienter Schnittstellen zwischen Organisationseinheiten
+- Agile Methoden: Scrum, Kanban
+- Prozessanalyse und -optimierung: APQP, PPAP, FMEA, Ishikawa, 8D, PDCA-Zyklus
+- Lean Management: SQCDP, Go-look-see, Wertstromanalyse
+- Strukturierte Problemlösungsmethoden
+- Innovationsmanagement und Patententwicklung
+- System- und Safety Engineering nach Luftfahrtstandards (ARP 4761A, ARP 4754B)
+- Reliability Engineering und Zuverlässigkeitsanalysen
+- Zertifizierung und Validierung komplexer technischer Systeme
+- Modellbasiertes Systems Engineering (MBSE)
+- Application Lifecycle Management (ALM)
 
-### 3. Operational Excellence
+### 4. Soft Skills & Persönliche Stärken
 
-Verbesserung der operativen Leistung in Produktion und Entwicklung:
+- Ganzheitliches Denken: strategisches Gesamtverständnis mit der Fähigkeit, technische Details bei Bedarf tiefgehend zu analysieren
+- Starke analytische und konzeptionelle Fähigkeiten
+- Lösungsorientierung und schnelle Auffassungsgabe
+- Teamfähigkeit, Konfliktlösungskompetenz und interkulturelles Verständnis
+- Sicheres Auftreten, Kommunikationsstärke und Empathie in internationalen Geschäftsumgebungen
+- Hohe Innovationskompetenz und Förderung von Kreativität im Team
 
-- Steigerung der Liefertreue und Produktqualität
-- Reduzierung von Produktionskosten und Time-to-Market
-- Kontinuierliche Verbesserungsprogramme (KVP)
-- Krisenmanagement und Performance-Turnaround
+### 5. Technische Expertise
 
-### 4. Team-Entwicklung
+- Elektrische Antriebssysteme und Regelungstechnik
+- Elektronik (Leistungs- und Signalverarbeitung)
+- Kommunikations- und Netzwerktechnik (inkl. Hochspannung und Schutzsysteme)
+- Fernmessung (Remote Sensing)
 
-Aufbau und Führung leistungsstarker Teams:
+## Mein Angebot
 
-- Rekrutierung und Onboarding von Spezialisten
-- Kompetenzentwicklung für neue Technologien
-- Aufbau einer starken Sicherheitskultur
-- Förderung funktionsübergreifender Zusammenarbeit
+### 1. Stabilisieren – Handlungsfähigkeit herstellen und Wertströme sichern
 
-## Unsere Methodik
+Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.
 
-### Analyse-Phase
+**Typische Einsatzfelder**:
+- Wiederherstellung von Termin-, Qualitäts- und Kostensteuerung
+- Technische Klärung kritischer Produkt- oder Systemthemen
+- Sofortmaßnahmen zur Sicherung von Entwicklungs- und Produktionsfähigkeit
+- Neuaufstellung von Teams, Rollen, Führungsritualen und Entscheidungswegen
+- Kompetenzaufbau der Mitarbeitenden im laufenden Einsatz
 
-1. **Ist-Zustand-Analyse**: Umfassende Bewertung der aktuellen Situation
-2. **Root-Cause-Analyse**: Identifikation der zugrundeliegenden Ursachen
-3. **Stakeholder-Einbindung**: Einbeziehung aller relevanten Parteien
+**Nutzen für die Geschäftsführung**:
+Minimierung operativer Risiken, Vermeidung drohender Liefer-, Qualitäts- oder Zertifizierungsprobleme sowie schnelle Stabilisierung geschäftskritischer Programme.
 
-### Strategie-Phase
+### 2. Transformieren – Effizienz, Robustheit und Produktqualität erhöhen
 
-1. **Roadmap-Definition**: Klare strategische Planung
-2. **Maßnahmen-Definition**: Konkrete Handlungsschritte
-3. **Ressourcen-Planung**: Optimale Allokation von Ressourcen
+Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwicklungs-, Industrialisierungs- oder Fertigungsorganisationen nachhaltig erhöhen. Dazu gehören technische, organisatorische und prozessuale Neuausrichtungen.
 
-### Umsetzungs-Phase
+**Typische Einsatzfelder**:
+- Effizienzsteigerung in Entwicklung, Industrialisierung oder Fertigung
+- Re-Engineering von Produkten mit hoher Fehlerquote oder Feldreklamationen
+- Einführung robuster, skalierbarer Entwicklungs- und Industrialisierungsprozesse
+- Optimierung technischer Entscheidungslogik, Schnittstellen und Governance
+- Kompetenzentwicklung und Coaching technischer Führungskräfte
 
-1. **Implementierung**: Zielgerichtete Umsetzung der Maßnahmen
-2. **Change Management**: Begleitung der Transformation
-3. **Monitoring**: Kontinuierliche Erfolgskontrolle
+**Nutzen für die Geschäftsführung**:
+Produkte werden zuverlässiger, Entwicklungs- und Produktionsprozesse planbarer und kosteneffizienter; die Organisation gewinnt an technischer und struktureller Widerstandsfähigkeit.
 
-### Stabilisierungs-Phase
+### 3. Skalieren – Entwicklungs- und Fertigungskapazität gezielt ausbauen
 
-1. **Prozess-Verankerung**: Nachhaltige Integration neuer Prozesse
-2. **Know-how-Transfer**: Befähigung der internen Teams
-3. **Lessons Learned**: Dokumentation und Wissensbewahrung
+Ich begleite Unternehmen, die ihre Produktentwicklung und/​oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.
 
-## Branchen-Expertise
+**Typische Einsatzfelder**:
+- Aufbau skalierbarer Entwicklungs- und Industrialisierungsstrukturen
+- Vorbereitung auf erhöhte Volumina, neue Produktgenerationen oder Programmstarts
+- Prozess- und Tooling-Architektur für wachsende technische Organisationen
+- Einführung von Steuerungsmodellen, die Robustheit und Geschwindigkeit verbinden
+- Systematische Weiterentwicklung der Belegschaft hin zu wachstumsfähigen Teams
 
-### Luft- und Raumfahrt
+**Nutzen für die Geschäftsführung**:
+Organisation kann nach dem Einsatz höhere Volumina, neue Produkte oder komplexere Programme zuverlässig liefern und bleibt dabei steuerbar, auditfähig und wirtschaftlich stabil.
 
-- Flugzeugentwicklung und -produktion
-- Triebwerksentwicklung
-- Systementwicklung für sicherheitskritische Anwendungen
-- Zertifizierung nach EASA/FAA-Anforderungen
-
-### Hochregulierte Industrien
-
-- Automotive (Funktionale Sicherheit nach ISO 26262)
-- Medizintechnik
-- Schienenverkehr
-- Verteidigungstechnik
-
-### Technologie-Unternehmen
-
-- Hybrid-Elektro-Antriebe
-- Innovative Produktentwicklung
-- Technologie-Skalierung
-- Market Entry-Strategien
 
 ## Erfolgsbeispiele
 
@@ -177,13 +180,17 @@ Das Industrieunternehmen wollte einen neuartigen Hybrid-Elektroantrieb entwickel
 
 ---
 
-### Strategische Neuausrichtung Engineering Organisation {#project3}
+### Strategische Neuausrichtung Engineering Organisation und Post Merger Integration der Finanz-, HR-, Programm- und Vertriebsorganisationen {#project3}
 
 **Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR**
 
 #### Ausgangssituation
 
-Die Engineering Organisation mit nationalen Engineering Integration Centers sollte effektiver aufgestellt werden für parallele Flugzeugneuentwicklungen. Die Engineering-Organisation war geeignet für Anpassungsentwicklungen von bestehenden Flugzeugprogrammen aber nicht skalierbar für parallele Neuentwicklungen und schnelles Wachstum.
+Ausgangssituation beim Auftraggeber:  
+Die Engineering Organisation mit nationalen Engineering Integration Centers für die entsprechenden Bauanteile am Flugzeug, Flügel, Rumpfvorder-, -mittel-, und Hinter-Sektion, Kabine, Systeme, Antrieb soll effektiver aufgestellt werden, insbesondere für Flugzeugneuentwicklungen.  Die Engineering-Organisation war geeignet für die Anpassungsentwicklungen von bestehenden Flugzeugprogrammen aber nicht skalierbar für parallele Neuentwicklungen und schnelles Wachstum.   
+Nach der Merger Integration von Airbus arbeiteten die HR und Finanz Organisationen unterschiedlich auf Länderebene.  Es sollte eine einheitliche Arbeitsweise (Prozess) definiert werden.
+Die ineffiziente Abstimmung zwischen den Organisationen für Programme und Vertrieb führte zu Verzögerungen.
+
 
 #### Aufgaben
 
@@ -193,7 +200,7 @@ Die Engineering Organisation mit nationalen Engineering Integration Centers soll
 
 #### Ergriffene Maßnahmen
 
-Als Senior Manager Organisationsentwicklung:
+Als Senior Manager Organisationsentwicklung in der HR-Organisation des Executive Vice President gestaltete ich:
 - Strategisch eine neue Engineering-Struktur durch gezielte Einbindung der ranghöchsten Engineering-Stakeholder gestaltet
 - International harmonisierte Prozesse durch Einbindung der ranghöchsten HR und Finanz-Stakeholder
 - Analyse der bestehenden Programm- und Vertriebsorganisationen
@@ -201,9 +208,67 @@ Als Senior Manager Organisationsentwicklung:
 
 #### Erzielte Erfolge
 
-- ✅ **Ermöglichte skaliertes Wachstum** für die Entwicklung von zwei weiteren neuen Flugzeugprogrammen (A400M, A350)
+- ✅ **Ermöglichte skaliertes Wachstum** für die Entwicklung von zwei weiteren neuen Flugzeugprogrammen (A400M, A350) in den folgenden 10 Jahren
 - ✅ **International harmonisierte Prozesse** in HR und Finanzorganisationen
-- ✅ **Effiziente bereichsübergreifende Zusammenarbeit** ohne Organisationsänderung
+- ✅ **Effiziente bereichsübergreifende Zusammenarbeit** zwischen programm und Vertriebsorganisation ohne Organisationsänderung
+
+---
+
+### Industrialisierung neuer Elektrotechnologie für Flugzeuge {#project4}
+
+**Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR**
+
+#### Ausgangssituation
+
+Ausgangssituation beim Auftraggeber:  
+In der Produktion der ersten Flugmuster des A350 zeigte sich, dass klare Industrialisierungsrichtlinien für das neuartige, sicherheitskritische und sogenannte „Elektrische Strukturnetzwerk“ fehlten.  Zusätzlich war der Testaufwand für die Prüfung des Netzwerks zu hoch.
+
+
+#### Aufgaben
+
+- Klare Richtlinien definieren, die ein robuste und kostengünstige Realisierung ermöglichen.
+
+#### Ergriffene Maßnahmen
+
+Als Leiter des Transversal Engineerings arbeitete ich mit Produktions- und Strukturentwicklungsteams an der Definition und Implementierung der fehlenden Standards. Damit konnten Lösungen in einem komplexen, funktionsübergreifenden Umfeld umgesetzt werden.
+
+#### Erzielte Erfolge
+
+- ✅ **Reduktion des Flugzeuggewichts pro Einheit um 700 kg** durch neue Richtlinien
+- ✅ **Reduktion der Kosten pro Einhait um 500.000** durch neue Richtlinien
+
+---
+
+
+### Neuausrichtung Beschaffung Flugzeugsysteme {#project5}
+
+**Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR**
+
+#### Ausgangssituation
+
+Ausgangssituation beim Auftraggeber:  
+Der Auftraggeber hatte Erfahrung in der Beschaffung von Geräten für Flugzeugsysteme (Flugzeugsteuerung, Landefahrwerk, Bordnetz, ...).  Die Gerätehersteller wurden erst spät in der Entwicklungsphase eingebunden als die Gerätespezifikation klar war.  Zu diesem Zeitpunkt war es zu spät Lösungen mit anderen Technologien zu berücksichtigen.  Um modernste Technologien, die bereits von Lieferanten im Gesamtsystem erprobt wurden, zum Vorteil einsetzen zu können sollten die Geräte nicht mehr für sich beschafft werden, sondern aufeinander abgestimmt für komplette Systeme.  Um das neue Flugzeugdesign optimal auf diese neuen Technologien anzupassen, wurden die Systemlieferanten früh eingebunden in einer „Joint Development Phase“ oder einem „Early Supplier Involvement“.  Die Vorgehensweise für die Umsetzung der neuen Beschaffungsstrategie war unklar.  Insbesondere wusste man nicht wie man Systemlieferanten identifiziert die konstruktiv zu einer „Joint Development Phase“ oder einem „Early Supplier Involvement“ beitragen können.
+
+
+#### Aufgaben
+
+Die technische Seite der Beschaffung von kompletten Systemen definieren
+- Definiere Vorlage für die Spezifikation des Systems für eine Joint Development Phase oder Early supplier Involvement
+- Definition der Vorgehensweise zur Identifikation von Lieferanten mit erforderlicher Systemkompetenz
+- Definition der Vorgehensweise zur Bewertung der Fähigkeit der Lieferanten Geräte und Systeme zu entwickeln
+
+
+#### Ergriffene Maßnahmen
+
+-	Erstellung Richtlinie für die Spezifikation von Systemen (Top Level System Requirement Document und High Level System Requirement Document)
+-	Erstellung Richtlinie für die Identifikation von Lieferanten mit Systemkompetenz 
+-	Erstellung Schulung für System Entwickler (Airbus Award Auszeichnung)
+-	Unterstützung von Systemlieferanten in der „Joint Development Phase“ oder „Early Supplier Involvement“
+
+
+#### Erzielte Erfolge
+
+- ✅ **Beim A350 werden die Systemkomponenten** •	von Systemlieferanten geliefert 
 
 ---
 
