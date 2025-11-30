@@ -1,5 +1,6 @@
 // src/components/contact-form.tsx
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 interface ContactFormProps {
   lang: "de" | "en";
@@ -7,6 +8,7 @@ interface ContactFormProps {
 }
 
 export default function ContactForm({ t }: ContactFormProps) {
+  const location = useLocation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,6 +24,10 @@ export default function ContactForm({ t }: ContactFormProps) {
       [e.target.name]: e.target.value,
     });
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

@@ -23,6 +23,12 @@ export default function Footer({ t }: FooterProps) {
           {/* Center - Links */}
           <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm">
             <Link
+              to="/contact"
+              className="text-foreground hover:text-foreground/70 transition-colors"
+            >
+              {t("footer.contact")}
+            </Link>
+            <Link
               to="/datenschutz"
               className="text-foreground hover:text-foreground/70 transition-colors"
             >
