@@ -180,37 +180,27 @@ Das Industrieunternehmen wollte einen neuartigen Hybrid-Elektroantrieb entwickel
 
 ---
 
-### Strategische Neuausrichtung Engineering Organisation und Post Merger Integration der Finanz-, HR-, Programm- und Vertriebsorganisationen {#project3}
+### Strategische Neuausrichtung Engineering Organisation {#project3}
 
 **Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR**
 
 #### Ausgangssituation
 
 Ausgangssituation beim Auftraggeber:  
-Die Engineering Organisation mit nationalen Engineering Integration Centers für die entsprechenden Bauanteile am Flugzeug, Flügel, Rumpfvorder-, -mittel-, und Hinter-Sektion, Kabine, Systeme, Antrieb soll effektiver aufgestellt werden, insbesondere für Flugzeugneuentwicklungen.  Die Engineering-Organisation war geeignet für die Anpassungsentwicklungen von bestehenden Flugzeugprogrammen aber nicht skalierbar für parallele Neuentwicklungen und schnelles Wachstum.   
-Nach der Merger Integration von Airbus arbeiteten die HR und Finanz Organisationen unterschiedlich auf Länderebene.  Es sollte eine einheitliche Arbeitsweise (Prozess) definiert werden.
-Die ineffiziente Abstimmung zwischen den Organisationen für Programme und Vertrieb führte zu Verzögerungen.
-
+Die Engineering Organisation mit nationalen Engineering Integration Centers für die entsprechenden Bauanteile am Flugzeug, Flügel, Rumpfvorder-, -mittel-, und Hinter-Sektion, Kabine, Systeme, Antrieb soll effektiver aufgestellt werden, insbesondere für Flugzeugneuentwicklungen.  Die Engineering-Organisation war geeignet für die Anpassungsentwicklungen von bestehenden Flugzeugprogrammen aber nicht skalierbar für parallele Neuentwicklungen und schnelles Wachstum.
 
 #### Aufgaben
 
-- Engineering Organisation strategisch neu ausrichten für bevorstehende Neuentwicklungen
-- International einheitliche Prozesse für HR und Finanzorganisation abstimmen
-- Vorschlag für effizientere Aufstellung der Programm- und Vertriebsorganisationen
+- Engineering Organisation strategisch neu ausrichten für die bevorstehende Neuentwicklungen von Flugzeugen
 
 #### Ergriffene Maßnahmen
 
-Als Senior Manager Organisationsentwicklung in der HR-Organisation des Executive Vice President gestaltete ich:
-- Strategisch eine neue Engineering-Struktur durch gezielte Einbindung der ranghöchsten Engineering-Stakeholder gestaltet
-- International harmonisierte Prozesse durch Einbindung der ranghöchsten HR und Finanz-Stakeholder
-- Analyse der bestehenden Programm- und Vertriebsorganisationen
-- Neudefinition der Schnittstellen zwischen Programm- und Vertriebsorganisation
+Als Senior Manager Organisationentwicklung in der HR-Organisation des Executive Vice President gestaltete ich
+- strategisch eine neue Engineering-Struktur durch die gezielte Einbindung der ranghöchsten Engineering-Stakeholder.
 
 #### Erzielte Erfolge
 
 - ✅ **Ermöglichte skaliertes Wachstum** für die Entwicklung von zwei weiteren neuen Flugzeugprogrammen (A400M, A350) in den folgenden 10 Jahren
-- ✅ **International harmonisierte Prozesse** in HR und Finanzorganisationen
-- ✅ **Effiziente bereichsübergreifende Zusammenarbeit** zwischen programm und Vertriebsorganisation ohne Organisationsänderung
 
 ---
 
