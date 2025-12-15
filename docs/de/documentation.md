@@ -9,7 +9,9 @@ Diese Dokumentation bietet Ihnen einen umfassenden Überblick über unsere Diens
 Als Interim Executive unterstütze ich Unternehmen dabei, die Entwicklung und Serienproduktion ihrer Produkte sowie deren Sicherheit und Zuverlässigkeit im Betrieb zu stabilisieren, zu transformieren und zu skalieren, basierend auf fundierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce in Engineering, Systementwicklung und Projektmanagement.
 Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Management, Krisenbewältigung und den Aufbau leistungsstarker Teams. 
 Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. 
-Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
+
+**Das Ergebnis**: 
+fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
 
 
 ## Meine Kernkompetenzen
@@ -40,7 +42,7 @@ Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time
 - System- und Safety Engineering nach Luftfahrtstandards (ARP 4761A, ARP 4754B)
 - Reliability Engineering und Zuverlässigkeitsanalysen
 - Zertifizierung und Validierung komplexer technischer Systeme
-- Modellbasiertes Systems Engineering (MBSE)
+- Gerätequalifikation
 - Application Lifecycle Management (ALM)
 
 ### 4. Soft Skills & Persönliche Stärken
@@ -57,7 +59,7 @@ Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time
 - Elektrische Antriebssysteme und Regelungstechnik
 - Elektronik (Leistungs- und Signalverarbeitung)
 - Kommunikations- und Netzwerktechnik (inkl. Hochspannung und Schutzsysteme)
-- Fernmessung (Remote Sensing)
+- Blitzschutz, EMV, HIRF
 
 ## Mein Angebot
 
