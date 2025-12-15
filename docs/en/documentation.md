@@ -199,63 +199,57 @@ As senior manager for organizational development within the executive HR organiz
 
 ---
 
-### xx {#project4}
+### Industrialization of a new electrical technology for aircraft {#project4}
 
 **Aircraft Manufacturer, 100,000 Staff, EUR 70B Revenue**
 
 #### Initial Situation
 
-The Engineering organization with national Engineering Integration Centers needed to be organized more effectively for new developments. The current Engineering organization was capable of managing aircraft modifications of existing aircraft types, however, the organization could not be scaled for rapid growth with new aircraft developments running in parallel.
+During the assembly of the first A350 aircraft models it became obvious that clear industrialization guidelines were missing for the novel, safety critical so-called « Electrical Structure Network ».  In addition, the test costs were too high for the network.
 
 #### Tasks
 
-- Define new engineering organization with a strategically new orientation for several aircraft development programs running in parallel
-- Define internationally harmonized processes for the HR and Finance organizations
-- Propose more efficient setup of the Program and Sales organizations
+- Define clear guidelines that enable a robust and cost-effective realization.
 
 #### Implemented Measures
 
-As senior manager for organizational development:
-- Strategically designed a new engineering structure by engaging the most senior engineering stakeholders
-- Designed harmonized HR and Finance processes by engaging the most senior stakeholders
-- Analyzed the current Program and Sales organizations and the existing cooperation
-- Redefined the interfaces between the program and sales organizations
+As Head of Transversal Engineering, I work with the structure engineering and assembly teams at the
+- definition and 
+- implementation of the missing standards.  
+In this way it was possible to find solutions in a complex cross-functional environment.
 
 #### Achievements
 
-- ✅ **Enabled scalable growth** for the development of two additional aircraft types (A400M, A350) in the following 10 years
-- ✅ **Established internationally harmonized processes** for HR and finance organizations
-- ✅ **Defined efficient cross-functional way of working** between Program and Sales without organization change
+- ✅ With the new guidelines **the aircraft weight could be reduced by 700 kg and the unit cost was reduced by 500.000 USD.** 
 
 ---
 
-### yyy {#project5}
+### Aircraft Systems Procurement Reorientation {#project5}
 
 **Aircraft Manufacturer, 100,000 Staff, EUR 70B Revenue**
 
 #### Initial Situation
 
-The Engineering organization with national Engineering Integration Centers needed to be organized more effectively for new developments. The current Engineering organization was capable of managing aircraft modifications of existing aircraft types, however, the organization could not be scaled for rapid growth with new aircraft developments running in parallel.
+The client had experience in the procurement of aircraft systems equipment (for flight control, landing gear, electrical system, ...).  The equipment manufacturers were involved late in the development phase when the equipment specification had been defined.  At this time, it was too late to consider solutions with new technologies that had an impact on aircraft design. To be able to consider advantageously the most modern technologies, which had been tested by suppliers in the full system context it was decided to no longer procure separate equipment separately, but as a set for complete systems with aligned technologies.  To align the aircraft design optimally to the new technologies, the system suppliers were incorporated early in a „Joint Development Phase“ or in „Early Supplier Involvement“.  It was not clear how to proceed with system suppliers.  It was not clear how to identify capable system suppliers that contribute constructively in a „Joint Development Phase“ or in „Early Supplier Involvement“.
 
 #### Tasks
 
-- Define new engineering organization with a strategically new orientation for several aircraft development programs running in parallel
-- Define internationally harmonized processes for the HR and Finance organizations
-- Propose more efficient setup of the Program and Sales organizations
+Define the technical part of the procurement of complete systems
+- Define the System Specification that is adequate for the Joint Development Phase or Early Supplier Involvement.
+- Define method how to identify system suppliers that have the required system competences
+- Define method how to evaluate the development capability of suppliers for systems and equipment
 
 #### Implemented Measures
 
-As senior manager for organizational development:
-- Strategically designed a new engineering structure by engaging the most senior engineering stakeholders
-- Designed harmonized HR and Finance processes by engaging the most senior stakeholders
-- Analyzed the current Program and Sales organizations and the existing cooperation
-- Redefined the interfaces between the program and sales organizations
+- Define the guideline for the system specifications (Top Level System Requirement Document and High-Level System Requirement Document)
+- Define guideline to identify system suppliers with adequate system competences
+- Define training for system developers on how to work with system suppliers (Airbus Award)
+- Support system suppliers during the „Joint Development Phase“ or „Early Supplier Involvement “
+
 
 #### Achievements
 
-- ✅ **Enabled scalable growth** for the development of two additional aircraft types (A400M, A350) in the following 10 years
-- ✅ **Established internationally harmonized processes** for HR and finance organizations
-- ✅ **Defined efficient cross-functional way of working** between Program and Sales without organization change
+- ✅ **For the A350 all aircraft systems were procured with „System contracts“** 
 
 ---
 
