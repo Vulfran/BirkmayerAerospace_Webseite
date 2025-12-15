@@ -60,32 +60,6 @@ We support you in developing safe, reliable, and defect-free products:
 - Communication and network technology (including high-voltage and protection systems)
 - Lightning Protection, EMC, HIRF
 
-## Our Methodology
-
-### Analysis Phase
-
-1. **Current State Analysis**: Comprehensive assessment of the current situation
-2. **Root Cause Analysis**: Identification of underlying causes
-3. **Stakeholder Engagement**: Involvement of all relevant parties
-
-### Strategy Phase
-
-1. **Roadmap Definition**: Clear strategic planning
-2. **Measure Definition**: Concrete action steps
-3. **Resource Planning**: Optimal allocation of resources
-
-### Implementation Phase
-
-1. **Implementation**: Targeted execution of measures
-2. **Change Management**: Accompaniment of transformation
-3. **Monitoring**: Continuous success control
-
-### Stabilization Phase
-
-1. **Process Anchoring**: Sustainable integration of new processes
-2. **Know-how Transfer**: Empowerment of internal teams
-3. **Lessons Learned**: Documentation and knowledge preservation
-
 ## My offer
 
 ### 1. Stabilize – Restore operational capability and secure value streams
@@ -159,7 +133,7 @@ At the production rate of 64 A330/A340 aircraft per year, on-time delivery had b
 - Damages to aircraft structure, floor panels, cabin furnishing
 - High level of equipment claims with no-fault-found
 
-**Improvement measures:**
+**§	Identification and implementation of Improvement measures:**
 - Multiple correction of the mounting point installation tool
 - Correction of quality issues in a supplying plant
 - Introduction of protective measures for cabin installation and furnishing; improved transportation means
@@ -198,7 +172,7 @@ A leading industrial group developing hybrid-electric propulsion needed to progr
 
 - ✅ **Lead time to define key safety requirements reduced by 75%**
 - ✅ **Substantially de-risked certification**
-- ✅ **Accelerated market entry** of groundbreaking technology
+- ✅ **Accelerated market entry** of this groundbreaking technology
 
 ---
 
@@ -208,27 +182,20 @@ A leading industrial group developing hybrid-electric propulsion needed to progr
 
 #### Initial Situation
 
-The Engineering organization with national Engineering Integration Centers needed to be organized more effectively for new developments. The current Engineering organization was capable of managing aircraft modifications of existing aircraft types, however, the organization could not be scaled for rapid growth with new aircraft developments running in parallel.
+The Engineering organization with the national Engineering Integration Centers for the relevant aircraft contribution wing, forward fuselage, center-wing box, rear fuselage, cabin systems, propulsion, shall be organized more effectively, for new developments. The current Engineering-organization is capable to manage and design aircraft modifications of the exiting aircraft types, however, the organization cannot be scaled for rapid growth with new aircraft developments that run in parallel.   
 
 #### Tasks
 
 - Define new engineering organization with a strategically new orientation for several aircraft development programs running in parallel
-- Define internationally harmonized processes for the HR and Finance organizations
-- Propose more efficient setup of the Program and Sales organizations
 
 #### Implemented Measures
 
-As senior manager for organizational development:
-- Strategically designed a new engineering structure by engaging the most senior engineering stakeholders
-- Designed harmonized HR and Finance processes by engaging the most senior stakeholders
-- Analyzed the current Program and Sales organizations and the existing cooperation
-- Redefined the interfaces between the program and sales organizations
+As senior manager for organizational development within the executive HR organization I
+- strategically designed a new engineering structure by engaging the most senior engineering stakeholders.
 
 #### Achievements
 
 - ✅ **Enabled scalable growth** for the development of two additional aircraft types (A400M, A350) in the following 10 years
-- ✅ **Established internationally harmonized processes** for HR and finance organizations
-- ✅ **Defined efficient cross-functional way of working** between Program and Sales without organization change
 
 ---
 
