@@ -4,53 +4,61 @@
 
 This documentation provides you with a comprehensive overview of our services, methods, and expertise in product development and engineering.
 
-## About Us
+## Experienced Interim Executive for Product Development & Engineering
 
-As an experienced interim executive, we support companies in stabilizing, transforming, and scaling their product development and series production. With solid aerospace expertise and international leadership experience at Airbus and Rolls-Royce, we bring comprehensive experience in the following areas:
+As an interim executive, I support companies in stabilizing, transforming, and scaling the development and series assembly of their products, as well as their operational safety and reliability — drawing on solid aerospace expertise and international leadership experience at Airbus and Rolls-Royce in engineering, systems development, and project management.
+I am specialized in agile transformation, process optimization, change management, crisis resolution, and building high-performance teams.
+With my strategic mindset, deep technical expertise, and as a strong communicator I combine leadership excellence with engineering depth and transformation skills, even in highly regulated industries. 
+The result: reliable, safe, and defect-free products – with shorter time-to-market, lower product and service costs, and higher customer satisfaction. 
 
-- **Engineering**: Systems development and technical leadership
-- **Project Management**: Complex projects in highly regulated industries
-- **Agile Transformation**: Introduction of modern development methods
-- **Process Optimization**: Efficiency improvement in all areas
-- **Change Management**: Successful transformation of organizations
+## My Core Competencies
 
-## Our Core Competencies
+### 1. Project and Development Management Expertise
 
-### 1. Product Development
+- Management of complex technical and organizational challenges
+- Development and implementation of agile methods (Scrum, Kanban)
+- Change management, process optimization, and post-merger integration
+- Systematic coaching of technical and managerial staff
+- Industrialization
+- Scaling of serial assembly
+
+### 2. Leadership Skills
+
+- Many years of experience leading multinational, multidisciplinary teams (up to 60 employees)
+- Intercultural management and confident communication at executive level
+- Establishment and leadership of transnational engineering departments with budget responsibility up to €15 million
+- Talent development, coaching, and sustainable employee advancement
+
+### 3. Methodological Expertise
+
+- Agile methods: Scrum, Kanban
+- Process analysis and optimization: APQP, PPAP, FMEA, Ishikawa, 8D, PDCA cycle
+- Lean management: SQCDP, Go-look-see, value stream mapping
+- Structured problem-solving methods
+- Innovation management and patent development
+- Systems and safety engineering according to aviation standards (ARP 4761A, ARP 4754B)
+- Reliability engineering and dependability analysis
+- Certification and validation of complex technical systems
+- Equipment Qualification
+- Application lifecycle management (ALM)
+
+### 4. Soft Skills & Personal Strengths
+
+- Holistic thinking: strategic overview with the ability to analyze technical details in depth when necessary
+- Strong analytical and conceptual skills
+- Solution-oriented mindset and quick grasp of complex issues
+- Team player with conflict resolution skills and intercultural understanding
+- Confident presence, excellent communication skills, and empathy in international business environments
+- High capacity for innovation and promotion of creativity within teams
+
+### 5. Technical Expertise
 
 We support you in developing safe, reliable, and defect-free products:
 
-- Requirements management and system architecture
-- Safety-critical systems
-- Integration of ALM systems (Application Lifecycle Management)
-- Certification according to aviation standards (DO-178, DO-254, etc.)
-
-### 2. Engineering Transformation
-
-Strategic reorientation and optimization of engineering organizations:
-
-- Building scalable structures for parallel developments
-- Post-merger integration of technical organizations
-- Harmonization of international development processes
-- Definition of efficient interfaces between organizational units
-
-### 3. Operational Excellence
-
-Improvement of operational performance in production and development:
-
-- Increasing on-time delivery and product quality
-- Reduction of production costs and time-to-market
-- Continuous improvement programs (CIP)
-- Crisis management and performance turnaround
-
-### 4. Team Development
-
-Building and leading high-performance teams:
-
-- Recruitment and onboarding of specialists
-- Competence development for new technologies
-- Building a strong safety culture
-- Promotion of cross-functional collaboration
+- Electric drive systems and control engineering for aviation
+- Electronics (power and signal processing)
+- Communication and network technology (including high-voltage and protection systems)
+- Lightning Protection, EMC, HIRF
 
 ## Our Methodology
 
@@ -78,28 +86,45 @@ Building and leading high-performance teams:
 2. **Know-how Transfer**: Empowerment of internal teams
 3. **Lessons Learned**: Documentation and knowledge preservation
 
-## Industry Expertise
+## My offer
 
-### Aerospace
+### 1. Stabilize – Restore operational capability and secure value streams
 
-- Aircraft development and production
-- Engine development
-- System development for safety-critical applications
-- Certification according to EASA/FAA requirements
+I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The objective is to rapidly bring programs, products, or manufacturing operations back into a controlled and predictable state.
 
-### Highly Regulated Industries
+**Typical fields of engagement:**:
+- Restoration of schedule, quality, and cost control
+- Technical resolution of critical product or system issues
+- Immediate measures to secure development and production capability
+- Reconfiguration of teams, roles, leadership routines, and decision-making paths
+- On-the-job capability development of employees
+**Value for executive management:**: Minimization of operational risk, avoidance of imminent delivery, quality, or certification issues, and rapid stabilization of business-critical programs.
 
-- Automotive (Functional Safety according to ISO 26262)
-- Medical technology
-- Railway transport
-- Defense technology
+### 2. Transform – Increase efficiency, robustness, and product quality
 
-### Technology Companies
+I lead transformation initiatives that sustainably enhance the performance of development, industrialization, or manufacturing organizations. This includes technical, organizational, and process-oriented realignment.
 
-- Hybrid-electric propulsion
-- Innovative product development
-- Technology scaling
-- Market entry strategies
+**Typical fields of engagement:**:
+- Efficiency improvements in development, industrialization, or manufacturing
+- Re-engineering of products with high defect rates or field issues
+- Introduction of robust, scalable development and industrialization processes
+- Optimization of technical decision logic, interfaces, and governance
+- Capability development and coaching of technical leaders
+**Value for executive management:**: Products become more reliable, development and production processes more predictable and cost-efficient, and the organization gains technical and structural resilience.
+
+
+### 3. Scale – Systematically expand development and manufacturing capacity
+
+I support companies that need to deliberately align their product development and/or manufacturing for growth, new programs, or higher production volumes.
+
+**Typical fields of engagement:**:
+
+- Establishment of scalable development and industrialization structures
+- Preparation for increased volumes, new product generations, or program launches
+- Process and tooling architecture for growing technical organizations
+- Introduction of control models that combine robustness with speed
+- Systematic development of the workforce toward growth-capable teams
+**Value for executive management:**: After the engagement, the organization can reliably deliver higher volumes, new products, or more complex programs while remaining controllable, audit-ready, and economically stable.
 
 ## Success Stories
 
@@ -207,10 +232,70 @@ As senior manager for organizational development:
 
 ---
 
+### xx {#project4}
+
+**Aircraft Manufacturer, 100,000 Staff, EUR 70B Revenue**
+
+#### Initial Situation
+
+The Engineering organization with national Engineering Integration Centers needed to be organized more effectively for new developments. The current Engineering organization was capable of managing aircraft modifications of existing aircraft types, however, the organization could not be scaled for rapid growth with new aircraft developments running in parallel.
+
+#### Tasks
+
+- Define new engineering organization with a strategically new orientation for several aircraft development programs running in parallel
+- Define internationally harmonized processes for the HR and Finance organizations
+- Propose more efficient setup of the Program and Sales organizations
+
+#### Implemented Measures
+
+As senior manager for organizational development:
+- Strategically designed a new engineering structure by engaging the most senior engineering stakeholders
+- Designed harmonized HR and Finance processes by engaging the most senior stakeholders
+- Analyzed the current Program and Sales organizations and the existing cooperation
+- Redefined the interfaces between the program and sales organizations
+
+#### Achievements
+
+- ✅ **Enabled scalable growth** for the development of two additional aircraft types (A400M, A350) in the following 10 years
+- ✅ **Established internationally harmonized processes** for HR and finance organizations
+- ✅ **Defined efficient cross-functional way of working** between Program and Sales without organization change
+
+---
+
+### yyy {#project5}
+
+**Aircraft Manufacturer, 100,000 Staff, EUR 70B Revenue**
+
+#### Initial Situation
+
+The Engineering organization with national Engineering Integration Centers needed to be organized more effectively for new developments. The current Engineering organization was capable of managing aircraft modifications of existing aircraft types, however, the organization could not be scaled for rapid growth with new aircraft developments running in parallel.
+
+#### Tasks
+
+- Define new engineering organization with a strategically new orientation for several aircraft development programs running in parallel
+- Define internationally harmonized processes for the HR and Finance organizations
+- Propose more efficient setup of the Program and Sales organizations
+
+#### Implemented Measures
+
+As senior manager for organizational development:
+- Strategically designed a new engineering structure by engaging the most senior engineering stakeholders
+- Designed harmonized HR and Finance processes by engaging the most senior stakeholders
+- Analyzed the current Program and Sales organizations and the existing cooperation
+- Redefined the interfaces between the program and sales organizations
+
+#### Achievements
+
+- ✅ **Enabled scalable growth** for the development of two additional aircraft types (A400M, A350) in the following 10 years
+- ✅ **Established internationally harmonized processes** for HR and finance organizations
+- ✅ **Defined efficient cross-functional way of working** between Program and Sales without organization change
+
+---
+
 ## Contact
 
 For more information or a non-binding initial consultation, please contact us via the [contact page](/contact).
 
 ---
 
-*Last updated: November 2025*
+*Last updated: December 2025*
