@@ -5,7 +5,6 @@ import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-  NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
