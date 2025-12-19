@@ -69,5 +69,35 @@
         "image": "598_Birkmayer_Sofa_erklaerend.png"
       },      
     "sectionTitle": "Projekte"
+  },
+  "services": {
+    "sectionTitle": "Leistungsübersicht",
+    "card1": {
+      "title": "Stabilisieren",
+      "items": [
+        "Krisenmanagement und Turnaround",
+        "Prozessoptimierung und Effizienzsteigerung",
+        "Qualitätsverbesserung und Fehlerreduktion",
+        "Team-Restrukturierung und Performance-Steigerung"
+      ]
+    },
+    "card2": {
+      "title": "Transformieren",
+      "items": [
+        "Agile Transformation und Change Management",
+        "Digitalisierung und Innovation",
+        "Strategische Neuausrichtung",
+        "Kulturwandel und Organisationsentwicklung"
+      ]
+    },
+    "card3": {
+      "title": "Skalieren",
+      "items": [
+        "Wachstumsstrategien und Skalierung",
+        "Aufbau neuer Kompetenzen",
+        "Internationale Expansion",
+        "Produktportfolio-Erweiterung"
+      ]
+    }
   }
 }
