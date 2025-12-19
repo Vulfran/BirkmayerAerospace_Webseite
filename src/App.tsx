@@ -118,8 +118,8 @@ function App() {
               >
                 <div className="h-full w-full bg-black/30 flex items-center justify-center">
                   <div className="text-center text-white px-6 md:px-8">
-                    <h1 className="text-4xl md:text-6xl font-bold">{t("hero.title")}</h1>
-                    <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">{t("hero.subtitle")}</p>
+                    <h1 className="text-4xl md:text-6xl font-bold animate-fade-in-up">{t("hero.title")}</h1>
+                    <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto animate-fade-in-up animation-delay-300">{t("hero.subtitle")}</p>
                   </div>
                 </div>
               </section>
