@@ -60,11 +60,6 @@ function App() {
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <NavigationMenuLink href="/about" className={isGrayNavPage ? "text-foreground" : "text-white"}>
-                        {t("nav.about")}
-                      </NavigationMenuLink>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem>
                       <Link to="/contact" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
                         {t("nav.contact")}
                       </Link>
@@ -73,11 +68,6 @@ function App() {
                       <Link to="/documentation" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
                         {t("nav.documentation")}
                       </Link>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem>
-                      <NavigationMenuLink href="#projects" className={isGrayNavPage ? "text-foreground" : "text-white"}>
-                        {t("nav.projects")}
-                      </NavigationMenuLink>
                     </NavigationMenuItem>
                   </NavigationMenuList>
                 </NavigationMenu>
@@ -107,10 +97,8 @@ function App() {
         {mobileOpen && (
           <div className={isGrayNavPage ? "md:hidden absolute top-full right-4 mt-2 w-44 bg-white text-foreground rounded shadow-lg z-30" : "md:hidden absolute top-full right-4 mt-2 w-44 bg-white/10 backdrop-blur-sm text-white rounded shadow z-30"}>
             <Link to="/" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.home")}</Link>
-            <a href="/about" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"}>{t("nav.about")}</a>
             <Link to="/contact" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.contact")}</Link>
             <Link to="/documentation" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.documentation")}</Link>
-            <a href="#projects" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"}>{t("nav.projects")}</a>
           </div>
         )}
       </header>
