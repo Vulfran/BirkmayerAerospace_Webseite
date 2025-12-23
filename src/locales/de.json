@@ -73,31 +73,33 @@
   "services": {
     "sectionTitle": "Leistungsübersicht",
     "card1": {
-      "title": "Stabilisieren",
-      "subtitle": "Handlungsfähigkeit herstellen und Wertströme sichern"
+      "title": "Stabilisieren - Handlungsfähigkeit herstellen und Wertströme sichern Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.  Typische Einsatzfelder:",
       "items": [
-        "Krisenmanagement und Turnaround",
-        "Prozessoptimierung und Effizienzsteigerung",
-        "Qualitätsverbesserung und Fehlerreduktion",
-        "Team-Restrukturierung und Performance-Steigerung"
+        "Wiederherstellung von Termin-, Qualitäts- und Kostensteuerung",
+        "Technische Klärung kritischer Produkt- oder Systemthemen",
+        "Sofortmaßnahmen zur Sicherung von Entwicklungs- und Montagefähigkeit",
+        "Neuaufstellung von Teams, Rollen, Führungsritualen und Entscheidungswegen",
+        "Kompetenzaufbau der Mitarbeitenden im laufenden Einsatz"
       ]
     },
     "card2": {
-      "title": "Transformieren",
+      "title": "Transformieren - Effizienz, Robustheit und Produktqualität erhöhen  Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwicklungs-, Industrialisierungs- oder Fertigungsorganisationen nachhaltig erhöhen. Dazu gehören technische, organisatorische und prozessuale Neuausrichtungen.  Typische Einsatzfelder:",
       "items": [
-        "Agile Transformation und Change Management",
-        "Digitalisierung und Innovation",
-        "Strategische Neuausrichtung",
-        "Kulturwandel und Organisationsentwicklung"
+        "Effizienzsteigerung in Entwicklung, Industrialisierung oder Montage",
+        "Re-Engineering von Produkten mit hoher Fehlerquote oder Feldreklamationen",
+        "Einführung robuster, skalierbarer Entwicklungs- und Industrialisierungsprozesse",
+        "Optimierung technischer Entscheidungslogik, Schnittstellen und Governance",
+        "Kompetenzentwicklung und Coaching technischer Führungskräfte"
       ]
     },
     "card3": {
-      "title": "Skalieren",
+      "title": "Skalieren – Entwicklungs- und Fertigungskapazität gezielt ausbauen  Ich begleite Unternehmen, die ihre Produktentwicklung und/oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.  Typische Einsatzfelder:",
       "items": [
-        "Wachstumsstrategien und Skalierung",
-        "Aufbau neuer Kompetenzen",
-        "Internationale Expansion",
-        "Produktportfolio-Erweiterung"
+        "Aufbau skalierbarer Entwicklungs- und Industrialisierungsstrukturen",
+        "Vorbereitung auf erhöhte Volumina, neue Produktgenerationen oder Programmstarts",
+        "Prozess- und Tooling-Architektur für wachsende technische Organisationen",
+        "Einführung von Steuerungsmodellen, die Robustheit und Geschwindigkeit verbinden",
+        "Systematische Weiterentwicklung der Belegschaft hin zu wachstumsfähigen Teams"
       ]
     }
   }
