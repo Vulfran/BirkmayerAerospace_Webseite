@@ -73,7 +73,8 @@
   "services": {
     "sectionTitle": "Leistungsübersicht",
     "card1": {
-      "title": "Stabilisieren - Handlungsfähigkeit herstellen und Wertströme sichern Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.  Typische Einsatzfelder:",
+      "title": "Stabilisieren",
+      "description": "Handlungsfähigkeit herstellen und Wertströme sichern. Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.",
       "items": [
         "Wiederherstellung von Termin-, Qualitäts- und Kostensteuerung",
         "Technische Klärung kritischer Produkt- oder Systemthemen",
@@ -83,7 +84,8 @@
       ]
     },
     "card2": {
-      "title": "Transformieren - Effizienz, Robustheit und Produktqualität erhöhen  Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwicklungs-, Industrialisierungs- oder Fertigungsorganisationen nachhaltig erhöhen. Dazu gehören technische, organisatorische und prozessuale Neuausrichtungen.  Typische Einsatzfelder:",
+      "title": "Transformieren",
+      "description": "Effizienz, Robustheit und Produktqualität erhöhen. Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwicklungs-, Industrialisierungs- oder Fertigungsorganisationen nachhaltig erhöhen. Dazu gehören technische, organisatorische und prozessuale Neuausrichtungen.",
       "items": [
         "Effizienzsteigerung in Entwicklung, Industrialisierung oder Montage",
         "Re-Engineering von Produkten mit hoher Fehlerquote oder Feldreklamationen",
@@ -93,7 +95,8 @@
       ]
     },
     "card3": {
-      "title": "Skalieren – Entwicklungs- und Fertigungskapazität gezielt ausbauen  Ich begleite Unternehmen, die ihre Produktentwicklung und/oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.  Typische Einsatzfelder:",
+      "title": "Skalieren",
+      "description": "Entwicklungs- und Fertigungskapazität gezielt ausbauen. Ich begleite Unternehmen, die ihre Produktentwicklung und/oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.",
       "items": [
         "Aufbau skalierbarer Entwicklungs- und Industrialisierungsstrukturen",
         "Vorbereitung auf erhöhte Volumina, neue Produktgenerationen oder Programmstarts",

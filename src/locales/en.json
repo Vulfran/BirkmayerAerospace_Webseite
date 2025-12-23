@@ -74,29 +74,35 @@
     "sectionTitle": "Services Overview",
     "card1": {
       "title": "Stabilize",
+      "description": "Restore operational capability and secure value streams. I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The goal is to quickly return programs, products, or manufacturing to a controlled, plannable state.",
       "items": [
-        "Crisis management and turnaround",
-        "Process optimization and efficiency improvement",
-        "Quality improvement and defect reduction",
-        "Team restructuring and performance enhancement"
+        "Restoration of schedule, quality, and cost control",
+        "Technical resolution of critical product or system issues",
+        "Immediate measures to secure development and assembly capability",
+        "Reorganization of teams, roles, leadership rituals, and decision paths",
+        "Competence building of employees during ongoing operations"
       ]
     },
     "card2": {
       "title": "Transform",
+      "description": "Increase efficiency, robustness, and product quality. I lead transformation initiatives that sustainably increase the performance of development, industrialization, or manufacturing organizations. This includes technical, organizational, and process realignments.",
       "items": [
-        "Agile transformation and change management",
-        "Digitalization and innovation",
-        "Strategic reorientation",
-        "Cultural change and organizational development"
+        "Efficiency improvement in development, industrialization, or assembly",
+        "Re-engineering of products with high defect rates or field complaints",
+        "Introduction of robust, scalable development and industrialization processes",
+        "Optimization of technical decision logic, interfaces, and governance",
+        "Competence development and coaching of technical leaders"
       ]
     },
     "card3": {
       "title": "Scale",
+      "description": "Systematically expand development and manufacturing capacity. I support companies that need to strategically align their product development and/or manufacturing for growth, new programs, or higher production volumes.",
       "items": [
-        "Growth strategies and scaling",
-        "Building new competencies",
-        "International expansion",
-        "Product portfolio expansion"
+        "Building scalable development and industrialization structures",
+        "Preparation for increased volumes, new product generations, or program launches",
+        "Process and tooling architecture for growing technical organizations",
+        "Introduction of control models that combine robustness and speed",
+        "Systematic development of workforce toward growth-capable teams"
       ]
     }
   }
