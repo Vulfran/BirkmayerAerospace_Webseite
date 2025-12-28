@@ -105,5 +105,26 @@
         "Systematische Weiterentwicklung der Belegschaft hin zu wachstumsfähigen Teams"
       ]
     }
+  },
+  "references": {
+    "sectionTitle": "Referenzen",
+    "testimonial1": {
+      "quote": "Herr Birkmayer hat mit seiner Expertise und Führungsstärke maßgeblich zur Stabilisierung unserer Produktionslinie beigetragen. Seine analytische Vorgehensweise und klare Kommunikation haben das gesamte Team motiviert.",
+      "name": "Herr Mustermann",
+      "company": "Luftfahrtunternehmen, VP Operations",
+      "image": "266_Birkmayer_Gesicht_mit_Model.png"
+    },
+    "testimonial2": {
+      "quote": "Die Transformation unserer Engineering-Organisation wäre ohne die professionelle Begleitung von Herrn Birkmayer nicht möglich gewesen. Er versteht es, technische Exzellenz mit Change-Management zu verbinden.",
+      "name": "Frau Mustermann",
+      "company": "Industrieunternehmen, Head of Engineering",
+      "image": "328_Modell_Tastatur.png"
+    },
+    "testimonial3": {
+      "quote": "Beeindruckend war die Fähigkeit, komplexe technische Herausforderungen schnell zu erfassen und pragmatische Lösungen zu entwickeln. Die Zusammenarbeit war äußerst professionell und ergebnisorientiert.",
+      "name": "Herr Mustermann",
+      "company": "Luftfahrtunternehmen, Director Quality",
+      "image": "715_Birkmayer_stehend_Pfosten.png"
+    }
   }
 }

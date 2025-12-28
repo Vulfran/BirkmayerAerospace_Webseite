@@ -14,6 +14,7 @@ import Footer from "@/components/footer";
 import MarkdownPage from "@/components/markdown-page";
 import ContactForm from "@/components/contact-form";
 import ServicesOverview from "@/components/services-overview";
+import TestimonialCarousel from "@/components/testimonial-carousel";
 // Table component removed
 
 function App() {
@@ -135,6 +136,9 @@ function App() {
 
               {/* Services Overview */}
               <ServicesOverview lang={lang} />
+
+              {/* Testimonial Carousel */}
+              <TestimonialCarousel lang={lang} />
             </>
           }
         />

@@ -105,5 +105,26 @@
         "Systematic development of workforce toward growth-capable teams"
       ]
     }
+  },
+  "references": {
+    "sectionTitle": "References",
+    "testimonial1": {
+      "quote": "Mr. Birkmayer significantly contributed to stabilizing our production line with his expertise and leadership strength. His analytical approach and clear communication motivated the entire team.",
+      "name": "Mr. Mustermann",
+      "company": "Aircraft Manufacturer, VP Operations",
+      "image": "266_Birkmayer_Gesicht_mit_Model.png"
+    },
+    "testimonial2": {
+      "quote": "The transformation of our engineering organization would not have been possible without Mr. Birkmayer's professional guidance. He knows how to combine technical excellence with change management.",
+      "name": "Ms. Mustermann",
+      "company": "Industrial Corporation, Head of Engineering",
+      "image": "328_Modell_Tastatur.png"
+    },
+    "testimonial3": {
+      "quote": "Impressive was the ability to quickly grasp complex technical challenges and develop pragmatic solutions. The collaboration was extremely professional and results-oriented.",
+      "name": "Mr. Mustermann",
+      "company": "Aircraft Manufacturer, Director Quality",
+      "image": "715_Birkmayer_stehend_Pfosten.png"
+    }
   }
 }
