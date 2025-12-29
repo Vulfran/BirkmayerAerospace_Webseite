@@ -42,25 +42,25 @@
       "title": "Aircraft Final Assembly Line Performance Improvement",
       "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
       "text": "On-time-delivery raised from 25% to 100% within 10 months with parallel to production rate scaling from 64->74 aircraft/year; Production related quality issues and claims reduced by up to 75%",
-      "image": "715_Birkmayer_stehend_Pfosten.png"
+      "image": "763_Birkmayer_Treppe_sitzend_comp.png"
     },
     "project2": {
       "title": "Competence Development for Safety Critical Systems",
       "subtitle": "Industrial Corporation, 350.000 Staff, EUR 76B Revenue",
       "text": "The lead time to define the key safety requirements was reduced by 75%, substantially de-risking certification and accelerating the market entry of this groundbreaking technology.",
-      "image": "428_Birkmayer_Profil_Buch_abwaegend.png"
+      "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung.png"
     },
     "project3": {
       "title": "Strategic Reorientation of the Engineering Organization",
       "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
       "text": "Enabled scalable growth of engineering organization for the development of two additional aircraft types (A400M, A350) in the following 10 years.",
-      "image": "579_Birkmayer_Profil_Haendeschuetteln.png"
+      "image": "428_Birkmayer_Profil_Buch_abwaegend.png"
     },
     "project4": {
       "title": "Industrialization of a new electrical technology for aircraft",
       "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
       "text": "Through new guidelines the aircraft weight was reduced by 700 kg and the unit cost was reduced by 500.000 USD.",
-      "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung.png"
+      "image": "330_ Birkmayer_Modell_Tastatur_Hand.png"
     },
     "project5": {
       "title": "Aircraft Systems Procurement Reorientation",
@@ -109,22 +109,22 @@
   "references": {
     "sectionTitle": "References",
     "testimonial1": {
-      "quote": "Mr. Birkmayer significantly contributed to stabilizing our production line with his expertise and leadership strength. His analytical approach and clear communication motivated the entire team.",
-      "name": "Mr. Mustermann",
-      "company": "Aircraft Manufacturer, VP Operations",
-      "image": "266_Birkmayer_Gesicht_mit_Model.png"
+      "quote": "For years the on-time-delivery of the A330/A340 Final Assembly Line was at 25%. Only thanks to Dr. Birkmayers encompassing competence the team could raise it to 100% in only 10 months.",
+      "name": "Karl-Heinz Hartmann",
+      "company": "Airbus Commercial Aircraft, Executive Vice President Operations",
+      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
     },
     "testimonial2": {
-      "quote": "The transformation of our engineering organization would not have been possible without Mr. Birkmayer's professional guidance. He knows how to combine technical excellence with change management.",
-      "name": "Ms. Mustermann",
-      "company": "Industrial Corporation, Head of Engineering",
-      "image": "328_Modell_Tastatur.png"
+      "quote": "Wolfram Birkmayer stands for clear leadership, strong technical expertise, and reliable results—even under highly demanding conditions. He was a highly respected and trusted point of contact for both senior management and teams.",
+      "name": "Stefan Römelt",
+      "company": "Airbus Commercial Aircraft, Head of Avionic Plattform and Electrical Systems",
+      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
     },
     "testimonial3": {
-      "quote": "Impressive was the ability to quickly grasp complex technical challenges and develop pragmatic solutions. The collaboration was extremely professional and results-oriented.",
-      "name": "Mr. Mustermann",
-      "company": "Aircraft Manufacturer, Director Quality",
-      "image": "715_Birkmayer_stehend_Pfosten.png"
+      "quote": "Wolfram Birkmayer combines deep safety and engineering expertise with clear accountability and strong execution capability. He leads interdisciplinary teams with confidence even under high pressure, builds trust with stakeholders, and delivers high-quality, pragmatic solutions in highly dynamic aerospace projects.",
+      "name": "Max Scheulen",
+      "company": "Rolls-Royce Electrical, Head of Global Architecture and Safety",
+      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
     }
   }
 }
