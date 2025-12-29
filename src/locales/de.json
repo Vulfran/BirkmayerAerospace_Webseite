@@ -109,22 +109,22 @@
   "references": {
     "sectionTitle": "Referenzen",
     "testimonial1": {
-      "quote": "Herr Birkmayer hat mit seiner Expertise und Führungsstärke maßgeblich zur Stabilisierung unserer Produktionslinie beigetragen. Seine analytische Vorgehensweise und klare Kommunikation haben das gesamte Team motiviert.",
-      "name": "Herr Mustermann",
-      "company": "Luftfahrtunternehmen, VP Operations",
-      "image": "266_Birkmayer_Gesicht_mit_Model.png"
+      "quote": "Jahrelang war die Pünktlichkeit der A330/A340 Endmontage Line bei 25%.  Nur dank Dr. Birkmayer’s umfassender Kompetenz konnte das Team sie in nur 10 Monaten auf 100% steigern. ",
+      "name": "Karl-Heinz Hartmann",
+      "company": "Airbus Commercial Aircraft, Executive Vice President Operations",
+      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
     },
     "testimonial2": {
-      "quote": "Die Transformation unserer Engineering-Organisation wäre ohne die professionelle Begleitung von Herrn Birkmayer nicht möglich gewesen. Er versteht es, technische Exzellenz mit Change-Management zu verbinden.",
-      "name": "Frau Mustermann",
-      "company": "Industrieunternehmen, Head of Engineering",
-      "image": "328_Modell_Tastatur.png"
+      "quote": "Wolfram Birkmayer steht für klare Führung, hohe fachliche Kompetenz und verlässliche Ergebnisse – auch unter anspruchsvollen Rahmenbedingungen. Er war für Geschäftsleitung und Teams gleichermaßen ein hochgeschätzter Ansprechpartner.",
+      "name": "Stefan Römelt",
+      "company": "Airbus Commercial Aircraft, Head of Avionic Plattform and Electrical Systems",
+      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
     },
     "testimonial3": {
-      "quote": "Beeindruckend war die Fähigkeit, komplexe technische Herausforderungen schnell zu erfassen und pragmatische Lösungen zu entwickeln. Die Zusammenarbeit war äußerst professionell und ergebnisorientiert.",
-      "name": "Herr Mustermann",
-      "company": "Luftfahrtunternehmen, Director Quality",
-      "image": "715_Birkmayer_stehend_Pfosten.png"
+      "quote": "Wolfram Birkmayer verbindet tiefes Safety- und Engineering-Know-how mit klarer Verantwortung und ausgeprägter Umsetzungsstärke. Er führt interdisziplinäre Teams auch unter hohem Druck souverän, schafft Vertrauen bei Stakeholdern und liefert qualitativ hochwertige, pragmatische Lösungen in hochdynamischen Luftfahrtprojekten.",
+      "name": "Max Scheulen",
+      "company": "Rolls-Royce Electrical, Head of Global Architecture and Safety",
+      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
     }
   }
 }
