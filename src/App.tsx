@@ -114,7 +114,7 @@ function App() {
                 style={{
                   // Use Vite base URL so the image is requested correctly when the app
                   // is served from a subpath (e.g. /website-template/)
-                  backgroundImage: `url('${import.meta.env.BASE_URL}1072_Birkmayer_IPad_zeigend_comp.png')`,
+                  backgroundImage: `url('${import.meta.env.BASE_URL}1072_2Birkmayer_IPad_zeigend_Landscape.png')`,
                 }}
               >
                 <div className="h-full w-full bg-black/30 flex items-center justify-center">
