@@ -110,7 +110,7 @@ function App() {
             <>
               {/* Hero: fullscreen background image from public/ */}
               <section
-                className="h-screen w-full bg-cover bg-center"
+                className="h-screen w-full bg-cover bg-center bg-gray-900"
                 style={{
                   // Use Vite base URL so the image is requested correctly when the app
                   // is served from a subpath (e.g. /website-template/)
