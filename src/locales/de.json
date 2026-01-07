@@ -34,14 +34,14 @@
   },
   "about": {
     "title": "Erfahrener Interim Executive für Produktentwicklung und Technik",
-    "text": "Als Interim Executive unterstütze ich Unternehmen dabei, die Entwicklung und Serienproduktion ihrer Produkte sowie deren Sicherheit und Zuverlässigkeit im Betrieb zu stabilisieren, zu transformieren und zu skalieren basierend auf fudnierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce in Engineering, Systementwicklung und Projektmanagement.  Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Management, Krisenbewältigung und den Aufbau leistungsstarker Teams. Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit."
+    "text": "Als Interim Executive unterstütze ich Unternehmen dabei, die Entwicklung und Serienmontage ihrer Produkte sowie deren Sicherheit und Zuverlässigkeit im Betrieb zu stabilisieren, zu transformieren und zu skalieren basierend auf fundierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce in Engineering, Systementwicklung und Projektmanagement.  Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Management, Krisenbewältigung und den Aufbau leistungsstarker Teams. Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit."
   }
   ,
   "projects": {
       "project1": {
         "title": "Performance-Steigerung Endmontage von Flugzeugen",
         "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
-        "text": "Liefertreue von 25% auf 100% erhöht nach 10 Monaten bei Skalierung: 64->74 Flugzeugen/Jahr und Reduktion produktionsbedingter Qualitätsmängel und Reklamationen bis zu 75%.",
+        "text": "Liefertreue von 25% auf 100% erhöht nach 10 Monaten bei Skalierung: 64->74 Flugzeugen/Jahr und Reduktion montagebedingter Qualitätsmängel und Reklamationen bis zu 75%.",
         "image": "763_Birkmayer_Treppe_sitzend_comp.png"
       },
       "project2": {
@@ -74,7 +74,7 @@
     "sectionTitle": "Leistungsübersicht",
     "card1": {
       "title": "Stabilisieren",
-      "description": "Handlungsfähigkeit herstellen und Wertströme sichern. Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.",
+      "description": "Handlungsfähigkeit herstellen und Wertströme sichern. Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Montagelinien schnell wieder in einen kontrollierten, planbaren Zustand zu führen.",
       "items": [
         "Wiederherstellung von Termin-, Qualitäts- und Kostensteuerung",
         "Technische Klärung kritischer Produkt- oder Systemthemen",
@@ -96,7 +96,7 @@
     },
     "card3": {
       "title": "Skalieren",
-      "description": "Entwicklungs- und Fertigungskapazität gezielt ausbauen. Ich begleite Unternehmen, die ihre Produktentwicklung und/oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.",
+      "description": "Entwicklungs- und Montagekapazität gezielt ausbauen. Ich begleite Unternehmen, die ihre Produktentwicklung und/oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.",
       "items": [
         "Aufbau skalierbarer Entwicklungs- und Industrialisierungsstrukturen",
         "Vorbereitung auf erhöhte Volumina, neue Produktgenerationen oder Programmstarts",
