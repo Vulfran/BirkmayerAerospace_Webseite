@@ -48,7 +48,7 @@ function App() {
             <img
               src={`${import.meta.env.BASE_URL}birkmayer_logo1_Slogan_f_deu2.png`}
               alt="Birkmayer Aerospace Logo"
-              className="h-10"
+              className="h-14 md:h-16"
             />
             <nav className="flex items-center gap-4">
               <div className="hidden md:flex">
