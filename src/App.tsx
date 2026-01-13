@@ -126,9 +126,13 @@ function App() {
               </section>
 
               {/* Page content below the hero */}
-              <main className="container mx-auto px-6 md:px-8 py-4">
-                <h2 className="text-2xl font-semibold">{t("about.title")}</h2>
-                <p className="mt-4 text-muted-foreground">{t("about.text")}</p>
+              <main className="container mx-auto px-6 md:px-8 py-12">
+                <div className="max-w-4xl mx-auto">
+                  <h2 className="text-2xl font-semibold mb-6">{t("about.title")}</h2>
+                  <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text1")}</p>
+                  <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text2")}</p>
+                  <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text3")}</p>
+                </div>
               </main>
 
               {/* Projects carousel */}

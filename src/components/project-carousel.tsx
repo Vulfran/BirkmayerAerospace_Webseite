@@ -50,10 +50,15 @@ function ProjectCarousel({ lang }: Props) {
     <section id="projects" className="my-12">
       {/* Constrained background: use the same container/padding as the main content so
           heading, image and text line up exactly with the section above. */}
-      <div className="bg-gray-100">
+      <div 
+        className="bg-gray-100 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('${import.meta.env.BASE_URL}Hintergrund_Wasserzeichen_diagonal c.png')`,
+        }}
+      >
         <div className="container mx-auto px-6 md:px-8 py-8 rounded-lg">
           {/* Section heading */}
-          <h2 className="text-2xl font-semibold mb-4">{t("projects.sectionTitle")}</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">{t("projects.sectionTitle")}</h2>
 
           <div className="w-full px-4 md:px-12">
             {/* Small + medium screens: show only the active card (use prev/next to navigate) */}

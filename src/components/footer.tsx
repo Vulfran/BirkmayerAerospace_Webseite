@@ -56,6 +56,19 @@ export default function Footer({ t }: FooterProps) {
               </svg>
               LinkedIn
             </a>
+            <a
+              href="https://www.ddim.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground hover:text-foreground/70 transition-colors flex items-center gap-1"
+            >
+              <img
+                src={`${import.meta.env.BASE_URL}ddim_mitglied.png`}
+                alt="DDIM Mitglied"
+                className="h-4"
+              />
+              DDIM
+            </a>
           </nav>
 
           {/* Right side - Copyright */}
