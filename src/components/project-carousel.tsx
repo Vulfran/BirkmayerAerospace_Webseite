@@ -47,7 +47,7 @@ function ProjectCarousel({ lang }: Props) {
   
 
   return (
-    <section id="projects" className="my-12">
+    <section id="projects">
       {/* Constrained background: use the same container/padding as the main content so
           heading, image and text line up exactly with the section above. */}
       <div 

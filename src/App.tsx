@@ -15,6 +15,7 @@ import MarkdownPage from "@/components/markdown-page";
 import ContactForm from "@/components/contact-form";
 import ServicesOverview from "@/components/services-overview";
 import TestimonialCarousel from "@/components/testimonial-carousel";
+import PersonalQuote from "@/components/personal-quote";
 // Table component removed
 
 function App() {
@@ -135,11 +136,14 @@ function App() {
                 </div>
               </main>
 
-              {/* Projects carousel */}
-              <ProjectCarousel lang={lang} />
-
               {/* Services Overview */}
               <ServicesOverview lang={lang} />
+
+              {/* Personal Quote */}
+              <PersonalQuote lang={lang} />
+
+              {/* Projects carousel */}
+              <ProjectCarousel lang={lang} />
 
               {/* Testimonial Carousel */}
               <TestimonialCarousel lang={lang} />
