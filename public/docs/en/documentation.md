@@ -182,7 +182,7 @@ A leading industrial group developing hybrid-electric propulsion needed to progr
 
 #### Initial Situation
 
-The Engineering organization with the national Engineering Integration Centers for the relevant aircraft contribution wing, forward fuselage, center-wing box, rear fuselage, cabin systems, propulsion, shall be organized more effectively, for new developments. The current Engineering-organization is capable to manage and design aircraft modifications of the exiting aircraft types, however, the organization cannot be scaled for rapid growth with new aircraft developments that run in parallel.   
+The Engineering organization with the national Engineering Integration Centers for the relevant aircraft contribution wing, forward fuselage, center-wing box, rear fuselage, cabin systems, propulsion, shall be organized more effectively, for new developments. The current Engineering-organization was capable to manage and design aircraft modifications of the exiting aircraft types, however, the organization could not be scaled for rapid growth with new aircraft developments that run in parallel.   
 
 #### Tasks
 
@@ -213,7 +213,7 @@ During the assembly of the first A350 aircraft models it became obvious that cle
 
 #### Implemented Measures
 
-As Head of Transversal Engineering, I work with the structure engineering and assembly teams at the
+As Head of Transversal Engineering, I worked with the structure engineering and assembly teams at the
 - definition and 
 - implementation of the missing standards.  
 In this way it was possible to find solutions in a complex cross-functional environment.
@@ -230,7 +230,7 @@ In this way it was possible to find solutions in a complex cross-functional envi
 
 #### Initial Situation
 
-The client has experience in the procurement of aircraft systems equipment (for flight control, landing gear, electrical system, ...).  The equipment manufacturers are involved late in the development phase when the equipment specification is defined.  At this time, it is too late to consider solutions with new technologies that have an impact on aircraft design. To be able to consider advantageously the most modern technologies, which had been tested by suppliers in the full system context it was decided to no longer procure separate equipment separately, but as a set for complete systems with aligned technologies.  To align the aircraft design optimally to the new technologies, the system suppliers are incorporated early in a „Joint Development Phase“ or in „Early Supplier Involvement“.  It is not clear how to proceed with system suppliers.  It is not clear how to identify capable system suppliers that contribute constructively in a „Joint Development Phase“ or in „Early Supplier Involvement“.
+The client had experience in the procurement of aircraft systems equipment (for flight control, landing gear, electrical system, ...).  The equipment manufacturers were involved late in the development phase when the equipment specification was defined.  At this time, it was too late to consider solutions with new technologies that have an impact on aircraft design. To be able to consider advantageously the most modern technologies, which had been tested by suppliers in the full system context it was decided to no longer procure separate equipment separately, but as a set of complete systems with aligned technologies.  To align the aircraft design optimally to the new technologies, the system suppliers were to be involved early in a „Joint Development Phase“ or in „Early Supplier Involvement“.  It was not clear how to proceed with system suppliers.  It was not clear how to identify capable system suppliers that contribute constructively in a „Joint Development Phase“ or in „Early Supplier Involvement“.
 
 #### Tasks
 
