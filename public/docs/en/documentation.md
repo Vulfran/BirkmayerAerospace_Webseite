@@ -60,7 +60,7 @@ We support you in developing safe, reliable, and defect-free products:
 - Communication and network technology (including high-voltage and protection systems)
 - Lightning Protection, EMC, HIRF
 
-## My offer
+## My services
 
 ### 1. Stabilize – Restore operational capability and secure value streams
 
@@ -102,7 +102,7 @@ I support companies that need to deliberately align their product development an
 
 ## Success Stories
 
-Throughout my career, I have been able to carry out numerous successful transformations:
+Here a sample of my numerous successful transformations:
 
 - **Performance Improvement**: From 25% to 100% on-time delivery with simultaneous production increase
 - **Cost Reduction**: EUR 50 million savings through process optimization
@@ -128,12 +128,12 @@ At the production rate of 64 A330/A340 aircraft per year, on-time delivery had b
 
 #### Implemented Measures
 
-**Identification of the most significant causes:**
+**Identification of the Most Significant Causes:**
 - Erroneous mounting points for buyer-furnished equipment
 - Damages to aircraft structure, floor panels, cabin furnishing
 - High level of equipment claims with no-fault-found
 
-**§	Identification and implementation of Improvement measures:**
+**§	Identification and Implementation of Improvement Measures:**
 - Multiple correction of the mounting point installation tool
 - Correction of quality issues in a supplying plant
 - Introduction of protective measures for cabin installation and furnishing; improved transportation means
@@ -141,7 +141,7 @@ At the production rate of 64 A330/A340 aircraft per year, on-time delivery had b
 
 #### Achievements
 
-- ✅ **100% on-time delivery** achieved after 10 months with parallel production rate scaling from 64→74 aircraft/year
+- ✅ **100% on-time delivery** achieved after 10 months with parallel production rate scaling from 64 → 74 aircraft/year
 - ✅ **Reduction of production-related quality issues and claims by up to 75%**
 
 ---
@@ -230,7 +230,7 @@ In this way it was possible to find solutions in a complex cross-functional envi
 
 #### Initial Situation
 
-The client had experience in the procurement of aircraft systems equipment (for flight control, landing gear, electrical system, ...).  The equipment manufacturers were involved late in the development phase when the equipment specification had been defined.  At this time, it was too late to consider solutions with new technologies that had an impact on aircraft design. To be able to consider advantageously the most modern technologies, which had been tested by suppliers in the full system context it was decided to no longer procure separate equipment separately, but as a set for complete systems with aligned technologies.  To align the aircraft design optimally to the new technologies, the system suppliers were incorporated early in a „Joint Development Phase“ or in „Early Supplier Involvement“.  It was not clear how to proceed with system suppliers.  It was not clear how to identify capable system suppliers that contribute constructively in a „Joint Development Phase“ or in „Early Supplier Involvement“.
+The client has experience in the procurement of aircraft systems equipment (for flight control, landing gear, electrical system, ...).  The equipment manufacturers are involved late in the development phase when the equipment specification is defined.  At this time, it is too late to consider solutions with new technologies that have an impact on aircraft design. To be able to consider advantageously the most modern technologies, which had been tested by suppliers in the full system context it was decided to no longer procure separate equipment separately, but as a set for complete systems with aligned technologies.  To align the aircraft design optimally to the new technologies, the system suppliers are incorporated early in a „Joint Development Phase“ or in „Early Supplier Involvement“.  It is not clear how to proceed with system suppliers.  It is not clear how to identify capable system suppliers that contribute constructively in a „Joint Development Phase“ or in „Early Supplier Involvement“.
 
 #### Tasks
 
@@ -259,4 +259,4 @@ For more information or a non-binding initial consultation, please contact us vi
 
 ---
 
-*Last updated: December 2025*
+*Last updated: January 2026*
