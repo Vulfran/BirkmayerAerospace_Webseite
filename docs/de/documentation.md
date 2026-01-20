@@ -11,7 +11,7 @@ Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Manag
 Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. 
 
 **Das Ergebnis**: 
-fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
+Fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
 
 
 ## Meine Kernkompetenzen
@@ -108,7 +108,7 @@ Organisation kann nach dem Einsatz höhere Volumina, neue Produkte oder komplexe
 
 ## Erfolgsbeispiele
 
-Im Laufe meiner Karriere konnte ich zahlreiche erfolgreiche Transformationen durchführen:
+Hier ein Auszug meiner vielen erfolgreichen Transformationen:
 
 - **Performance-Steigerung**: Von 25% auf 100% Liefertreue bei gleichzeitiger Produktionssteigerung
 - **Kostenreduktion**: 50 Millionen EUR Einsparungen durch Prozessoptimierung
@@ -147,7 +147,7 @@ Bei der Produktionsrate von 64 A330/A340 Flugzeugen pro Jahr war die Liefertreue
 
 #### Erzielte Erfolge
 
-- ✅ **100% Liefertreue** nach 10 Monaten erreicht bei Skalierung: 64→74 Flugzeugen/Jahr
+- ✅ **100% Liefertreue** nach 10 Monaten erreicht bei Skalierung: 64 → 74 Flugzeugen/Jahr
 - ✅ **Reduktion produktionsbedingter Qualitätsmängel und Reklamationen bis zu 75%**
 
 ---
@@ -227,7 +227,7 @@ Als Leiter des Transversal Engineerings arbeitete ich mit Produktions- und Struk
 #### Erzielte Erfolge
 
 - ✅ **Reduktion des Flugzeuggewichts pro Einheit um 700 kg** durch neue Richtlinien
-- ✅ **Reduktion der Kosten pro Einhait um 500.000** durch neue Richtlinien
+- ✅ **Reduktion der Kosten pro Einheit um 500.000** durch neue Richtlinien
 
 ---
 
@@ -239,13 +239,13 @@ Als Leiter des Transversal Engineerings arbeitete ich mit Produktions- und Struk
 #### Ausgangssituation
 
 Ausgangssituation beim Auftraggeber:  
-Der Auftraggeber hatte Erfahrung in der Beschaffung von Geräten für Flugzeugsysteme (Flugzeugsteuerung, Landefahrwerk, Bordnetz, ...).  Die Gerätehersteller wurden erst spät in der Entwicklungsphase eingebunden als die Gerätespezifikation klar war.  Zu diesem Zeitpunkt war es zu spät Lösungen mit anderen Technologien zu berücksichtigen.  Um modernste Technologien, die bereits von Lieferanten im Gesamtsystem erprobt wurden, zum Vorteil einsetzen zu können sollten die Geräte nicht mehr für sich beschafft werden, sondern aufeinander abgestimmt für komplette Systeme.  Um das neue Flugzeugdesign optimal auf diese neuen Technologien anzupassen, wurden die Systemlieferanten früh eingebunden in einer „Joint Development Phase“ oder einem „Early Supplier Involvement“.  Die Vorgehensweise für die Umsetzung der neuen Beschaffungsstrategie war unklar.  Insbesondere wusste man nicht wie man Systemlieferanten identifiziert die konstruktiv zu einer „Joint Development Phase“ oder einem „Early Supplier Involvement“ beitragen können.
+Der Auftraggeber hatte Erfahrung in der Beschaffung von Geräten für Flugzeugsysteme (Flugzeugsteuerung, Landefahrwerk, Bordnetz, ...).  Die Gerätehersteller wurden erst spät in der Entwicklungsphase eingebunden als die Gerätespezifikation definiert war.  Zu diesem Zeitpunkt war es zu spät Lösungen mit anderen Technologien zu berücksichtigen.  Um modernste Technologien, die bereits von Lieferanten im Gesamtsystem erprobt wurden, zum Vorteil einsetzen zu können sollten die Geräte nicht mehr für sich beschafft werden, sondern aufeinander abgestimmt als komplette Systeme.  Um das neue Flugzeugdesign optimal auf diese neuen Technologien anzupassen, wurden die Systemlieferanten früh eingebunden in einer „Joint Development Phase“ oder einem „Early Supplier Involvement“.  Die Vorgehensweise für die Umsetzung der neuen Beschaffungsstrategie war unklar.  Insbesondere wusste man nicht wie man Systemlieferanten identifiziert die konstruktiv zu einer „Joint Development Phase“ oder einem „Early Supplier Involvement“ beitragen können.
 
 
 #### Aufgaben
 
 Die technische Seite der Beschaffung von kompletten Systemen definieren
-- Definiere Vorlage für die Spezifikation des Systems für eine Joint Development Phase oder Early supplier Involvement
+- Definiere Vorlage für die Spezifikation des Systems für eine Joint Development Phase oder Early Supplier Involvement
 - Definition der Vorgehensweise zur Identifikation von Lieferanten mit erforderlicher Systemkompetenz
 - Definition der Vorgehensweise zur Bewertung der Fähigkeit der Lieferanten Geräte und Systeme zu entwickeln
 
@@ -270,4 +270,4 @@ Für weitere Informationen oder ein unverbindliches Erstgespräch kontaktieren S
 
 ---
 
-*Stand: November 2025*
+*Stand: Januar 2026*
