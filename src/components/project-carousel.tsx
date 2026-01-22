@@ -53,7 +53,7 @@ function ProjectCarousel({ lang }: Props) {
       <div 
         className="bg-gray-100 bg-cover bg-center"
         style={{
-          backgroundImage: `url('${import.meta.env.BASE_URL}Hintergrund_Wasserzeichen_diagonal c.png')`,
+          backgroundImage: `url('${import.meta.env.BASE_URL}Hintergrund_weiss.png')`,
         }}
       >
         <div className="container mx-auto px-6 md:px-8 py-8 rounded-lg">

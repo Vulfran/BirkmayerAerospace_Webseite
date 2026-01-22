@@ -13,7 +13,7 @@
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Haben Sie Fragen oder möchten Sie mehr über unsere Dienstleistungen erfahren? Kontaktieren Sie uns gerne.",
+    "subtitle": "Haben Sie Fragen oder möchten Sie mehr über meine Dienstleistungen erfahren? Kontaktieren Sie mich gerne.",
     "alternativeTitle": "Weitere Kontaktmöglichkeiten",
     "form": {
       "name": "Name",
@@ -21,11 +21,11 @@
       "email": "E-Mail",
       "emailPlaceholder": "ihre.email@beispiel.de",
       "subject": "Betreff",
-      "subjectPlaceholder": "Worum geht es?",
+      "subjectPlaceholder": "Ihre Herausforderung",
       "message": "Nachricht",
-      "messagePlaceholder": "Ihre Nachricht an uns...",
+      "messagePlaceholder": "Details Ihrer Herausforderung...",
       "submit": "Nachricht senden",
-      "successMessage": "Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden."
+      "successMessage": "Vielen Dank für Ihre Nachricht! Ich melde mich in Kürze."
     }
   },
   "hero": {
@@ -50,7 +50,7 @@
         "title": "Aufbau Kompetenzen für sicherheitskritische Systeme",
         "subtitle": "Industrieunternehmen, 350.000 Mitarbeiter, Umsatz 76 Mrd. EUR",
         "text": "Reduzierung der Zeit zur Definition zentraler Sicherheitsanforderungen um 75 %, deutliche Senkung des Zertifizierungsrisikos und beschleunigter Markteintritt einer bahnbrechenden Technologie.",
-        "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung.png"
+        "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung_comp.png"
       },
       "project3": {
         "title": "Strategische Neuausrichtung Engineering Organisation",
@@ -62,13 +62,13 @@
         "title": "Industrialisierung neuer Elektrotechnologie für Flugzeuge",
         "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
         "text": "Neue Richtlinien reduzierten das Flugzeuggewicht um 700 kg und senkten die Kosten pro Einheit um 500.000 USD.",
-        "image": "330_ Birkmayer_Modell_Tastatur_Hand.png"
+        "image": "330_ Birkmayer_Modell_Tastatur_Hand_comp.png"
       },
       "project5": {
         "title": "Neuausrichtung Beschaffung Flugzeugsysteme",
         "subtitle": "Luftfahrtunternehmen, 100.000 Mitarbeiter, Umsatz 70 Mrd. EUR",
         "text": "Beim A350 werden die Systemkomponenten von Systemlieferanten geliefert.",
-        "image": "598_Birkmayer_Sofa_erklaerend.png"
+        "image": "598_Birkmayer_Sofa_erklaerend_comp.png"
       },      
     "sectionTitle": "Projekte"
   },
@@ -114,23 +114,23 @@
       "quote": "Jahrelang war die Pünktlichkeit der A330/A340 Endmontage Line bei 25%.  Nur dank Dr. Birkmayer’s umfassender Kompetenz konnte das Team sie in nur 10 Monaten auf 100% steigern. ",
       "name": "Karl-Heinz Hartmann",
       "company": "Airbus Commercial Aircraft, Executive Vice President Operations",
-      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
+      "image": "1226_Birkmayer_Blaumann_zeigend_comp.png"
     },
     "testimonial2": {
       "quote": "Wolfram Birkmayer steht für klare Führung, hohe fachliche Kompetenz und verlässliche Ergebnisse – auch unter anspruchsvollen Rahmenbedingungen. Er war für Geschäftsleitung und Teams gleichermaßen ein hochgeschätzter Ansprechpartner.",
       "name": "Benjamin Bräutigam",
       "company": "Rolls-Royce Electrical, Former Head of Commuter Aircraft Program",
-      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
+      "image": "1226_Birkmayer_Blaumann_zeigend_comp.png"
     },
     "testimonial3": {
       "quote": "Wolfram Birkmayer verbindet tiefes Safety- und Engineering-Know-how mit klarer Verantwortung und ausgeprägter Umsetzungsstärke. Er führt interdisziplinäre Teams auch unter hohem Druck souverän, schafft Vertrauen bei Stakeholdern und liefert qualitativ hochwertige, pragmatische Lösungen in hochdynamischen Luftfahrtprojekten.",
       "name": "Max Scheulen",
       "company": "Rolls-Royce Electrical, Head of Global Architecture and Safety",
-      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
+      "image": "1226_Birkmayer_Blaumann_zeigend_comp.png"
     }
   },
   "quote": {
-    "text": "Exzellenz entsteht dort, wo technische Tiefe auf Führungsstärke trifft und Wandel zur Chance wird.",
+    "text": "Erfolgreiche Produkte entstehen nicht allein durch gutes Design, sondern durch klare Führung, kompetente Teams und konsequente Umsetzung – besonders dann, wenn stabilisiert, transformiert oder skaliert werden muss.",
     "author": "Wolfram Birkmayer"
   }
 }

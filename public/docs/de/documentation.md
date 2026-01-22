@@ -11,7 +11,7 @@ Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Manag
 Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen. 
 
 **Das Ergebnis**: 
-fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
+Fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit. 
 
 
 ## Meine Kernkompetenzen
@@ -108,7 +108,7 @@ Organisation kann nach dem Einsatz höhere Volumina, neue Produkte oder komplexe
 
 ## Erfolgsbeispiele
 
-Im Laufe meiner Karriere konnte ich zahlreiche erfolgreiche Transformationen durchführen:
+Hier ein Auszug meiner vielen erfolgreichen Transformationen:
 
 - **Performance-Steigerung**: Von 25% auf 100% Liefertreue bei gleichzeitiger Produktionssteigerung
 - **Kostenreduktion**: 50 Millionen EUR Einsparungen durch Prozessoptimierung
@@ -123,7 +123,7 @@ Im Laufe meiner Karriere konnte ich zahlreiche erfolgreiche Transformationen dur
 
 #### Ausgangssituation
 
-Bei der Produktionsrate von 64 A330/A340 Flugzeugen pro Jahr war die Liefertreue schon längere Zeit bei 25%. Das unternehmensübergreifende kontinuierliche Verbesserungsprogramm (KVP) hat nicht die erwartete Verbesserung gebracht. Die Ursache war unklar. Die Produktionsrate sollte im Folgejahr auf 74 Flugzeuge pro Jahr skaliert werden.
+Bei der Produktionsrate von 64 A330/A340 Flugzeugen pro Jahr war die Liefertreue schon längere Zeit bei 25%. Das unternehmensübergreifende kontinuierliche Verbesserungsprogramm (KVP) hatte nicht die erwartete Verbesserung gebracht. Die Ursache war unklar. Die Produktionsrate sollte im Folgejahr auf 74 Flugzeuge pro Jahr skaliert werden.
 
 #### Aufgaben
 
@@ -147,7 +147,7 @@ Bei der Produktionsrate von 64 A330/A340 Flugzeugen pro Jahr war die Liefertreue
 
 #### Erzielte Erfolge
 
-- ✅ **100% Liefertreue** nach 10 Monaten erreicht bei Skalierung: 64→74 Flugzeugen/Jahr
+- ✅ **100% Liefertreue** nach 10 Monaten erreicht bei Skalierung: 64 → 74 Flugzeugen/Jahr
 - ✅ **Reduktion produktionsbedingter Qualitätsmängel und Reklamationen bis zu 75%**
 
 ---
@@ -158,7 +158,7 @@ Bei der Produktionsrate von 64 A330/A340 Flugzeugen pro Jahr war die Liefertreue
 
 #### Ausgangssituation
 
-Das Industrieunternehmen wollte einen neuartigen Hybrid-Elektroantrieb entwickeln von der Konzeptphase bis zur Zertifizierung unter streng regulierten Luftfahrtauflagen – mit einem Team größtenteils von Universitätsabsolventen ohne Erfahrung mit sicherheitskritischen Systemen. Alle Entwicklungsarbeiten sollen in das Application Lifecycle Management (ALM) System Polarion integriert werden.
+Das Industrieunternehmen wollte einen neuartigen Hybrid-Elektroantrieb entwickeln von der Konzeptphase bis zur Zertifizierung unter streng regulierten Luftfahrtauflagen – mit einem Team größtenteils mit Universitätsabsolventen ohne Erfahrung mit sicherheitskritischen Systemen. Alle Entwicklungsarbeiten sollten in das Application Lifecycle Management (ALM) System Polarion integriert werden.
 
 #### Aufgaben
 
@@ -188,8 +188,7 @@ Das Industrieunternehmen wollte einen neuartigen Hybrid-Elektroantrieb entwickel
 
 #### Ausgangssituation
 
-Ausgangssituation beim Auftraggeber:  
-Die Engineering Organisation mit nationalen Engineering Integration Centers für die entsprechenden Bauanteile am Flugzeug, Flügel, Rumpfvorder-, -mittel-, und Hinter-Sektion, Kabine, Systeme, Antrieb soll effektiver aufgestellt werden, insbesondere für Flugzeugneuentwicklungen.  Die Engineering-Organisation war geeignet für die Anpassungsentwicklungen von bestehenden Flugzeugprogrammen aber nicht skalierbar für parallele Neuentwicklungen und schnelles Wachstum.
+Die Engineering Organisation mit nationalen Engineering Integration Centers für die entsprechenden Bauanteile am Flugzeug, Flügel, Rumpfvorder-, -mittel-, und Hinter-Sektion, Kabine, Systeme, Antrieb sollte effektiver aufgestellt werden, insbesondere für Flugzeugneuentwicklungen.  Die Engineering-Organisation war geeignet für die Anpassungsentwicklungen von bestehenden Flugzeugprogrammen aber nicht skalierbar für parallele Neuentwicklungen und schnelles Wachstum.
 
 #### Aufgaben
 
@@ -197,7 +196,7 @@ Die Engineering Organisation mit nationalen Engineering Integration Centers für
 
 #### Ergriffene Maßnahmen
 
-Als Senior Manager Organisationentwicklung in der HR-Organisation des Executive Vice President gestaltete ich
+Als Senior Manager Organisationentwicklung in der HR-Organisation des Executive Vice President gestalte ich
 - strategisch eine neue Engineering-Struktur durch die gezielte Einbindung der ranghöchsten Engineering-Stakeholder.
 
 #### Erzielte Erfolge
@@ -212,7 +211,6 @@ Als Senior Manager Organisationentwicklung in der HR-Organisation des Executive 
 
 #### Ausgangssituation
 
-Ausgangssituation beim Auftraggeber:  
 In der Produktion der ersten Flugmuster des A350 zeigte sich, dass klare Industrialisierungsrichtlinien für das neuartige, sicherheitskritische und sogenannte „Elektrische Strukturnetzwerk“ fehlten.  Zusätzlich war der Testaufwand für die Prüfung des Netzwerks zu hoch.
 
 
@@ -227,7 +225,7 @@ Als Leiter des Transversal Engineerings arbeitete ich mit Produktions- und Struk
 #### Erzielte Erfolge
 
 - ✅ **Reduktion des Flugzeuggewichts pro Einheit um 700 kg** durch neue Richtlinien
-- ✅ **Reduktion der Kosten pro Einhait um 500.000** durch neue Richtlinien
+- ✅ **Reduktion der Kosten pro Einheit um 500.000** durch neue Richtlinien
 
 ---
 
@@ -238,14 +236,13 @@ Als Leiter des Transversal Engineerings arbeitete ich mit Produktions- und Struk
 
 #### Ausgangssituation
 
-Ausgangssituation beim Auftraggeber:  
-Der Auftraggeber hatte Erfahrung in der Beschaffung von Geräten für Flugzeugsysteme (Flugzeugsteuerung, Landefahrwerk, Bordnetz, ...).  Die Gerätehersteller wurden erst spät in der Entwicklungsphase eingebunden als die Gerätespezifikation klar war.  Zu diesem Zeitpunkt war es zu spät Lösungen mit anderen Technologien zu berücksichtigen.  Um modernste Technologien, die bereits von Lieferanten im Gesamtsystem erprobt wurden, zum Vorteil einsetzen zu können sollten die Geräte nicht mehr für sich beschafft werden, sondern aufeinander abgestimmt für komplette Systeme.  Um das neue Flugzeugdesign optimal auf diese neuen Technologien anzupassen, wurden die Systemlieferanten früh eingebunden in einer „Joint Development Phase“ oder einem „Early Supplier Involvement“.  Die Vorgehensweise für die Umsetzung der neuen Beschaffungsstrategie war unklar.  Insbesondere wusste man nicht wie man Systemlieferanten identifiziert die konstruktiv zu einer „Joint Development Phase“ oder einem „Early Supplier Involvement“ beitragen können.
+Der Auftraggeber hatte Erfahrung in der Beschaffung von Geräten für Flugzeugsysteme (Flugzeugsteuerung, Landefahrwerk, Bordnetz, ...).  Die Gerätehersteller wurden erst spät in der Entwicklungsphase eingebunden als die Gerätespezifikation definiert war.  Zu diesem Zeitpunkt war es zu spät Lösungen mit anderen Technologien zu berücksichtigen.  Um modernste Technologien, die bereits von Lieferanten im Gesamtsystem erprobt wurden, zum Vorteil einsetzen zu können sollten die Geräte nicht mehr für sich beschafft werden, sondern aufeinander abgestimmt als komplette Systeme.  Um das neue Flugzeugdesign optimal auf diese neuen Technologien anzupassen, sollte die Systemlieferanten früh eingebunden werden in einer „Joint Development Phase“ oder einem „Early Supplier Involvement“.  Die Vorgehensweise für die Umsetzung der neuen Beschaffungsstrategie war unklar.  Insbesondere wusste man nicht wie man Systemlieferanten identifiziert die konstruktiv zu einer „Joint Development Phase“ oder einem „Early Supplier Involvement“ beitragen können.
 
 
 #### Aufgaben
 
 Die technische Seite der Beschaffung von kompletten Systemen definieren
-- Definiere Vorlage für die Spezifikation des Systems für eine Joint Development Phase oder Early supplier Involvement
+- Definiere Vorlage für die Spezifikation des Systems für eine Joint Development Phase oder Early Supplier Involvement
 - Definition der Vorgehensweise zur Identifikation von Lieferanten mit erforderlicher Systemkompetenz
 - Definition der Vorgehensweise zur Bewertung der Fähigkeit der Lieferanten Geräte und Systeme zu entwickeln
 
@@ -270,4 +267,4 @@ Für weitere Informationen oder ein unverbindliches Erstgespräch kontaktieren S
 
 ---
 
-*Stand: November 2025*
+*Stand: Januar 2026*

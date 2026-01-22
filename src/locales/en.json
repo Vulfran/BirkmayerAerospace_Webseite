@@ -13,7 +13,7 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Have questions or want to learn more about our services? Feel free to reach out.",
+    "subtitle": "Do you questions or want to learn more about my services? Feel free to reach out.",
     "alternativeTitle": "Alternative Contact Methods",
     "form": {
       "name": "Name",
@@ -21,11 +21,11 @@
       "email": "Email",
       "emailPlaceholder": "your.email@example.com",
       "subject": "Subject",
-      "subjectPlaceholder": "What is this about?",
+      "subjectPlaceholder": "Your challenge",
       "message": "Message",
-      "messagePlaceholder": "Your message to us...",
+      "messagePlaceholder": "Details about your challenge...",
       "submit": "Send Message",
-      "successMessage": "Thank you for your message! We will get back to you shortly."
+      "successMessage": "Thank you for your message! I will get back to you shortly."
     }
   },
   "hero": {
@@ -50,25 +50,25 @@
       "title": "Competence Development for Safety Critical Systems",
       "subtitle": "Industrial Corporation, 350.000 Staff, EUR 76B Revenue",
       "text": "The lead time to define the key safety requirements was reduced by 75%, substantially de-risking certification and accelerating the market entry of this groundbreaking technology.",
-      "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung.png"
+      "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung_comp.png"
     },
     "project3": {
       "title": "Strategic Reorientation of the Engineering Organization",
       "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
       "text": "Enabled scalable growth of engineering organization for the development of two additional aircraft types (A400M, A350) in the following 10 years.",
-      "image": "428_Birkmayer_Profil_Buch_abwaegend.png"
+      "image": "428_Birkmayer_Profil_Buch_abwaegend_comp.png"
     },
     "project4": {
       "title": "Industrialization of a new electrical technology for aircraft",
       "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
       "text": "Through new guidelines the aircraft weight was reduced by 700 kg and the unit cost was reduced by 500.000 USD.",
-      "image": "330_ Birkmayer_Modell_Tastatur_Hand.png"
+      "image": "330_ Birkmayer_Modell_Tastatur_Hand_comp.png"
     },
     "project5": {
       "title": "Aircraft Systems Procurement Reorientation",
       "subtitle": "Aircraft Manufacturer, 100.000 Staff, EUR 70B Revenue",
       "text": "For the A350 all aircraft systems were procured with System contracts.",
-      "image": "598_Birkmayer_Sofa_erklaerend.png"
+      "image": "598_Birkmayer_Sofa_erklaerend_comp.png"
     },    
     "sectionTitle": "Projects"
   },
@@ -114,23 +114,23 @@
       "quote": "For years the on-time-delivery of the A330/A340 Final Assembly Line was at 25%. Only thanks to Dr. Birkmayers encompassing competence the team could raise it to 100% in only 10 months.",
       "name": "Karl-Heinz Hartmann",
       "company": "Airbus Commercial Aircraft, Executive Vice President Operations",
-      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
+      "image": "1226_Birkmayer_Blaumann_zeigend_comp.png"
     },
     "testimonial2": {
       "quote": "Wolfram Birkmayer stands for clear leadership, strong technical expertise, and reliable results—even under highly demanding conditions. He was a highly respected and trusted point of contact for both senior management and teams.",
       "name": "Benjamin Bräutigam",
       "company": "Rolls-Royce Electrical, Former Head of Commuter Aircraft Program",
-      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
+      "image": "1226_Birkmayer_Blaumann_zeigend_comp.png"
     },
     "testimonial3": {
       "quote": "Wolfram Birkmayer combines deep safety and engineering expertise with clear accountability and strong execution capability. He leads interdisciplinary teams with confidence even under high pressure, builds trust with stakeholders, and delivers high-quality, pragmatic solutions in highly dynamic aerospace projects.",
       "name": "Max Scheulen",
       "company": "Rolls-Royce Electrical, Head of Global Architecture and Safety",
-      "image": "Hintergrund_Wasserzeichen_diagonal c.png"
+      "image": "1226_Birkmayer_Blaumann_zeigend_comp.png"
     }
   },
   "quote": {
-    "text": "Excellence emerges where technical depth meets leadership strength and change becomes opportunity.",
+    "text": "Successful products are not created by good design alone, but by clear leadership, capable teams, and disciplined execution—especially when stabilization, transformation, or scaling is required.",
     "author": "Wolfram Birkmayer"
   }
 }
