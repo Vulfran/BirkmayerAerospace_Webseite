@@ -64,18 +64,18 @@ function ProjectCarousel({ lang }: Props) {
             {/* Small + medium screens: show only the active card (use prev/next to navigate) */}
             <div className="block lg:hidden">
               {projects.length > 0 && (
-                <div className="w-full bg-white rounded-md shadow-md overflow-hidden">
+                <div className="w-full rounded-md shadow-md overflow-hidden" style={{ backgroundColor: '#1E2656' }}>
                   {projects[index]?.image && (
                     <img src={`${import.meta.env.BASE_URL}${projects[index].image}`} alt={projects[index].title} className="w-full object-cover h-56" />
                   )}
                   <div className="p-4">
-                    <h3 className="font-semibold text-xl text-foreground">{projects[index]?.title}</h3>
-                    <p className="text-sm text-foreground/75 mt-1">{projects[index]?.subtitle}</p>
-                    <p className="mt-3 text-sm text-foreground">{projects[index]?.text}</p>
+                    <h3 className="font-semibold text-xl text-white">{projects[index]?.title}</h3>
+                    <p className="text-sm text-white/75 mt-1">{projects[index]?.subtitle}</p>
+                    <p className="mt-3 text-sm text-white">{projects[index]?.text}</p>
                     <Link 
                       to={`/documentation#${projects[index]?.anchor}`}
-                      className="inline-block mt-4 px-4 py-2 text-white rounded hover:opacity-90 transition-opacity text-sm font-medium"
-                      style={{ backgroundColor: '#1E2656' }}
+                      className="inline-block mt-4 px-4 py-2 rounded hover:opacity-90 transition-opacity text-sm font-medium"
+                      style={{ backgroundColor: 'white', color: '#1E2656' }}
                     >
                       {lang === "de" ? "Mehr erfahren" : "Learn more"}
                     </Link>
@@ -118,7 +118,7 @@ function ProjectCarousel({ lang }: Props) {
                     }}
                   >
                     {/* card */}
-                    <div className={`bg-white text-foreground rounded-md shadow-md overflow-hidden ${isCenter ? "ring-1 ring-black/5" : ""}`}>
+                    <div className={`text-white rounded-md shadow-md overflow-hidden ${isCenter ? "ring-1 ring-black/5" : ""}`} style={{ backgroundColor: '#1E2656' }}>
                       {proj.image && (
                         <img
                           src={`${import.meta.env.BASE_URL}${proj.image}`}
@@ -127,14 +127,14 @@ function ProjectCarousel({ lang }: Props) {
                         />
                       )}
                       <div className="p-4 md:p-6">
-                        <h3 className={`font-semibold ${isCenter ? "text-2xl" : "text-xl"} text-foreground`}>{proj.title}</h3>
-                        <p className="text-sm text-foreground/75 mt-1">{proj.subtitle}</p>
-                        <p className={`mt-3 text-sm md:text-base text-foreground ${isCenter ? "" : "line-clamp-3"}`}>{proj.text}</p>
+                        <h3 className={`font-semibold ${isCenter ? "text-2xl" : "text-xl"} text-white`}>{proj.title}</h3>
+                        <p className="text-sm text-white/75 mt-1">{proj.subtitle}</p>
+                        <p className={`mt-3 text-sm md:text-base text-white ${isCenter ? "" : "line-clamp-3"}`}>{proj.text}</p>
                         {isCenter && (
                           <Link 
                             to={`/documentation#${proj.anchor}`}
-                            className="inline-block mt-4 px-4 py-2 text-white rounded hover:opacity-90 transition-opacity text-sm font-medium"
-                            style={{ backgroundColor: '#1E2656' }}
+                            className="inline-block mt-4 px-4 py-2 rounded hover:opacity-90 transition-opacity text-sm font-medium"
+                            style={{ backgroundColor: 'white', color: '#1E2656' }}
                           >
                             {lang === "de" ? "Mehr erfahren" : "Learn more"}
                           </Link>
