@@ -64,7 +64,7 @@ function ProjectCarousel({ lang }: Props) {
             {/* Small + medium screens: show only the active card (use prev/next to navigate) */}
             <div className="block lg:hidden">
               {projects.length > 0 && (
-                <div className="w-full rounded-md shadow-md overflow-hidden" style={{ backgroundColor: '#1E2656' }}>
+                <article className="w-full rounded-md shadow-md overflow-hidden" style={{ backgroundColor: '#1E2656' }}>
                   {projects[index]?.image && (
                     <img src={`${import.meta.env.BASE_URL}${projects[index].image}`} alt={projects[index].title} className="w-full object-cover h-56" />
                   )}
@@ -80,7 +80,7 @@ function ProjectCarousel({ lang }: Props) {
                       {lang === "de" ? "Mehr erfahren" : "Learn more"}
                     </Link>
                   </div>
-                </div>
+                </article>
               )}
             </div>
 
@@ -106,7 +106,7 @@ function ProjectCarousel({ lang }: Props) {
                 const isCenter = diff === 0;
 
                 return (
-                  <div
+                  <article
                     key={i}
                     className={`absolute left-1/2 top-4 md:top-6 transition-all duration-500 ease-out flex flex-col items-stretch ${
                       isCenter ? "z-20" : "z-10"
@@ -141,7 +141,7 @@ function ProjectCarousel({ lang }: Props) {
                         )}
                       </div>
                     </div>
-                  </div>
+                  </article>
                 );
               })}
                 </div>

@@ -25,7 +25,7 @@ function PersonalQuote({ lang }: Props) {
       <div className="container mx-auto px-6 md:px-8 relative z-10">
         <div className="max-w-2xl">
           {/* Quote Content - Left aligned */}
-          <div className="bg-white/10 backdrop-blur-md rounded-lg shadow-xl p-8 md:p-12 border border-white/20">
+          <blockquote className="bg-white/10 backdrop-blur-md rounded-lg shadow-xl p-8 md:p-12 border border-white/20">
             {/* Quote Icon */}
             <svg
               className="w-12 h-12 text-white/60 mb-6"
@@ -45,7 +45,7 @@ function PersonalQuote({ lang }: Props) {
             <p className="text-lg font-semibold text-white">
               — {t("quote.author")}
             </p>
-          </div>
+          </blockquote>
         </div>
       </div>
     </section>

@@ -110,7 +110,7 @@ function App() {
           element={
             <>
               {/* Hero: fullscreen background image from public/ */}
-              <section
+              <header
                 className="h-screen w-full bg-cover bg-center bg-gray-900"
                 style={{
                   // Use Vite base URL so the image is requested correctly when the app
@@ -124,17 +124,18 @@ function App() {
                     <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto animate-fade-in-up animation-delay-300">{t("hero.subtitle")}</p>
                   </div>
                 </div>
-              </section>
+              </header>
 
               {/* Page content below the hero */}
-              <main className="container mx-auto px-6 md:px-8 py-12">
-                <div className="max-w-4xl mx-auto">
-                  <h2 className="text-2xl font-semibold mb-6">{t("about.title")}</h2>
-                  <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text1")}</p>
-                  <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text2")}</p>
-                  <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text3")}</p>
-                </div>
-              </main>
+              <main>
+                <section className="container mx-auto px-6 md:px-8 py-12">
+                  <div className="max-w-4xl mx-auto">
+                    <h2 className="text-2xl font-semibold mb-6">{t("about.title")}</h2>
+                    <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text1")}</p>
+                    <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text2")}</p>
+                    <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text3")}</p>
+                  </div>
+                </section>
 
               {/* Services Overview */}
               <ServicesOverview lang={lang} />
@@ -147,6 +148,7 @@ function App() {
 
               {/* Testimonial Carousel */}
               <TestimonialCarousel lang={lang} />
+              </main>
             </>
           }
         />

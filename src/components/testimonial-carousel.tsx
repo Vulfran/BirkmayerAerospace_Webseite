@@ -51,7 +51,7 @@ function TestimonialCarousel({ lang }: Props) {
 
   return (
     <section 
-      className="w-full py-24 bg-cover bg-center relative transition-all duration-1000"
+      className="w-full py-16 bg-cover bg-center relative transition-all duration-1000"
       style={{
         backgroundImage: `url('${import.meta.env.BASE_URL}${testimonials[currentIndex].image}')`,
       }}
@@ -66,7 +66,7 @@ function TestimonialCarousel({ lang }: Props) {
 
         <div className="relative max-w-4xl mx-auto">
           {/* Testimonial Content */}
-          <div className="bg-white/10 backdrop-blur-md rounded-lg shadow-xl p-8 md:p-12 transition-all duration-500 border border-white/20">
+          <blockquote className="bg-white/10 backdrop-blur-md rounded-lg shadow-xl p-8 md:p-12 transition-all duration-500 border border-white/20">
             <div className="text-center">
               {/* Quote Icon */}
               <svg
@@ -93,10 +93,10 @@ function TestimonialCarousel({ lang }: Props) {
                 {testimonials[currentIndex].company}
               </p>
             </div>
-          </div>
+          </blockquote>
 
           {/* Dots Navigation */}
-          <div className="flex justify-center gap-3 mt-8">
+          <nav className="flex justify-center gap-3 mt-8" aria-label="Testimonial navigation">
             {testimonials.map((_, index) => (
               <button
                 key={index}
@@ -109,7 +109,7 @@ function TestimonialCarousel({ lang }: Props) {
                 }`}
               />
             ))}
-          </div>
+          </nav>
         </div>
       </div>
     </section>
