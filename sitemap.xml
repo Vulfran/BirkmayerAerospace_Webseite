@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://birkmayeraerospace.com/</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://birkmayeraerospace.com/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birkmayeraerospace.com/?lang=en"/>
+  </url>
+  
+  <!-- Kontakt -->
+  <url>
+    <loc>https://birkmayeraerospace.com/contact</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://birkmayeraerospace.com/contact?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birkmayeraerospace.com/contact?lang=en"/>
+  </url>
+  
+  <!-- Dokumentation -->
+  <url>
+    <loc>https://birkmayeraerospace.com/documentation</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://birkmayeraerospace.com/documentation?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://birkmayeraerospace.com/documentation?lang=en"/>
+  </url>
+  
+  <!-- Datenschutz -->
+  <url>
+    <loc>https://birkmayeraerospace.com/datenschutz</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Impressum -->
+  <url>
+    <loc>https://birkmayeraerospace.com/impressum</loc>
+    <lastmod>2026-01-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset>

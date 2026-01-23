@@ -1,0 +1,16 @@
+# robots.txt für birkmayeraerospace.com
+
+User-agent: *
+Allow: /
+
+# Wichtige Seiten
+Allow: /contact
+Allow: /documentation
+Allow: /datenschutz
+Allow: /impressum
+
+# Sitemap
+Sitemap: https://birkmayeraerospace.com/sitemap.xml
+
+# Crawl-Delay für höfliches Crawling
+Crawl-delay: 1
