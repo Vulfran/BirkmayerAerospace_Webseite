@@ -91,9 +91,9 @@ Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwic
 **Nutzen für die Geschäftsführung**:
 Produkte werden zuverlässiger, Entwicklungs- und Produktionsprozesse planbarer und kosteneffizienter; die Organisation gewinnt an technischer und struktureller Widerstandsfähigkeit.
 
-### 3. Skalieren – Entwicklungs- und Fertigungskapazität gezielt ausbauen
+### 3. Skalieren – Entwicklungs- und Montagekapazität gezielt ausbauen
 
-Ich begleite Unternehmen, die ihre Produktentwicklung und/​oder Fertigung gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.
+Ich begleite Unternehmen, die ihre Produktentwicklung und/​oder Montage gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.
 
 **Typische Einsatzfelder**:
 - Aufbau skalierbarer Entwicklungs- und Industrialisierungsstrukturen
