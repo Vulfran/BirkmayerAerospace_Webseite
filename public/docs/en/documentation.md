@@ -87,9 +87,9 @@ I lead transformation initiatives that sustainably enhance the performance of de
 **Value for executive management:**: Products become more reliable, development and production processes more predictable and cost-efficient, and the organization gains technical and structural resilience.
 
 
-### 3. Scale – Systematically expand development and manufacturing capacity
+### 3. Scale – Systematically expand development and assembly capacity
 
-I support companies that need to deliberately align their product development and/or manufacturing for growth, new programs, or higher production volumes.
+I support companies that need to deliberately align their product development and/or assembly for growth, new programs, or higher production volumes.
 
 **Typical fields of engagement:**:
 
