@@ -16,7 +16,7 @@ function PersonalQuote({ lang }: Props) {
     <section 
       className="w-full py-16 bg-cover bg-center bg-right relative"
       style={{
-        backgroundImage: `url('${import.meta.env.BASE_URL}955_Birkmayer_Hand-auf-Schulter_Zitat_comp.png')`,
+        backgroundImage: `url('${import.meta.env.BASE_URL}763_Birkmayer_Treppe_sitzend_Zitat_comp.png')`,
       }}
     >
       {/* Dark overlay */}
