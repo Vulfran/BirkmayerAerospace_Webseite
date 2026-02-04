@@ -23,9 +23,11 @@
       "subject": "Subject",
       "subjectPlaceholder": "Your challenge",
       "message": "Message",
-      "messagePlaceholder": "Details about your challenge...",
+      "messagePlaceholder": "Details of your challenge...",
       "submit": "Send Message",
-      "successMessage": "Thank you for your message! I will get back to you shortly."
+      "sending": "Sending...",
+      "successMessage": "Thank you for your message! I will get back to you shortly.",
+      "errorMessage": "Sorry, there was an error sending your message. Please try again later."
     }
   },
   "hero": {

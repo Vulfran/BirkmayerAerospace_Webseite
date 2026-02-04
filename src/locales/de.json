@@ -25,7 +25,9 @@
       "message": "Nachricht",
       "messagePlaceholder": "Details Ihrer Herausforderung...",
       "submit": "Nachricht senden",
-      "successMessage": "Vielen Dank für Ihre Nachricht! Ich melde mich in Kürze."
+      "sending": "Wird gesendet...",
+      "successMessage": "Vielen Dank für Ihre Nachricht! Ich melde mich in Kürze.",
+      "errorMessage": "Entschuldigung, es gab einen Fehler beim Senden. Bitte versuchen Sie es später erneut."
     }
   },
   "hero": {

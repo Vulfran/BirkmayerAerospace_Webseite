@@ -9,31 +9,43 @@ interface ContactFormProps {
 
 export default function ContactForm({ t }: ContactFormProps) {
   const location = useLocation();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
+  const [result, setResult] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [location]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Placeholder for future backend integration
-    console.log("Form submitted:", formData);
-    alert(t("contact.form.successMessage"));
+    setIsSubmitting(true);
+    setResult("");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    formData.append("access_key", "d897459d-964b-4055-b327-94f5d17f8cd5");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult(t("contact.form.successMessage"));
+        form.reset();
+      } else {
+        console.error("Web3Forms error:", data);
+        setResult(data.message || t("contact.form.errorMessage"));
+      }
+    } catch (error) {
+      console.error("Network error:", error);
+      setResult(t("contact.form.errorMessage"));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -59,8 +71,6 @@ export default function ContactForm({ t }: ContactFormProps) {
               type="text"
               id="name"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
               placeholder={t("contact.form.namePlaceholder")}
@@ -79,8 +89,6 @@ export default function ContactForm({ t }: ContactFormProps) {
               type="email"
               id="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
               placeholder={t("contact.form.emailPlaceholder")}
@@ -99,8 +107,6 @@ export default function ContactForm({ t }: ContactFormProps) {
               type="text"
               id="subject"
               name="subject"
-              value={formData.subject}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
               placeholder={t("contact.form.subjectPlaceholder")}
@@ -118,8 +124,6 @@ export default function ContactForm({ t }: ContactFormProps) {
             <textarea
               id="message"
               name="message"
-              value={formData.message}
-              onChange={handleChange}
               required
               rows={6}
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-vertical"
@@ -131,12 +135,20 @@ export default function ContactForm({ t }: ContactFormProps) {
           <div>
             <button
               type="submit"
-              className="w-full px-6 py-3 text-white rounded-md hover:opacity-90 transition-opacity font-medium"
+              disabled={isSubmitting}
+              className="w-full px-6 py-3 text-white rounded-md hover:opacity-90 transition-opacity font-medium disabled:opacity-50 disabled:cursor-not-allowed"
               style={{ backgroundColor: '#1E2656' }}
             >
-              {t("contact.form.submit")}
+              {isSubmitting ? t("contact.form.sending") || "Sending..." : t("contact.form.submit")}
             </button>
           </div>
+
+          {/* Result Message */}
+          {result && (
+            <div className={`p-4 rounded-md ${result.includes("Success") || result.includes("Erfolg") ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"}`}>
+              {result}
+            </div>
+          )}
         </form>
 
         {/* Additional Contact Information */}
