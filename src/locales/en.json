@@ -78,7 +78,7 @@
     "sectionTitle": "Services Overview",
     "card1": {
       "title": "Stabilize",
-      "description": "Restore operational capability and secure value streams. I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The objective is to quickly return programs, products, or assembly operations back into a controlled, predictable state.",
+      "description": "I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The objective is to quickly return programs, products, or assembly operations back into a controlled, predictable state and to limit economic risks.",
       "items": [
         "Restoration of schedule, quality, and cost control",
         "Technical resolution of critical product or system issues",
@@ -89,7 +89,7 @@
     },
     "card2": {
       "title": "Transform",
-      "description": "Increase efficiency, robustness, and product quality. I lead transformation initiatives that sustainably increase the performance of development, industrialization, or assembly organizations. This includes technical, organizational, and process oriented realignments.",
+      "description": "I lead transformation initiatives that sustainably increase the performance of development, industrialization, or assembly organizations and to eliminate structural causes for inefficiency and quality issues.",
       "items": [
         "Efficiency improvement in development, industrialization, or assembly",
         "Re-engineering of products with high defect rates or field complaints",
@@ -100,7 +100,7 @@
     },
     "card3": {
       "title": "Scale",
-      "description": "Systematically expand development and manufacturing capacity. I support companies that need to strategically align their product development and/or manufacturing for growth, new programs, or higher production volumes.",
+      "description": "I support companies that need to strategically align their product development and/or manufacturing for growth, new programs, or increasing production volumes.",
       "items": [
         "Establishment of scalable development and industrialization structures",
         "Preparation for increased volumes, new product generations, or program launches",
