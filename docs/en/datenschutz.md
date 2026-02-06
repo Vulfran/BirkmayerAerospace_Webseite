@@ -14,9 +14,9 @@ Data processing on this website is carried out by the website operator. You can 
 
 #### How do we collect your data?
 
-Your data is collected in part by you providing it to us. This may be data that you enter into a contact form, for example.  For this we use the application Web3forms.com.
+Your data is collected in part by you providing it to us. This may be data that you enter into a contact form, for example. For this we use the service Web3Forms (Web3Forms LLC, USA). Data transmission is encrypted.
 
-Other data is collected automatically or with your consent when you visit the website by our IT systems. This is primarily technical data (e.g., internet browser, operating system, or time of page access).
+Other data is collected automatically when you visit the website by our IT systems. This is primarily technical data (e.g., internet browser, operating system, or time of page access). We store your language preference (German/English) locally in your browser (localStorage) to display your chosen language on your next visit.
 
 #### What do we use your data for?
 
@@ -64,6 +64,28 @@ The provider of the pages (GitHub Pages) automatically collects and stores infor
 - IP address
 
 This data is not merged with other data sources.
+
+### Contact Form
+
+If you send us inquiries via the contact form, your details from the inquiry form, including the contact data you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions.
+
+**Service used:** Web3Forms (Web3Forms LLC, USA)  
+**Legal basis:** Art. 6 para. 1 lit. a GDPR (consent)  
+**Storage location:** The form data is processed by Web3Forms in the USA and then transmitted to us by email.  
+**Provider's privacy policy:** [https://web3forms.com/privacy](https://web3forms.com/privacy)  
+**Storage duration:** Your data will be deleted after your inquiry has been fully processed, but no later than 3 years, unless there are legal retention obligations.  
+**Revocation:** You can revoke your consent at any time by email to wsb@birkmayeraerospace.com.
+
+We do not pass on this data without your consent.
+
+### localStorage (Language Setting)
+
+We store your selected language preference (German or English) in your browser using localStorage. This is a technically necessary cookie-like storage method.
+
+**Legal basis:** Art. 6 para. 1 lit. f GDPR (legitimate interest in user-friendly website)  
+**Stored data:** Language choice ("de" or "en")  
+**Storage duration:** Unlimited until you clear your browser cache  
+**Deletion:** You can delete the stored data at any time in your browser settings
 
 ## 5. Your Rights
 
