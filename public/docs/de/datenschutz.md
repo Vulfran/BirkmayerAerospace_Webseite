@@ -14,9 +14,9 @@ Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Des
 
 #### Wie erfassen wir Ihre Daten?
 
-Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben.  Hierfür verwenden wir die Applikation web3forms.com.
+Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Hierfür verwenden wir den Dienst Web3Forms (Web3Forms LLC, USA). Die Datenübertragung erfolgt verschlüsselt.
 
-Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).
+Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Wir speichern Ihre Sprachpräferenz (Deutsch/Englisch) lokal in Ihrem Browser (localStorage), um Ihnen beim nächsten Besuch die gewählte Sprache anzuzeigen.
 
 #### Wofür nutzen wir Ihre Daten?
 
@@ -64,6 +64,28 @@ Der Provider der Seiten (GitHub Pages) erhebt und speichert automatisch Informat
 - IP-Adresse
 
 Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
+
+### Kontaktformular
+
+Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.
+
+**Verwendeter Dienst:** Web3Forms (Web3Forms LLC, USA)  
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)  
+**Speicherort:** Die Formulardaten werden bei Web3Forms in den USA verarbeitet und anschließend per E-Mail an uns übermittelt.  
+**Datenschutzerklärung des Anbieters:** [https://web3forms.com/privacy](https://web3forms.com/privacy)  
+**Speicherdauer:** Ihre Daten werden nach vollständiger Bearbeitung Ihrer Anfrage gelöscht, spätestens jedoch nach 3 Jahren, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.  
+**Widerruf:** Sie können Ihre Einwilligung jederzeit per E-Mail an wsb@birkmayeraerospace.com widerrufen.
+
+Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+
+### localStorage (Spracheinstellung)
+
+Wir speichern Ihre gewählte Sprachpräferenz (Deutsch oder Englisch) in Ihrem Browser mittels localStorage. Dies ist ein technisch notwendiges Cookie-ähnliches Speicherverfahren.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an benutzerfreundlicher Website)  
+**Gespeicherte Daten:** Sprachwahl ("de" oder "en")  
+**Speicherdauer:** Unbegrenzt, bis Sie Ihren Browser-Cache löschen  
+**Löschung:** Sie können die gespeicherten Daten jederzeit in Ihren Browser-Einstellungen löschen
 
 ## 5. Ihre Rechte
 

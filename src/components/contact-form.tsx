@@ -11,6 +11,7 @@ export default function ContactForm({ t }: ContactFormProps) {
   const location = useLocation();
   const [result, setResult] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -131,11 +132,36 @@ export default function ContactForm({ t }: ContactFormProps) {
             />
           </div>
 
+          {/* Privacy Consent Checkbox */}
+          <div className="flex items-start">
+            <input
+              type="checkbox"
+              id="privacy"
+              name="privacy"
+              required
+              checked={privacyAccepted}
+              onChange={(e) => setPrivacyAccepted(e.target.checked)}
+              className="mt-1 mr-3 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+            />
+            <label htmlFor="privacy" className="text-sm text-muted-foreground">
+              {t("contact.form.privacyText")}{" "}
+              <a
+                href="#/datenschutz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                {t("contact.form.privacyLink")}
+              </a>
+              {t("contact.form.privacyTextEnd")}
+            </label>
+          </div>
+
           {/* Submit Button */}
           <div>
             <button
               type="submit"
-              disabled={isSubmitting}
+              disabled={isSubmitting || !privacyAccepted}
               className="w-full px-6 py-3 text-white rounded-md hover:opacity-90 transition-opacity font-medium disabled:opacity-50 disabled:cursor-not-allowed"
               style={{ backgroundColor: '#1E2656' }}
             >

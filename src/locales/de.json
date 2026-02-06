@@ -27,7 +27,10 @@
       "submit": "Nachricht senden",
       "sending": "Wird gesendet...",
       "successMessage": "Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze.",
-      "errorMessage": "Entschuldigung, es gab einen Fehler beim Senden. Bitte versuchen Sie es später erneut."
+      "errorMessage": "Entschuldigung, es gab einen Fehler beim Senden. Bitte versuchen Sie es später erneut.",
+      "privacyText": "Ich habe die",
+      "privacyLink": "Datenschutzerklärung",
+      "privacyTextEnd": " zur Kenntnis genommen. Ich stimme zu, dass meine Angaben zur Kontaktaufnahme und für Rückfragen gespeichert werden. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail widerrufen."
     }
   },
   "hero": {
