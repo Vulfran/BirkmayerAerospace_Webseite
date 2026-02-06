@@ -67,6 +67,8 @@ This data is not merged with other data sources.
 
 ## 5. Your Rights
 
+Your data is processed according to Art. 6 GDPR.
+
 You have the right:
 
 - pursuant to Art. 15 GDPR to request information about your personal data processed by us
@@ -82,4 +84,4 @@ If you have any questions about data protection, you can contact us at any time 
 
 ---
 
-*Last updated: November 2025*
+*Last updated: February 2026*
