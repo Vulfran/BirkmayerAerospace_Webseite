@@ -6,11 +6,24 @@
 
 The following notices provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to identify you personally.
 
+### Controller
+
+The controller within the meaning of the General Data Protection Regulation (GDPR) and other data protection laws is:
+
+**Wolfram Birkmayer**  
+Birkmayer Aerospace  
+Malmweg 3  
+96114 Hirschaid  
+Germany
+
+Email: wsb@birkmayeraerospace.com  
+Phone: +49 9545 4454753
+
 ### Data Collection on This Website
 
 #### Who is responsible for data collection on this website?
 
-Data processing on this website is carried out by the website operator. You can find their contact details in the imprint of this website.
+Data processing on this website is carried out by the controller named above.
 
 #### How do we collect your data?
 
@@ -20,7 +33,7 @@ Other data is collected automatically when you visit the website by our IT syste
 
 #### What do we use your data for?
 
-Some of the data is collected to ensure error-free provision of the website. Other data may be used to analyze your user behavior.
+Some of the data is collected to ensure error-free provision of the website. The data you enter in the contact form is used exclusively to process your inquiry.
 
 #### What rights do you have regarding your data?
 
@@ -32,11 +45,24 @@ We host the content of our website with the following provider:
 
 ### GitHub Pages
 
-This website is hosted on GitHub Pages. The provider is GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+This website is hosted on GitHub Pages. The provider is GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA (a subsidiary of Microsoft Corporation).
 
-GitHub Pages is a service for hosting web pages. When you visit this website, GitHub collects your IP address and other technical information. This data is stored in log files.
+GitHub Pages is a service for hosting web pages. When you visit this website, GitHub automatically collects various information in server log files that your browser transmits:
 
-For more information, see GitHub's privacy policy: [https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
+- IP address
+- Browser type and version
+- Operating system used
+- Referrer URL
+- Hostname of the accessing computer
+- Time of server request
+
+**Legal basis:** The processing is based on Art. 6 para. 1 lit. f GDPR. Our legitimate interest is in the provision, security, and optimization of our website.
+
+**Third country transfer:** GitHub also processes data in the USA. The USA is recognized as a safe third country by an adequacy decision of the EU Commission (EU-US Data Privacy Framework). Data transfer is based on the EU Commission's Standard Contractual Clauses.
+
+**Storage duration:** Server log files are deleted after a maximum of 90 days.
+
+For more information: [https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
 
 ## 3. General Information and Mandatory Information
 
@@ -52,29 +78,18 @@ For security reasons and to protect the transmission of confidential content, th
 
 ## 4. Data Collection on This Website
 
-### Server Log Files
-
-The provider of the pages (GitHub Pages) automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:
-
-- Browser type and browser version
-- Operating system used
-- Referrer URL
-- Hostname of the accessing computer
-- Time of server request
-- IP address
-
-This data is not merged with other data sources.
-
 ### Contact Form
 
 If you send us inquiries via the contact form, your details from the inquiry form, including the contact data you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions.
 
-**Service used:** Web3Forms (Web3Forms LLC, USA)  
+**Service used:** Web3Forms (Web3Forms LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA)  
 **Legal basis:** Art. 6 para. 1 lit. a GDPR (consent)  
-**Storage location:** The form data is processed by Web3Forms in the USA and then transmitted to us by email.  
+**Purpose:** Data transmission serves exclusively for contact and processing your inquiry.  
+**Processing:** Form data is transmitted encrypted to Web3Forms, temporarily stored there, and then forwarded to us by email.  
+**Third country transfer:** Web3Forms processes data in the USA. The transfer is based on the EU Commission's Standard Contractual Clauses (Art. 46 para. 2 lit. c GDPR).  
+**Storage duration at Web3Forms:** Web3Forms stores form data for a maximum of 30 days. We delete your data after your inquiry has been fully processed, but no later than 3 years, unless there are legal retention obligations.  
 **Provider's privacy policy:** [https://web3forms.com/privacy](https://web3forms.com/privacy)  
-**Storage duration:** Your data will be deleted after your inquiry has been fully processed, but no later than 3 years, unless there are legal retention obligations.  
-**Revocation:** You can revoke your consent at any time by email to wsb@birkmayeraerospace.com.
+**Revocation:** You can revoke your consent at any time with effect for the future by email to wsb@birkmayeraerospace.com. The legality of the processing carried out until the revocation remains unaffected.
 
 We do not pass on this data without your consent.
 
@@ -89,16 +104,25 @@ We store your selected language preference (German or English) in your browser u
 
 ## 5. Your Rights
 
-Your data is processed according to Art. 6 GDPR.
+You have the following rights regarding your personal data:
 
-You have the right:
+- **Right of access (Art. 15 GDPR):** You have the right to request information about your personal data processed by us.
+- **Right to rectification (Art. 16 GDPR):** You have the right to request the immediate correction of inaccurate or completion of your personal data stored by us.
+- **Right to erasure (Art. 17 GDPR):** You have the right to request the deletion of your personal data stored by us, unless legal retention obligations prevent this.
+- **Right to restriction of processing (Art. 18 GDPR):** You have the right to request the restriction of the processing of your personal data.
+- **Right to data portability (Art. 20 GDPR):** You have the right to receive your personal data in a structured, common, and machine-readable format.
+- **Right to object (Art. 21 GDPR):** You have the right to object at any time, on grounds relating to your particular situation, to the processing of personal data concerning you which is based on Art. 6 para. 1 lit. f GDPR.
+- **Right to withdraw consent (Art. 7 para. 3 GDPR):** If processing is based on consent, you have the right to withdraw your consent at any time. The legality of the processing carried out until the withdrawal remains unaffected.
+- **Right to lodge a complaint (Art. 77 GDPR):** You have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work, or place of the alleged infringement if you consider that the processing of personal data relating to you infringes the GDPR.
 
-- pursuant to Art. 15 GDPR to request information about your personal data processed by us
-- pursuant to Art. 16 GDPR to request the immediate correction of inaccurate or completion of your personal data stored by us
-- pursuant to Art. 17 GDPR to request the deletion of your personal data stored by us
-- pursuant to Art. 18 GDPR to request the restriction of the processing of your personal data
-- pursuant to Art. 20 GDPR to receive your personal data in a structured, common, and machine-readable format
-- pursuant to Art. 21 GDPR to object to the processing of your personal data
+**Competent supervisory authority in Bavaria:**  
+Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)  
+Promenade 18  
+91522 Ansbach  
+Germany  
+Phone: +49 (0) 981 180093-0  
+Email: poststelle@lda.bayern.de  
+Website: [https://www.lda.bayern.de](https://www.lda.bayern.de)
 
 ## 6. Contact
 

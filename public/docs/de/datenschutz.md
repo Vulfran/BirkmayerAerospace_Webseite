@@ -6,11 +6,24 @@
 
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.
 
+### Verantwortlicher
+
+Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer datenschutzrechtlicher Bestimmungen ist:
+
+**Wolfram Birkmayer**  
+Birkmayer Aerospace  
+Malmweg 3  
+96114 Hirschaid  
+Deutschland
+
+E-Mail: wsb@birkmayeraerospace.com  
+Telefon: +49 9545 4454753
+
 ### Datenerfassung auf dieser Website
 
 #### Wer ist verantwortlich für die Datenerfassung auf dieser Website?
 
-Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.
+Die Datenverarbeitung auf dieser Website erfolgt durch den oben genannten Verantwortlichen.
 
 #### Wie erfassen wir Ihre Daten?
 
@@ -20,7 +33,7 @@ Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme 
 
 #### Wofür nutzen wir Ihre Daten?
 
-Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
+Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Die von Ihnen im Kontaktformular eingegebenen Daten verwenden wir ausschließlich zur Bearbeitung Ihrer Anfrage.
 
 #### Welche Rechte haben Sie bezüglich Ihrer Daten?
 
@@ -32,11 +45,24 @@ Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
 
 ### GitHub Pages
 
-Diese Website wird auf GitHub Pages gehostet. Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+Diese Website wird auf GitHub Pages gehostet. Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA (eine Tochtergesellschaft der Microsoft Corporation).
 
-GitHub Pages ist ein Dienst zum Hosten von Webseiten. Wenn Sie diese Website besuchen, erfasst GitHub Ihre IP-Adresse sowie weitere technische Informationen. Diese Daten werden in Logfiles gespeichert.
+GitHub Pages ist ein Dienst zum Hosten von Webseiten. Wenn Sie diese Website besuchen, erfasst GitHub automatisch verschiedene Informationen in Server-Log-Dateien, die Ihr Browser übermittelt:
 
-Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub: [https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
+- IP-Adresse
+- Browsertyp und Browserversion
+- Verwendetes Betriebssystem
+- Referrer URL
+- Hostname des zugreifenden Rechners
+- Uhrzeit der Serveranfrage
+
+**Rechtsgrundlage:** Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht in der Bereitstellung, Sicherheit und Optimierung unserer Website.
+
+**Drittlandtransfer:** GitHub verarbeitet Daten auch in den USA. Die USA sind durch einen Angemessenheitsbeschluss der EU-Kommission als sicheres Drittland anerkannt (EU-US Data Privacy Framework). Die Datenübertragung erfolgt auf Basis der Standardvertragsklauseln der EU-Kommission.
+
+**Speicherdauer:** Die Server-Log-Dateien werden nach spätestens 90 Tagen gelöscht.
+
+Weitere Informationen: [https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
 
 ## 3. Allgemeine Hinweise und Pflichtinformationen
 
@@ -52,29 +78,18 @@ Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertra
 
 ## 4. Datenerfassung auf dieser Website
 
-### Server-Log-Dateien
-
-Der Provider der Seiten (GitHub Pages) erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
-
-- Browsertyp und Browserversion
-- Verwendetes Betriebssystem
-- Referrer URL
-- Hostname des zugreifenden Rechners
-- Uhrzeit der Serveranfrage
-- IP-Adresse
-
-Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
-
 ### Kontaktformular
 
 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.
 
-**Verwendeter Dienst:** Web3Forms (Web3Forms LLC, USA)  
+**Verwendeter Dienst:** Web3Forms (Web3Forms LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA)  
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)  
-**Speicherort:** Die Formulardaten werden bei Web3Forms in den USA verarbeitet und anschließend per E-Mail an uns übermittelt.  
+**Zweck:** Die Datenübermittlung dient ausschließlich der Kontaktaufnahme und Bearbeitung Ihrer Anfrage.  
+**Verarbeitung:** Die Formulardaten werden verschlüsselt an Web3Forms übermittelt, dort zwischengespeichert und anschließend per E-Mail an uns weitergeleitet.  
+**Drittlandtransfer:** Web3Forms verarbeitet Daten in den USA. Die Übermittlung erfolgt auf Grundlage von Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO).  
+**Speicherdauer bei Web3Forms:** Web3Forms speichert die Formulardaten für maximal 30 Tage. Bei uns werden Ihre Daten nach vollständiger Bearbeitung Ihrer Anfrage gelöscht, spätestens nach 3 Jahren, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.  
 **Datenschutzerklärung des Anbieters:** [https://web3forms.com/privacy](https://web3forms.com/privacy)  
-**Speicherdauer:** Ihre Daten werden nach vollständiger Bearbeitung Ihrer Anfrage gelöscht, spätestens jedoch nach 3 Jahren, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.  
-**Widerruf:** Sie können Ihre Einwilligung jederzeit per E-Mail an wsb@birkmayeraerospace.com widerrufen.
+**Widerruf:** Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft per E-Mail an wsb@birkmayeraerospace.com widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt unberührt.
 
 Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
 
@@ -89,16 +104,24 @@ Wir speichern Ihre gewählte Sprachpräferenz (Deutsch oder Englisch) in Ihrem B
 
 ## 5. Ihre Rechte
 
-Die Datenverabeitung erfolgt gemäß Art.6 DSGVO.
+Sie haben folgende Rechte bezüglich Ihrer personenbezogenen Daten:
 
-Sie haben das Recht:
+- **Auskunftsrecht (Art. 15 DSGVO):** Sie haben das Recht, Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen.
+- **Berichtigung (Art. 16 DSGVO):** Sie haben das Recht, unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen.
+- **Löschung (Art. 17 DSGVO):** Sie haben das Recht, die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht gesetzliche Aufbewahrungspflichten entgegenstehen.
+- **Einschränkung der Verarbeitung (Art. 18 DSGVO):** Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+- **Datenübertragbarkeit (Art. 20 DSGVO):** Sie haben das Recht, Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten.
+- **Widerspruchsrecht (Art. 21 DSGVO):** Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 lit. f DSGVO erfolgt, Widerspruch einzulegen.
+- **Widerruf der Einwilligung (Art. 7 Abs. 3 DSGVO):** Sofern die Verarbeitung auf einer Einwilligung beruht, haben Sie das Recht, Ihre Einwilligung jederzeit zu widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt unberührt.
+- **Beschwerderecht (Art. 77 DSGVO):** Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren, insbesondere in dem Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
 
-- gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen
-- gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen
-- gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen
-- gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen
-- gemäß Art. 20 DSGVO Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten
-- gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen
+**Zuständige Aufsichtsbehörde in Bayern:**  
+Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)  
+Promenade 18  
+91522 Ansbach  
+Telefon: +49 (0) 981 180093-0  
+E-Mail: poststelle@lda.bayern.de  
+Website: [https://www.lda.bayern.de](https://www.lda.bayern.de)
 
 ## 6. Kontakt
 
