@@ -13,7 +13,7 @@
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Haben Sie Fragen oder möchten Sie mehr über meine Dienstleistungen erfahren? Kontaktieren Sie mich gerne. Ihre Daten sind bei mir sicher. Ich erhebe nur die notwendigen Information, um Ihre Anfrage zu bearbeiten. Weitere Details finden Sie in unserer Datenschutzerklärung.",
+    "subtitle": "Haben Sie Fragen oder möchten Sie mehr über unsere Dienstleistungen erfahren? Kontaktieren Sie uns gerne. Ihre Daten sind bei uns sicher. Wir erheben nur die notwendigen Information, um Ihre Anfrage zu bearbeiten. Weitere Details finden Sie in unserer Datenschutzerklärung.",
     "alternativeTitle": "Weitere Kontaktmöglichkeiten",
     "form": {
       "name": "Name",
@@ -26,7 +26,7 @@
       "messagePlaceholder": "Details Ihrer Herausforderung...",
       "submit": "Nachricht senden",
       "sending": "Wird gesendet...",
-      "successMessage": "Vielen Dank für Ihre Nachricht! Ich melde mich in Kürze.",
+      "successMessage": "Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze.",
       "errorMessage": "Entschuldigung, es gab einen Fehler beim Senden. Bitte versuchen Sie es später erneut."
     }
   },
