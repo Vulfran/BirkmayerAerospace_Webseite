@@ -4,10 +4,14 @@
 
 **Wolfram Birkmayer**  
 Birkmayer Aerospace  
+Malmweg 3
+96114 Hirschaid
+Germany
 
 ## Contact
 
-Email: [Use contact form](/contact)  
+Phone: +49 9545 4454753
+Email: wsb@birkmayeraerospace.com  [Use contact form](/contact)  
 LinkedIn: [https://www.linkedin.com/in/wolfram-birkmayer/](https://www.linkedin.com/in/wolfram-birkmayer/)
 
 ## Responsible for Content According to § 55 Abs. 2 RStV
@@ -41,4 +45,4 @@ We are not willing or obligated to participate in dispute resolution proceedings
 
 ---
 
-*Last updated: November 2025*
+*Last updated: February 2026*
