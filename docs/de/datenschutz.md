@@ -67,6 +67,8 @@ Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenomm
 
 ## 5. Ihre Rechte
 
+Die Datenverabeitung erfolgt gemäß Art.6 DSGVO.
+
 Sie haben das Recht:
 
 - gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen
@@ -82,4 +84,4 @@ Bei Fragen zum Datenschutz können Sie sich jederzeit über die im Impressum ang
 
 ---
 
-*Stand: November 2025*
+*Stand: Februar 2026*
