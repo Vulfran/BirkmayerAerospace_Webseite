@@ -4,19 +4,27 @@
 
 **Wolfram Birkmayer**  
 Birkmayer Aerospace  
-Malmweg 3
-96114 Hirschaid
-Germany
+Malmweg 3  
+96114 Hirschaid  
+**Germany**
 
 ## Contact
 
-Phone: +49 9545 4454753
-Email: wsb@birkmayeraerospace.com  [Use contact form](/contact)  
+Phone: +49 9545 4454753  
+Email: wsb@birkmayeraerospace.com  
+[Use contact form](#/contact)  
 LinkedIn: [https://www.linkedin.com/in/wolfram-birkmayer/](https://www.linkedin.com/in/wolfram-birkmayer/)
 
-## Responsible for Content According to § 55 Abs. 2 RStV
+## VAT Identification Number
 
-Wolfram Birkmayer
+According to § 27a of the German VAT Act, there is no VAT ID, as this is a small business according to § 19 UStG or as a sole proprietor there is no VAT ID obligation.
+
+## Responsible for Content According to § 18 Para. 2 MStV
+
+Wolfram Birkmayer  
+Malmweg 3  
+96114 Hirschaid  
+Germany
 
 ## Liability for Content
 

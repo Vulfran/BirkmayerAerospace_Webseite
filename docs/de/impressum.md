@@ -4,18 +4,26 @@
 
 **Wolfram Birkmayer**  
 Birkmayer Aerospace  
-Malmweg 3
-96114 Hirschaid
+Malmweg 3  
+96114 Hirschaid  
+**Deutschland**
 
 ## Kontakt
 
-Telefon: 09545 4454753
-E-Mail: wsb@birkmayeraerospace.com  [Kontaktformular nutzen](/contact)  
+Telefon: +49 9545 4454753  
+E-Mail: wsb@birkmayeraerospace.com  
+[Kontaktformular nutzen](#/contact)  
 LinkedIn: [https://www.linkedin.com/in/wolfram-birkmayer/](https://www.linkedin.com/in/wolfram-birkmayer/)
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+## Umsatzsteuer-Identifikationsnummer
 
-Wolfram Birkmayer
+Gemäß § 27a Umsatzsteuergesetz liegt keine Umsatzsteuer-ID vor, da es sich um eine Kleinunternehmerregelung gemäß § 19 UStG handelt bzw. als Einzelunternehmer keine USt-ID-Pflicht besteht.
+
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+
+Wolfram Birkmayer  
+Malmweg 3  
+96114 Hirschaid
 
 ## Haftung für Inhalte
 
