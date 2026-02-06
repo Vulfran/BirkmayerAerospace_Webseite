@@ -14,7 +14,7 @@ Data processing on this website is carried out by the website operator. You can 
 
 #### How do we collect your data?
 
-Your data is collected in part by you providing it to us. This may be data that you enter into a contact form, for example.
+Your data is collected in part by you providing it to us. This may be data that you enter into a contact form, for example.  For this we use the application Web3forms.com.
 
 Other data is collected automatically or with your consent when you visit the website by our IT systems. This is primarily technical data (e.g., internet browser, operating system, or time of page access).
 
