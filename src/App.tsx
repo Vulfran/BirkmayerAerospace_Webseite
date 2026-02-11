@@ -47,7 +47,7 @@ function App() {
         <div className={isGrayNavPage ? "bg-gray-100 text-foreground shadow-md" : "bg-white/10 backdrop-blur-sm text-white"}>
           <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
             <img
-              src={`${import.meta.env.BASE_URL}birkmayer_logo3b_Slogan_deu`}
+              src={`${import.meta.env.BASE_URL}birkmayer_logo3b_Slogan_deu.png`}
               alt="Birkmayer Aerospace Logo"
               className="h-14 md:h-16"
             />
