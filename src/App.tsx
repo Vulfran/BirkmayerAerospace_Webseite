@@ -36,14 +36,14 @@ function App() {
       | string
       | undefined) ?? key;
 
-  // Check if we're on pages that need the gray navbar
-  const isGrayNavPage = ['/kompetenzen', '/leistungen', '/projekte', '/datenschutz', '/impressum', '/contact'].includes(location.pathname);
+  // Check if we're on a subpage (dark blue navbar instead of transparent hero overlay)
+  const isSubPage = ['/kompetenzen', '/leistungen', '/projekte', '/datenschutz', '/impressum', '/contact'].includes(location.pathname);
 
   return (
     <div className="min-h-screen text-foreground bg-white">
       {/* Navbar - absolute on home, fixed with background on other pages */}
-      <header className={isGrayNavPage ? "fixed top-0 left-0 w-full z-20" : "absolute top-0 left-0 w-full z-20"}>
-        <div className={isGrayNavPage ? "bg-gray-100 text-foreground shadow-md" : "bg-white/10 backdrop-blur-sm text-white"}>
+      <header className={isSubPage ? "fixed top-0 left-0 w-full z-20" : "absolute top-0 left-0 w-full z-20"}>
+        <div className={isSubPage ? "bg-slate-900 text-white shadow-md" : "bg-white/10 backdrop-blur-sm text-white"}>
           <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
             <img
               src={`${import.meta.env.BASE_URL}logo3_Birkmayer_white_Slogan.png`}
@@ -55,27 +55,27 @@ function App() {
                 <NavigationMenu>
                   <NavigationMenuList className="gap-4">
                     <NavigationMenuItem>
-                      <Link to="/" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                      <Link to="/" className="text-white px-3 py-2 hover:bg-white/20 rounded">
                         {t("nav.home")}
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <Link to="/contact" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                      <Link to="/contact" className="text-white px-3 py-2 hover:bg-white/20 rounded">
                         {t("nav.contact")}
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <Link to="/kompetenzen" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                      <Link to="/kompetenzen" className="text-white px-3 py-2 hover:bg-white/20 rounded">
                         {t("nav.competences")}
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <Link to="/leistungen" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                      <Link to="/leistungen" className="text-white px-3 py-2 hover:bg-white/20 rounded">
                         {t("nav.services")}
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <Link to="/projekte" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                      <Link to="/projekte" className="text-white px-3 py-2 hover:bg-white/20 rounded">
                         {t("nav.projects")}
                       </Link>
                     </NavigationMenuItem>
@@ -87,7 +87,7 @@ function App() {
               <button
                 onClick={() => setLang((l) => (l === "de" ? "en" : "de"))}
                 aria-label="Toggle language"
-                className={isGrayNavPage ? "ml-2 px-3 py-1 rounded bg-gray-200 text-foreground hover:bg-gray-300" : "ml-2 px-3 py-1 rounded bg-white/20 text-white hover:bg-white/30"}
+                className="ml-2 px-3 py-1 rounded bg-white/20 text-white hover:bg-white/30"
               >
                 {lang.toUpperCase()}
               </button>
@@ -96,7 +96,7 @@ function App() {
               <button
                 onClick={() => setMobileOpen((s) => !s)}
                 aria-label="Open menu"
-                className={isGrayNavPage ? "md:hidden ml-2 p-2 rounded bg-gray-200 hover:bg-gray-300" : "md:hidden ml-2 p-2 rounded bg-white/10 hover:bg-white/20"}
+                className="md:hidden ml-2 p-2 rounded bg-white/10 hover:bg-white/20"
               >
                 <span className="text-xl">☰</span>
               </button>
@@ -105,12 +105,12 @@ function App() {
         </div>
         {/* Mobile menu panel */}
         {mobileOpen && (
-          <div className={isGrayNavPage ? "md:hidden absolute top-full right-4 mt-2 w-44 bg-white text-foreground rounded shadow-lg z-30" : "md:hidden absolute top-full right-4 mt-2 w-44 bg-white/10 backdrop-blur-sm text-white rounded shadow z-30"}>
-            <Link to="/" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.home")}</Link>
-            <Link to="/contact" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.contact")}</Link>
-            <Link to="/kompetenzen" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.competences")}</Link>
-            <Link to="/leistungen" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.services")}</Link>
-            <Link to="/projekte" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.projects")}</Link>
+          <div className={isSubPage ? "md:hidden absolute top-full right-4 mt-2 w-44 bg-slate-800 text-white rounded shadow-lg z-30" : "md:hidden absolute top-full right-4 mt-2 w-44 bg-white/10 backdrop-blur-sm text-white rounded shadow z-30"}>
+            <Link to="/" className="block px-4 py-2 hover:bg-white/20" onClick={() => setMobileOpen(false)}>{t("nav.home")}</Link>
+            <Link to="/contact" className="block px-4 py-2 hover:bg-white/20" onClick={() => setMobileOpen(false)}>{t("nav.contact")}</Link>
+            <Link to="/kompetenzen" className="block px-4 py-2 hover:bg-white/20" onClick={() => setMobileOpen(false)}>{t("nav.competences")}</Link>
+            <Link to="/leistungen" className="block px-4 py-2 hover:bg-white/20" onClick={() => setMobileOpen(false)}>{t("nav.services")}</Link>
+            <Link to="/projekte" className="block px-4 py-2 hover:bg-white/20" onClick={() => setMobileOpen(false)}>{t("nav.projects")}</Link>
           </div>
         )}
       </header>
