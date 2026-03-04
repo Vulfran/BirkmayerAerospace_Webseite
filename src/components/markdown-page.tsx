@@ -7,9 +7,29 @@ import remarkHeadingId from "remark-heading-id";
 import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
 
+type PageSlug = "datenschutz" | "impressum" | "kompetenzen" | "leistungen" | "projekte";
+
+// Mapping from route slug to actual markdown filename per language
+const pageFileMap: Record<string, Record<PageSlug, string>> = {
+  de: {
+    datenschutz: "datenschutz",
+    impressum: "impressum",
+    kompetenzen: "kompetenzen",
+    leistungen: "leistungen",
+    projekte: "projekte",
+  },
+  en: {
+    datenschutz: "datenschutz",
+    impressum: "impressum",
+    kompetenzen: "competences",
+    leistungen: "services",
+    projekte: "projects",
+  },
+};
+
 interface MarkdownPageProps {
   lang: "de" | "en";
-  page: "datenschutz" | "impressum";
+  page: PageSlug;
 }
 
 export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
@@ -23,8 +43,9 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
       setLoading(true);
       setError("");
       try {
+        const filename = pageFileMap[lang]?.[page] ?? page;
         const response = await fetch(
-          `${import.meta.env.BASE_URL}docs/${lang}/${page}.md`
+          `${import.meta.env.BASE_URL}docs/${lang}/${filename}.md`
         );
         if (!response.ok) {
           throw new Error("Could not load page");

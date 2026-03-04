@@ -9,7 +9,6 @@ import {
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 import ProjectCarousel from "@/components/project-carousel";
-import Documentation from "@/components/documentation";
 import Footer from "@/components/footer";
 import MarkdownPage from "@/components/markdown-page";
 import ContactForm from "@/components/contact-form";
@@ -38,7 +37,7 @@ function App() {
       | undefined) ?? key;
 
   // Check if we're on pages that need the gray navbar
-  const isGrayNavPage = ['/documentation', '/datenschutz', '/impressum', '/contact'].includes(location.pathname);
+  const isGrayNavPage = ['/kompetenzen', '/leistungen', '/projekte', '/datenschutz', '/impressum', '/contact'].includes(location.pathname);
 
   return (
     <div className="min-h-screen text-foreground bg-white">
@@ -66,8 +65,18 @@ function App() {
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <Link to="/documentation" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
-                        {t("nav.documentation")}
+                      <Link to="/kompetenzen" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                        {t("nav.competences")}
+                      </Link>
+                    </NavigationMenuItem>
+                    <NavigationMenuItem>
+                      <Link to="/leistungen" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                        {t("nav.services")}
+                      </Link>
+                    </NavigationMenuItem>
+                    <NavigationMenuItem>
+                      <Link to="/projekte" className={isGrayNavPage ? "text-foreground px-3 py-2 hover:bg-gray-200 rounded" : "text-white px-3 py-2 hover:bg-white/20 rounded"}>
+                        {t("nav.projects")}
                       </Link>
                     </NavigationMenuItem>
                   </NavigationMenuList>
@@ -99,7 +108,9 @@ function App() {
           <div className={isGrayNavPage ? "md:hidden absolute top-full right-4 mt-2 w-44 bg-white text-foreground rounded shadow-lg z-30" : "md:hidden absolute top-full right-4 mt-2 w-44 bg-white/10 backdrop-blur-sm text-white rounded shadow z-30"}>
             <Link to="/" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.home")}</Link>
             <Link to="/contact" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.contact")}</Link>
-            <Link to="/documentation" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.documentation")}</Link>
+            <Link to="/kompetenzen" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.competences")}</Link>
+            <Link to="/leistungen" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.services")}</Link>
+            <Link to="/projekte" className={isGrayNavPage ? "block px-4 py-2 hover:bg-gray-100" : "block px-4 py-2 hover:bg-white/20"} onClick={() => setMobileOpen(false)}>{t("nav.projects")}</Link>
           </div>
         )}
       </header>
@@ -153,12 +164,29 @@ function App() {
           }
         />
         <Route
-          path="/documentation"
+          path="/kompetenzen"
           element={
             <>
-              {/* Spacer for fixed header */}
               <div className="h-20"></div>
-              <Documentation lang={lang} />
+              <MarkdownPage lang={lang} page="kompetenzen" />
+            </>
+          }
+        />
+        <Route
+          path="/leistungen"
+          element={
+            <>
+              <div className="h-20"></div>
+              <MarkdownPage lang={lang} page="leistungen" />
+            </>
+          }
+        />
+        <Route
+          path="/projekte"
+          element={
+            <>
+              <div className="h-20"></div>
+              <MarkdownPage lang={lang} page="projekte" />
             </>
           }
         />
