@@ -47,16 +47,18 @@ function ProjectCarousel({ lang }: Props) {
   
 
   return (
-    <section id="projects">
+    <section id="projects" className="w-full">
       {/* Constrained background: use the same container/padding as the main content so
           heading, image and text line up exactly with the section above. */}
       <div 
-        className="bg-gray-100 bg-cover bg-center"
+        className="bg-white bg-center bg-no-repeat w-full overflow-hidden"
         style={{
           backgroundImage: `url('${import.meta.env.BASE_URL}Hintergrund_weiss.png')`,
+          backgroundSize: '101% 101%',
+          backgroundPosition: 'center center',
         }}
       >
-        <div className="container mx-auto px-6 md:px-8 py-8 rounded-lg">
+        <div className="container mx-auto px-6 md:px-8 py-8">
           {/* Section heading */}
           <h2 className="text-2xl font-semibold mb-4 text-white">{t("projects.sectionTitle")}</h2>
 

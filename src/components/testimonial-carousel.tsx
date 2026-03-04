@@ -50,66 +50,131 @@ function TestimonialCarousel({ lang }: Props) {
   };
 
   return (
-    <section 
-      className="w-full py-16 bg-cover bg-center relative transition-all duration-1000"
-      style={{
-        backgroundImage: `url('${import.meta.env.BASE_URL}${testimonials[currentIndex].image}')`,
-      }}
-    >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/50"></div>
+    <section className="w-full">
+      {/* Mobile: Image above content */}
+      <div className="md:hidden w-full bg-white">
+        <img
+          src={`${import.meta.env.BASE_URL}${testimonials[currentIndex].image}`}
+          alt={`${testimonials[currentIndex].name} Background`}
+          className="w-full h-64 object-cover object-center transition-all duration-1000 block"
+        />
+        <div className="container mx-auto px-6 pb-8">
+          <h2 className="text-3xl font-bold mb-8 text-center text-foreground pt-6">
+            {t("references.sectionTitle")}
+          </h2>
 
-      <div className="container mx-auto px-6 md:px-8 relative z-10">
-        <h2 className="text-3xl font-bold mb-12 text-center text-white">
-          {t("references.sectionTitle")}
-        </h2>
+          <div className="relative max-w-4xl mx-auto">
+            {/* Testimonial Content */}
+            <blockquote className="bg-gray-100 rounded-lg shadow-md p-8 transition-all duration-500">
+              <div className="text-center">
+                {/* Quote Icon */}
+                <svg
+                  className="w-12 h-12 text-gray-400 mb-6 mx-auto"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                </svg>
 
-        <div className="relative max-w-4xl mx-auto">
-          {/* Testimonial Content */}
-          <blockquote className="bg-white/10 backdrop-blur-md rounded-lg shadow-xl p-8 md:p-12 transition-all duration-500 border border-white/20">
-            <div className="text-center">
-              {/* Quote Icon */}
-              <svg
-                className="w-12 h-12 text-white/60 mb-6 mx-auto"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-              </svg>
+                {/* Quote Text */}
+                <p className="text-xl md:text-2xl text-foreground italic mb-8 leading-relaxed">
+                  "{testimonials[currentIndex].quote}"
+                </p>
 
-              {/* Quote Text */}
-              <p className="text-xl md:text-2xl text-white italic mb-8 leading-relaxed">
-                "{testimonials[currentIndex].quote}"
-              </p>
+                {/* Name */}
+                <p className="text-xl font-semibold text-foreground mb-2">
+                  {testimonials[currentIndex].name}
+                </p>
 
-              {/* Name */}
-              <p className="text-xl font-semibold text-white mb-2">
-                {testimonials[currentIndex].name}
-              </p>
+                {/* Company */}
+                <p className="text-base text-muted-foreground">
+                  {testimonials[currentIndex].company}
+                </p>
+              </div>
+            </blockquote>
 
-              {/* Company */}
-              <p className="text-base text-white/80">
-                {testimonials[currentIndex].company}
-              </p>
-            </div>
-          </blockquote>
+            {/* Dots Navigation */}
+            <nav className="flex justify-center gap-3 mt-8" aria-label="Testimonial navigation">
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                  aria-label={`Go to testimonial ${index + 1}`}
+                  className={`w-3 h-3 rounded-full transition-all ${
+                    index === currentIndex
+                      ? "bg-foreground w-8"
+                      : "bg-gray-400 hover:bg-gray-600"
+                  }`}
+                />
+              ))}
+            </nav>
+          </div>
+        </div>
+      </div>
 
-          {/* Dots Navigation */}
-          <nav className="flex justify-center gap-3 mt-8" aria-label="Testimonial navigation">
-            {testimonials.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                aria-label={`Go to testimonial ${index + 1}`}
-                className={`w-3 h-3 rounded-full transition-all ${
-                  index === currentIndex
-                    ? "bg-white w-8"
-                    : "bg-white/50 hover:bg-white/70"
-                }`}
-              />
-            ))}
-          </nav>
+      {/* Desktop: Background image */}
+      <div 
+        className="hidden md:block w-full py-16 bg-cover bg-center relative transition-all duration-1000 overflow-hidden"
+        style={{
+          backgroundImage: `url('${import.meta.env.BASE_URL}${testimonials[currentIndex].image}')`,
+        }}
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
+
+        <div className="container mx-auto px-6 md:px-8 relative z-10">
+          <h2 className="text-3xl font-bold mb-12 text-center text-white">
+            {t("references.sectionTitle")}
+          </h2>
+
+          <div className="relative max-w-4xl mx-auto">
+            {/* Testimonial Content */}
+            <blockquote className="bg-white/10 backdrop-blur-md rounded-lg shadow-xl p-8 md:p-12 transition-all duration-500 border border-white/20">
+              <div className="text-center">
+                {/* Quote Icon */}
+                <svg
+                  className="w-12 h-12 text-white/60 mb-6 mx-auto"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                </svg>
+
+                {/* Quote Text */}
+                <p className="text-xl md:text-2xl text-white italic mb-8 leading-relaxed">
+                  "{testimonials[currentIndex].quote}"
+                </p>
+
+                {/* Name */}
+                <p className="text-xl font-semibold text-white mb-2">
+                  {testimonials[currentIndex].name}
+                </p>
+
+                {/* Company */}
+                <p className="text-base text-white/80">
+                  {testimonials[currentIndex].company}
+                </p>
+              </div>
+            </blockquote>
+
+            {/* Dots Navigation */}
+            <nav className="flex justify-center gap-3 mt-8" aria-label="Testimonial navigation">
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                  aria-label={`Go to testimonial ${index + 1}`}
+                  className={`w-3 h-3 rounded-full transition-all ${
+                    index === currentIndex
+                      ? "bg-white w-8"
+                      : "bg-white/50 hover:bg-white/70"
+                  }`}
+                />
+              ))}
+            </nav>
+          </div>
         </div>
       </div>
     </section>

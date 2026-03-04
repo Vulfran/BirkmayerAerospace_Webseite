@@ -41,7 +41,7 @@ function App() {
   const isGrayNavPage = ['/documentation', '/datenschutz', '/impressum', '/contact'].includes(location.pathname);
 
   return (
-    <div className="min-h-screen text-foreground">
+    <div className="min-h-screen text-foreground bg-white">
       {/* Navbar - absolute on home, fixed with background on other pages */}
       <header className={isGrayNavPage ? "fixed top-0 left-0 w-full z-20" : "absolute top-0 left-0 w-full z-20"}>
         <div className={isGrayNavPage ? "bg-gray-100 text-foreground shadow-md" : "bg-white/10 backdrop-blur-sm text-white"}>
@@ -111,7 +111,7 @@ function App() {
             <>
               {/* Hero: fullscreen background image from public/ */}
               <header
-                className="h-screen w-full bg-cover bg-[80%_top] md:bg-right-top lg:bg-center bg-gray-900"
+                className="h-screen w-full bg-cover bg-[80%_top] md:bg-right-top lg:bg-center bg-gray-900 overflow-hidden"
                 style={{
                   // Use Vite base URL so the image is requested correctly when the app
                   // is served from a subpath (e.g. /website-template/)
