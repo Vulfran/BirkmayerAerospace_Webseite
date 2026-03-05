@@ -13,25 +13,6 @@ interface TocEntry {
   level: number;
 }
 
-function extractHeadings(markdown: string): TocEntry[] {
-  const lines = markdown.split("\n");
-  const headings: TocEntry[] = [];
-  for (const line of lines) {
-    const match = line.match(/^(#{1,3})\s+(.+)/);
-    if (match) {
-      const level = match[1].length;
-      const raw = match[2].replace(/\{#[^}]+\}/g, "").trim();
-      const text = raw.replace(/[*_`~]/g, "");
-      const id = text
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, "")
-        .replace(/\s+/g, "-");
-      headings.push({ id, text, level });
-    }
-  }
-  return headings;
-}
-
 type PageSlug = "datenschutz" | "impressum" | "kompetenzen" | "leistungen" | "projekte";
 
 // Mapping from route slug to actual markdown filename per language
@@ -62,6 +43,7 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>("");
   const [activeId, setActiveId] = useState<string>("");
+  const [headings, setHeadings] = useState<TocEntry[]>([]);
   const location = useLocation();
   const articleRef = useRef<HTMLDivElement>(null);
 
@@ -78,7 +60,9 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
           throw new Error("Could not load page");
         }
         const text = await response.text();
-        setContent(text);
+        // Strip {#id} markers from headings — rehypeSlug generates IDs automatically
+        const cleaned = text.replace(/^(#{1,6}\s+.*?)\s*\{#[^}]+\}\s*$/gm, "$1");
+        setContent(cleaned);
       } catch (err) {
         setError(
           lang === "de"
@@ -94,20 +78,25 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
     loadMarkdown();
   }, [lang, page]);
 
-  // Scroll spy: track which heading is currently in view
+  // Extract headings from the rendered DOM and set up scroll spy
   useEffect(() => {
-    if (loading || !content) return;
+    if (loading || !content || !articleRef.current) return;
 
-    const headings = extractHeadings(content);
-    if (headings.length === 0) return;
-
-    // small delay so DOM has rendered
     const timer = setTimeout(() => {
-      const elements = headings
-        .map((h) => document.getElementById(h.id))
-        .filter(Boolean) as HTMLElement[];
+      if (!articleRef.current) return;
 
-      if (elements.length === 0) return;
+      const elements = articleRef.current.querySelectorAll("h1[id], h2[id], h3[id]");
+      const extracted: TocEntry[] = [];
+      elements.forEach((el) => {
+        const id = el.getAttribute("id");
+        // Clean text: remove {#...} markers that remarkHeadingId may leave in the DOM
+        const text = (el.textContent ?? "").replace(/\s*\{#[^}]+\}\s*/g, "").trim();
+        if (id && text) {
+          const level = parseInt(el.tagName.charAt(1), 10);
+          extracted.push({ id, text, level });
+        }
+      });
+      setHeadings(extracted);
 
       const observer = new IntersectionObserver(
         (entries) => {
@@ -158,8 +147,6 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
       setActiveId(id);
     }
   }, []);
-
-  const headings = content ? extractHeadings(content) : [];
 
   if (loading) {
     return (
@@ -227,14 +214,14 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
                 {props.children}
               </h1>
             ),
-            h2: ({ node, ...props }) => (
+            h2: ({ node, children, ...props }) => (
               <h2 className="text-3xl font-semibold mt-8 mb-4 text-foreground scroll-mt-24" {...props}>
-                {props.children}
+                {children}
               </h2>
             ),
-            h3: ({ node, ...props }) => (
+            h3: ({ node, children, ...props }) => (
               <h3 className="text-2xl font-semibold mt-6 mb-3 text-foreground scroll-mt-24" {...props}>
-                {props.children}
+                {children}
               </h3>
             ),
             p: ({ children }) => (
