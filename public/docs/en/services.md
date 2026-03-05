@@ -1,8 +1,6 @@
 # Services
 
-## My services
-
-### 1. Stabilize – Restore operational capability and secure value streams
+## 1. Stabilize – Restore operational capability and secure value streams
 
 I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The objective is to rapidly bring programs, products, or manufacturing operations back into a controlled and predictable state.
 
@@ -15,7 +13,7 @@ I take responsibility in technically critical or organizationally overloaded dev
 
 **Value for executive management:** Minimization of operational risk, avoidance of imminent delivery, quality, or certification issues, and rapid stabilization of business-critical programs.
 
-### 2. Transform – Increase efficiency, robustness, and product quality
+## 2. Transform – Increase efficiency, robustness, and product quality
 
 I lead transformation initiatives that sustainably enhance the performance of development, industrialization, or manufacturing organizations. This includes technical, organizational, and process-oriented realignment.
 
@@ -28,7 +26,7 @@ I lead transformation initiatives that sustainably enhance the performance of de
 
 **Value for executive management:** Products become more reliable, development and production processes more predictable and cost-efficient, and the organization gains technical and structural resilience.
 
-### 3. Scale – Systematically expand development and assembly capacity
+## 3. Scale – Systematically expand development and assembly capacity
 
 I support companies that need to deliberately align their product development and/or assembly for growth, new programs, or higher production volumes.
 

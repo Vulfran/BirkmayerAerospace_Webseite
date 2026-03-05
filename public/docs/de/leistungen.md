@@ -1,8 +1,6 @@
 # Leistungen
 
-## Mein Angebot
-
-### 1. Stabilisieren – Handlungsfähigkeit herstellen und Wertströme sichern
+## 1. Stabilisieren – Handlungsfähigkeit herstellen und Wertströme sichern
 
 Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.
 
@@ -16,7 +14,7 @@ Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überl
 **Nutzen für die Geschäftsführung**:
 Minimierung operativer Risiken, Vermeidung drohender Liefer-, Qualitäts- oder Zertifizierungsprobleme sowie schnelle Stabilisierung geschäftskritischer Programme.
 
-### 2. Transformieren – Effizienz, Robustheit und Produktqualität erhöhen
+## 2. Transformieren – Effizienz, Robustheit und Produktqualität erhöhen
 
 Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwicklungs-, Industrialisierungs- oder Fertigungsorganisationen nachhaltig erhöhen. Dazu gehören technische, organisatorische und prozessuale Neuausrichtungen.
 
@@ -30,7 +28,7 @@ Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwic
 **Nutzen für die Geschäftsführung**:
 Produkte werden zuverlässiger, Entwicklungs- und Produktionsprozesse planbarer und kosteneffizienter; die Organisation gewinnt an technischer und struktureller Widerstandsfähigkeit.
 
-### 3. Skalieren – Entwicklungs- und Montagekapazität gezielt ausbauen
+## 3. Skalieren – Entwicklungs- und Montagekapazität gezielt ausbauen
 
 Ich begleite Unternehmen, die ihre Produktentwicklung und/​oder Montage gezielt auf Wachstum, neue Programme oder höhere Stückzahlen ausrichten müssen.
 
