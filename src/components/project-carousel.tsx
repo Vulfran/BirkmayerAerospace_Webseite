@@ -75,7 +75,7 @@ function ProjectCarousel({ lang }: Props) {
                     <p className="text-sm text-white/75 mt-1">{projects[index]?.subtitle}</p>
                     <p className="mt-3 text-sm text-white">{projects[index]?.text}</p>
                     <Link 
-                      to={`/documentation#${projects[index]?.anchor}`}
+                      to={`/projekte#${projects[index]?.anchor}`}
                       className="inline-block mt-4 px-4 py-2 rounded hover:opacity-90 transition-opacity text-sm font-medium"
                       style={{ backgroundColor: 'white', color: '#1E2656' }}
                     >
@@ -134,7 +134,7 @@ function ProjectCarousel({ lang }: Props) {
                         <p className={`mt-3 text-sm md:text-base text-white ${isCenter ? "" : "line-clamp-3"}`}>{proj.text}</p>
                         {isCenter && (
                           <Link 
-                            to={`/documentation#${proj.anchor}`}
+                            to={`/projekte#${proj.anchor}`}
                             className="inline-block mt-4 px-4 py-2 rounded hover:opacity-90 transition-opacity text-sm font-medium"
                             style={{ backgroundColor: 'white', color: '#1E2656' }}
                           >

@@ -1,4 +1,5 @@
 // src/components/services-overview.tsx
+import { Link } from "react-router-dom";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -117,6 +118,15 @@ function ServicesOverview({ lang }: Props) {
             </ul>
           </div>
         ))}
+      </div>
+
+      <div className="mt-10 text-center">
+        <Link
+          to="/leistungen"
+          className="inline-block px-8 py-3 rounded bg-[#1E2656] text-white font-semibold hover:bg-[#2a3470] transition-colors"
+        >
+          {t("services.cta")}
+        </Link>
       </div>
     </section>
   );

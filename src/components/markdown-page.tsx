@@ -60,9 +60,7 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
           throw new Error("Could not load page");
         }
         const text = await response.text();
-        // Strip {#id} markers from headings — rehypeSlug generates IDs automatically
-        const cleaned = text.replace(/^(#{1,6}\s+.*?)\s*\{#[^}]+\}\s*$/gm, "$1");
-        setContent(cleaned);
+        setContent(text);
       } catch (err) {
         setError(
           lang === "de"
