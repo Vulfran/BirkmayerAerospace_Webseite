@@ -12,7 +12,7 @@ Fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, re
 
 ## Meine Kernkompetenzen
 
-### 1. Projekt- und Entwicklungsmanagementkompetenzen
+### 1. Projekt- und Entwicklungsmanagement
 
 - Management komplexer technischer und organisatorischer Herausforderungen
 - Entwicklung und Umsetzung agiler Methoden (Scrum, Kanban) 

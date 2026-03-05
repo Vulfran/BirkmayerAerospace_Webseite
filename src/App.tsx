@@ -13,6 +13,7 @@ import Footer from "@/components/footer";
 import MarkdownPage from "@/components/markdown-page";
 import ContactForm from "@/components/contact-form";
 import ServicesOverview from "@/components/services-overview";
+import ExperienceHighlights from "@/components/experience-highlights";
 import TestimonialCarousel from "@/components/testimonial-carousel";
 import PersonalQuote from "@/components/personal-quote";
 // Table component removed
@@ -60,11 +61,6 @@ function App() {
                       </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                      <Link to="/contact" className="text-white px-3 py-2 hover:bg-white/20 rounded">
-                        {t("nav.contact")}
-                      </Link>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem>
                       <Link to="/kompetenzen" className="text-white px-3 py-2 hover:bg-white/20 rounded">
                         {t("nav.competences")}
                       </Link>
@@ -82,6 +78,14 @@ function App() {
                   </NavigationMenuList>
                 </NavigationMenu>
               </div>
+
+              {/* contact button */}
+              <Link
+                to="/contact"
+                className="hidden md:inline-block ml-2 px-4 py-1.5 rounded bg-white/20 text-white hover:bg-white/30 font-medium"
+              >
+                {t("nav.contact")}
+              </Link>
 
               {/* language toggle */}
               <button
@@ -147,6 +151,9 @@ function App() {
                     <p className="mt-4 text-muted-foreground leading-relaxed">{t("about.text3")}</p>
                   </div>
                 </section>
+
+              {/* Experience Highlights */}
+              <ExperienceHighlights lang={lang} />
 
               {/* Services Overview */}
               <ServicesOverview lang={lang} />

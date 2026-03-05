@@ -1,11 +1,36 @@
 // src/components/markdown-page.tsx
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { useLocation } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkHeadingId from "remark-heading-id";
 import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
+
+interface TocEntry {
+  id: string;
+  text: string;
+  level: number;
+}
+
+function extractHeadings(markdown: string): TocEntry[] {
+  const lines = markdown.split("\n");
+  const headings: TocEntry[] = [];
+  for (const line of lines) {
+    const match = line.match(/^(#{1,3})\s+(.+)/);
+    if (match) {
+      const level = match[1].length;
+      const raw = match[2].replace(/\{#[^}]+\}/g, "").trim();
+      const text = raw.replace(/[*_`~]/g, "");
+      const id = text
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, "")
+        .replace(/\s+/g, "-");
+      headings.push({ id, text, level });
+    }
+  }
+  return headings;
+}
 
 type PageSlug = "datenschutz" | "impressum" | "kompetenzen" | "leistungen" | "projekte";
 
@@ -36,7 +61,9 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
   const [content, setContent] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>("");
+  const [activeId, setActiveId] = useState<string>("");
   const location = useLocation();
+  const articleRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const loadMarkdown = async () => {
@@ -67,6 +94,40 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
     loadMarkdown();
   }, [lang, page]);
 
+  // Scroll spy: track which heading is currently in view
+  useEffect(() => {
+    if (loading || !content) return;
+
+    const headings = extractHeadings(content);
+    if (headings.length === 0) return;
+
+    // small delay so DOM has rendered
+    const timer = setTimeout(() => {
+      const elements = headings
+        .map((h) => document.getElementById(h.id))
+        .filter(Boolean) as HTMLElement[];
+
+      if (elements.length === 0) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              setActiveId(entry.target.id);
+            }
+          }
+        },
+        { rootMargin: "-80px 0px -60% 0px", threshold: 0 }
+      );
+
+      elements.forEach((el) => observer.observe(el));
+
+      return () => observer.disconnect();
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [loading, content]);
+
   // Scroll to anchor after content is loaded or when hash changes
   useEffect(() => {
     if (!loading && content) {
@@ -86,6 +147,19 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
       }
     }
   }, [loading, content, location.hash]);
+
+  const handleTocClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      const yOffset = -100;
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+      setActiveId(id);
+    }
+  }, []);
+
+  const headings = content ? extractHeadings(content) : [];
 
   if (loading) {
     return (
@@ -107,8 +181,44 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
 
   return (
     <div className="container mx-auto px-6 md:px-8 py-16">
-      <article className="prose prose-lg dark:prose-invert max-w-4xl mx-auto">
-        <ReactMarkdown
+      <div className="flex gap-10 max-w-6xl mx-auto">
+        {/* Sidebar TOC – visible on lg+ only */}
+        {headings.length > 1 && (
+          <nav className="hidden lg:block w-56 flex-shrink-0">
+            <div className="sticky top-28">
+              <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+                {lang === "de" ? "Inhalt" : "Contents"}
+              </p>
+              <ul className="space-y-1 border-l border-slate-200">
+                {headings.map((h) => (
+                  <li key={h.id}>
+                    <a
+                      href={`#${h.id}`}
+                      onClick={(e) => handleTocClick(e, h.id)}
+                      className={`block text-sm leading-snug py-1 transition-colors ${
+                        h.level === 1
+                          ? "pl-3"
+                          : h.level === 2
+                          ? "pl-3"
+                          : "pl-6"
+                      } ${
+                        activeId === h.id
+                          ? "text-[#1E2656] font-semibold border-l-2 border-[#1E2656] -ml-px"
+                          : "text-muted-foreground hover:text-foreground"
+                      }`}
+                    >
+                      {h.text}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </nav>
+        )}
+
+        {/* Main content */}
+        <article ref={articleRef} className="prose prose-lg dark:prose-invert max-w-4xl flex-1 min-w-0">
+          <ReactMarkdown
           remarkPlugins={[remarkGfm, remarkHeadingId]}
           rehypePlugins={[rehypeSlug, rehypeRaw]}
           components={{
@@ -176,7 +286,8 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
         >
           {content}
         </ReactMarkdown>
-      </article>
+        </article>
+      </div>
     </div>
   );
 }

@@ -136,6 +136,35 @@
       "image": "1072_Birkmayer_IPad_zeigend_comp.png"
     }
   },
+  "experience": {
+    "sectionTitle": "Areas of Experience",
+    "sectionSubtitle": "I bring extensive experience in leading international teams and deep technical expertise in the following areas",
+    "item1": {
+      "title": "Stabilization & Turnaround of Development and Industrialization",
+      "description": "Restoring stable schedule, cost, and quality control in critical programs."
+    },
+    "item2": {
+      "title": "Building and Transforming Engineering Organizations",
+      "description": "Establishing robust development, industrialization, and quality processes as well as organizational structures."
+    },
+    "item3": {
+      "title": "Scaling of Engineering, Industrialization, and Assembly",
+      "description": "Building high-performance structures for growth, ramp-up, and new programs."
+    },
+    "item4": {
+      "title": "Systems, Safety & Reliability",
+      "description": "Deep expertise in systems engineering, reliability engineering, and safety engineering of complex technical systems."
+    },
+    "item5": {
+      "title": "Electric Propulsion Systems & Equipment Qualification",
+      "description": "Development and qualification of electric propulsion systems for aircraft as well as power and signal processing electronics."
+    },
+    "item6": {
+      "title": "Aircraft Development, Industrialization, and Certification",
+      "description": "End-to-end experience along the product lifecycle of aerospace systems."
+    },
+    "cta": "Learn more"
+  },
   "quote": {
     "text": "Successful products are not created by good design alone, but by clear leadership, capable teams, and disciplined execution — especially when stabilization, transformation, or scaling is required.",
     "author": "Wolfram Birkmayer"

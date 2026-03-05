@@ -136,6 +136,35 @@
       "image": "1072_Birkmayer_IPad_zeigend_comp.png"
     }
   },
+  "experience": {
+    "sectionTitle": "Erfahrungsschwerpunkte",
+    "sectionSubtitle": "Ich verfüge über umfangreiche Erfahrung in der Führung internationaler Teams sowie über fundierte technische Expertise in folgenden Bereichen",
+    "item1": {
+      "title": "Stabilisierung & Turnaround von Entwicklung und Industrialisierung",
+      "description": "Wiederherstellung stabiler Termin-, Kosten- und Qualitätssteuerung in kritischen Programmen."
+    },
+    "item2": {
+      "title": "Aufbau und Transformation von Engineering-Organisationen",
+      "description": "Einführung robuster Entwicklungs-, Industrialisierungs- und Qualitätsprozesse sowie Organisationsstrukturen."
+    },
+    "item3": {
+      "title": "Skalierung von Engineering, Industrialisierung und Montage",
+      "description": "Aufbau leistungsfähiger Strukturen für Wachstum, Ramp-up, Wachstum und neue Programme."
+    },
+    "item4": {
+      "title": "System, Sicherheit & Zuverlässigkeit",
+      "description": "Fundierte Expertise in System Engineering, Reliability Engineering und Safety Engineering komplexer technischer Systeme."
+    },
+    "item5": {
+      "title": "Elektrische Antriebssysteme & Gerätequalifikation",
+      "description": "Entwicklung und Qualifikation elektrischer Antriebssysteme für Luftfahrzeuge sowie Leistungs- und Signalverarbeitungselektronik."
+    },
+    "item6": {
+      "title": "Flugzeugentwicklung, Industrialisierung und Zertifizierung",
+      "description": "Ganzheitliche Erfahrung entlang des Produktlebenszyklus von Luftfahrtsystemen."
+    },
+    "cta": "Mehr erfahren"
+  },
   "quote": {
     "text": "Erfolgreiche Produkte entstehen nicht allein durch gutes Design, sondern durch klare Führung, kompetente Teams und konsequente Umsetzung - besonders dann, wenn stabilisiert, transformiert oder skaliert werden muss.",
     "author": "Wolfram Birkmayer"
