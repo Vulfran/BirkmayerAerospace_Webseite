@@ -47,9 +47,14 @@ function ProjectCarousel({ lang }: Props) {
   
 
   return (
-    <section id="projects" className="w-full">
+    <section id="projects" className="w-full py-16">
+      {/* Section heading – outside the background image, styled like the other sections */}
+      <h2 className="text-3xl font-bold mb-12 text-center text-foreground">
+        {t("projects.sectionTitle")}
+      </h2>
+
       {/* Constrained background: use the same container/padding as the main content so
-          heading, image and text line up exactly with the section above. */}
+          image and text line up exactly with the section above. */}
       <div 
         className="bg-white bg-center bg-no-repeat w-full overflow-hidden"
         style={{
@@ -59,8 +64,6 @@ function ProjectCarousel({ lang }: Props) {
         }}
       >
         <div className="container mx-auto px-6 md:px-8 py-8">
-          {/* Section heading */}
-          <h2 className="text-2xl font-semibold mb-4 text-white">{t("projects.sectionTitle")}</h2>
 
           <div className="w-full px-4 md:px-12">
             {/* Small + medium screens: show only the active card (use prev/next to navigate) */}

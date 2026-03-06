@@ -84,15 +84,16 @@ function ExperienceHighlights({ lang }: Props) {
         {items.map((item, index) => (
           <div
             key={index}
-            className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow"
+            className="rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-white"
+            style={{ backgroundColor: '#1E2656' }}
           >
-            <div className="text-[#1E2656] mb-4">
+            <div className="text-white mb-4">
               {item.icon}
             </div>
-            <h3 className="text-base font-bold text-foreground mb-2 leading-snug">
+            <h3 className="text-base font-bold text-white mb-2 leading-snug">
               {item.title}
             </h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm text-white/80 leading-relaxed">
               {item.description}
             </p>
           </div>

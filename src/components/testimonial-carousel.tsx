@@ -36,11 +36,11 @@ function TestimonialCarousel({ lang }: Props) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Automatisches Karussell - wechselt alle 5 Sekunden
+  // Automatisches Karussell - wechselt alle 7,5 Sekunden
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 5000);
+    }, 7500);
 
     return () => clearInterval(interval);
   }, [testimonials.length]);
