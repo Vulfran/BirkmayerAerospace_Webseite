@@ -16,6 +16,7 @@ import ServicesOverview from "@/components/services-overview";
 import ExperienceHighlights from "@/components/experience-highlights";
 import TestimonialCarousel from "@/components/testimonial-carousel";
 import PersonalQuote from "@/components/personal-quote";
+import { images } from "@/config/settings";
 // Table component removed
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
         <div className={isSubPage ? "bg-slate-900 text-white shadow-md" : "bg-white/10 backdrop-blur-sm text-white"}>
           <div className="container mx-auto px-6 md:px-8 py-4 flex items-center justify-between">
             <img
-              src={`${import.meta.env.BASE_URL}logo3_Birkmayer_white_Slogan.png`}
+              src={`${import.meta.env.BASE_URL}${images.headerLogo}`}
               alt="Birkmayer Aerospace Logo"
               className="h-14 md:h-16"
             />
@@ -130,7 +131,7 @@ function App() {
                 style={{
                   // Use Vite base URL so the image is requested correctly when the app
                   // is served from a subpath (e.g. /website-template/)
-                  backgroundImage: `url('${import.meta.env.BASE_URL}955_Birkmayer_Hand-auf-Schulter_Landscape_comp.png')`,
+                  backgroundImage: `url('${import.meta.env.BASE_URL}${images.heroBackground}')`,
                 }}
               >
                 <div className="h-full w-full bg-black/30 flex items-center justify-center">

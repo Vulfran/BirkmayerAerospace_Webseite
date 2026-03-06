@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import remarkHeadingId from "remark-heading-id";
 import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
+import { timing, layout } from "@/config/settings";
 
 interface DocumentationProps {
   lang: "de" | "en";
@@ -55,13 +56,13 @@ export default function Documentation({ lang }: DocumentationProps) {
           const id = hash.replace('#', '');
           const element = document.getElementById(id);
           if (element) {
-            const yOffset = -100; // offset for fixed header
+            const yOffset = layout.scrollOffset; // offset for fixed header
             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
             window.scrollTo({ top: y, behavior: 'smooth' });
           } else {
             console.log('Element not found:', id);
           }
-        }, 300);
+        }, timing.scrollToAnchorDelay);
       } else {
         // No hash, scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });

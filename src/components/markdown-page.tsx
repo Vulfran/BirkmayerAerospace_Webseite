@@ -1,4 +1,3 @@
-// src/components/markdown-page.tsx
 import { useEffect, useState, useRef, useCallback } from "react";
 import { useLocation } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
@@ -6,6 +5,7 @@ import remarkGfm from "remark-gfm";
 import remarkHeadingId from "remark-heading-id";
 import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
+import { colors, timing, layout } from "@/config/settings";
 
 interface TocEntry {
   id: string;
@@ -104,13 +104,13 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
             }
           }
         },
-        { rootMargin: "-80px 0px -60% 0px", threshold: 0 }
+        { rootMargin: layout.scrollSpyRootMargin, threshold: 0 }
       );
 
       elements.forEach((el) => observer.observe(el));
 
       return () => observer.disconnect();
-    }, 400);
+    }, timing.headingExtractionDelay);
 
     return () => clearTimeout(timer);
   }, [loading, content]);
@@ -124,11 +124,11 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
           const id = hash.replace('#', '');
           const element = document.getElementById(id);
           if (element) {
-            const yOffset = -100;
+            const yOffset = layout.scrollOffset;
             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
             window.scrollTo({ top: y, behavior: 'smooth' });
           }
-        }, 300);
+        }, timing.scrollToAnchorDelay);
       } else {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }
@@ -139,7 +139,7 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      const yOffset = -100;
+      const yOffset = layout.scrollOffset;
       const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
       setActiveId(id);
@@ -188,9 +188,10 @@ export default function MarkdownPage({ lang, page }: MarkdownPageProps) {
                           : "pl-6"
                       } ${
                         activeId === h.id
-                          ? "text-[#1E2656] font-semibold border-l-2 border-[#1E2656] -ml-px"
+                          ? "font-semibold border-l-2 -ml-px"
                           : "text-muted-foreground hover:text-foreground"
                       }`}
+                      style={activeId === h.id ? { color: colors.brandPrimary, borderColor: colors.brandPrimary } : undefined}
                     >
                       {h.text}
                     </a>

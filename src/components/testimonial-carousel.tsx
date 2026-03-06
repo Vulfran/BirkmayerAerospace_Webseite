@@ -1,5 +1,5 @@
-// src/components/testimonial-carousel.tsx
 import { useState, useEffect } from "react";
+import { timing } from "@/config/settings";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -36,11 +36,11 @@ function TestimonialCarousel({ lang }: Props) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Automatisches Karussell - wechselt alle 7,5 Sekunden
+  // Automatisches Karussell
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 7500);
+    }, timing.testimonialInterval);
 
     return () => clearInterval(interval);
   }, [testimonials.length]);

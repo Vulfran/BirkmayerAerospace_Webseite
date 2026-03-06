@@ -1,4 +1,5 @@
 // src/components/personal-quote.tsx
+import { images } from "@/config/settings";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -18,7 +19,7 @@ function PersonalQuote({ lang }: Props) {
       <section className="md:hidden w-full bg-white">
         <div className="w-full h-64 overflow-hidden">
           <img
-            src={`${import.meta.env.BASE_URL}763_Birkmayer_Treppe_sitzend_Zitat_comp.png`}
+            src={`${import.meta.env.BASE_URL}${images.quoteBackground}`}
             alt="Personal Quote Background"
             className="w-full h-[calc(100%+4px)] object-cover block"
             style={{ objectPosition: 'right top' }}
@@ -56,7 +57,7 @@ function PersonalQuote({ lang }: Props) {
       <section 
         className="hidden md:block w-full py-16 bg-cover relative overflow-hidden"
         style={{
-          backgroundImage: `url('${import.meta.env.BASE_URL}763_Birkmayer_Treppe_sitzend_Zitat_comp.png')`,
+          backgroundImage: `url('${import.meta.env.BASE_URL}${images.quoteBackground}')`,
           backgroundPosition: 'right top',
           backgroundSize: 'cover',
         }}

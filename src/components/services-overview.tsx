@@ -1,5 +1,5 @@
-// src/components/services-overview.tsx
 import { Link } from "react-router-dom";
+import { colors } from "@/config/settings";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -75,7 +75,7 @@ function ServicesOverview({ lang }: Props) {
           <div
             key={index}
             className="rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow text-white"
-            style={{ backgroundColor: '#1E2656' }}
+            style={{ backgroundColor: colors.brandPrimary }}
           >
             {/* Icon */}
             <div className="flex justify-center mb-6">
@@ -123,7 +123,10 @@ function ServicesOverview({ lang }: Props) {
       <div className="mt-10 text-center">
         <Link
           to="/leistungen"
-          className="inline-block px-8 py-3 rounded bg-[#1E2656] text-white font-semibold hover:bg-[#2a3470] transition-colors"
+          className="inline-block px-8 py-3 rounded text-white font-semibold transition-colors"
+          style={{ backgroundColor: colors.brandPrimary }}
+          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = colors.brandPrimaryHover)}
+          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = colors.brandPrimary)}
         >
           {t("services.cta")}
         </Link>

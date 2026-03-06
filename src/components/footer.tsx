@@ -1,5 +1,6 @@
 // src/components/footer.tsx
 import { Link } from "react-router-dom";
+import { images, links, company } from "@/config/settings";
 
 interface FooterProps {
   lang: "de" | "en";
@@ -14,8 +15,8 @@ export default function Footer({ t }: FooterProps) {
           {/* Left side - Logo or company name */}
           <div className="flex items-center">
             <img
-              src={`${import.meta.env.BASE_URL}logo_merch1.png`}
-              alt="Birkmayer Aerospace"
+              src={`${import.meta.env.BASE_URL}${images.footerLogo}`}
+              alt={company.name}
               className="h-8"
             />
           </div>
@@ -41,7 +42,7 @@ export default function Footer({ t }: FooterProps) {
               {t("footer.imprint")}
             </Link>
             <a
-              href="https://www.linkedin.com/in/wolfram-birkmayer/"
+              href={links.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-foreground/70 transition-colors flex items-center gap-1"
@@ -57,13 +58,13 @@ export default function Footer({ t }: FooterProps) {
               LinkedIn
             </a>
             <a
-              href="https://www.ddim.de/"
+              href={links.ddim}
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-foreground/70 transition-colors flex items-center gap-1"
             >
               <img
-                src={`${import.meta.env.BASE_URL}ddim_mitglied.png`}
+                src={`${import.meta.env.BASE_URL}${images.ddimBadge}`}
                 alt="DDIM Mitglied"
                 className="h-4"
               />
@@ -73,7 +74,7 @@ export default function Footer({ t }: FooterProps) {
 
           {/* Right side - Copyright */}
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Birkmayer Aerospace
+            © {new Date().getFullYear()} {company.name}
           </div>
         </div>
       </div>

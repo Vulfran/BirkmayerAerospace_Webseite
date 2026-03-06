@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { colors, images } from "@/config/settings";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -58,7 +59,7 @@ function ProjectCarousel({ lang }: Props) {
       <div 
         className="bg-white bg-center bg-no-repeat w-full overflow-hidden"
         style={{
-          backgroundImage: `url('${import.meta.env.BASE_URL}Hintergrund_weiss.png')`,
+          backgroundImage: `url('${import.meta.env.BASE_URL}${images.carouselBackground}')`,
           backgroundSize: '101% 101%',
           backgroundPosition: 'center center',
         }}
@@ -69,7 +70,7 @@ function ProjectCarousel({ lang }: Props) {
             {/* Small + medium screens: show only the active card (use prev/next to navigate) */}
             <div className="block lg:hidden">
               {projects.length > 0 && (
-                <article className="w-full rounded-md shadow-md overflow-hidden" style={{ backgroundColor: '#1E2656' }}>
+                <article className="w-full rounded-md shadow-md overflow-hidden" style={{ backgroundColor: colors.brandPrimary }}>
                   {projects[index]?.image && (
                     <img src={`${import.meta.env.BASE_URL}${projects[index].image}`} alt={projects[index].title} className="w-full object-cover h-56" />
                   )}
@@ -80,7 +81,7 @@ function ProjectCarousel({ lang }: Props) {
                     <Link 
                       to={`/projekte#${projects[index]?.anchor}`}
                       className="inline-block mt-4 px-4 py-2 rounded hover:opacity-90 transition-opacity text-sm font-medium"
-                      style={{ backgroundColor: 'white', color: '#1E2656' }}
+                      style={{ backgroundColor: 'white', color: colors.brandPrimary }}
                     >
                       {lang === "de" ? "Mehr erfahren" : "Learn more"}
                     </Link>
@@ -123,7 +124,7 @@ function ProjectCarousel({ lang }: Props) {
                     }}
                   >
                     {/* card */}
-                    <div className={`text-white rounded-md shadow-md overflow-hidden ${isCenter ? "ring-1 ring-black/5" : ""}`} style={{ backgroundColor: '#1E2656' }}>
+                    <div className={`text-white rounded-md shadow-md overflow-hidden ${isCenter ? "ring-1 ring-black/5" : ""}`} style={{ backgroundColor: colors.brandPrimary }}>
                       {proj.image && (
                         <img
                           src={`${import.meta.env.BASE_URL}${proj.image}`}
@@ -139,7 +140,7 @@ function ProjectCarousel({ lang }: Props) {
                           <Link 
                             to={`/projekte#${proj.anchor}`}
                             className="inline-block mt-4 px-4 py-2 rounded hover:opacity-90 transition-opacity text-sm font-medium"
-                            style={{ backgroundColor: 'white', color: '#1E2656' }}
+                            style={{ backgroundColor: 'white', color: colors.brandPrimary }}
                           >
                             {lang === "de" ? "Mehr erfahren" : "Learn more"}
                           </Link>

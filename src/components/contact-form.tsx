@@ -1,6 +1,7 @@
 // src/components/contact-form.tsx
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { colors, links, apiKeys } from "@/config/settings";
 
 interface ContactFormProps {
   lang: "de" | "en";
@@ -24,10 +25,10 @@ export default function ContactForm({ t }: ContactFormProps) {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
-    formData.append("access_key", "d897459d-964b-4055-b327-94f5d17f8cd5");
+    formData.append("access_key", apiKeys.web3forms);
 
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch(links.web3formsEndpoint, {
         method: "POST",
         body: formData
       });
@@ -163,7 +164,7 @@ export default function ContactForm({ t }: ContactFormProps) {
               type="submit"
               disabled={isSubmitting || !privacyAccepted}
               className="w-full px-6 py-3 text-white rounded-md hover:opacity-90 transition-opacity font-medium disabled:opacity-50 disabled:cursor-not-allowed"
-              style={{ backgroundColor: '#1E2656' }}
+              style={{ backgroundColor: colors.brandPrimary }}
             >
               {isSubmitting ? t("contact.form.sending") || "Sending..." : t("contact.form.submit")}
             </button>
@@ -186,7 +187,7 @@ export default function ContactForm({ t }: ContactFormProps) {
             <p>
               <strong className="text-foreground">LinkedIn:</strong>{" "}
               <a
-                href="https://www.linkedin.com/in/wolfram-birkmayer/"
+                href={links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"

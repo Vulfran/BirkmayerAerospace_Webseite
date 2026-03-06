@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { colors } from "@/config/settings";
 import de from "@/locales/de.json";
 import en from "@/locales/en.json";
 
@@ -85,7 +86,7 @@ function ExperienceHighlights({ lang }: Props) {
           <div
             key={index}
             className="rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-white"
-            style={{ backgroundColor: '#1E2656' }}
+            style={{ backgroundColor: colors.brandPrimary }}
           >
             <div className="text-white mb-4">
               {item.icon}
@@ -103,7 +104,10 @@ function ExperienceHighlights({ lang }: Props) {
       <div className="mt-10 text-center">
         <Link
           to="/kompetenzen"
-          className="inline-block px-8 py-3 rounded bg-[#1E2656] text-white font-semibold hover:bg-[#2a3470] transition-colors"
+          className="inline-block px-8 py-3 rounded text-white font-semibold transition-colors"
+          style={{ backgroundColor: colors.brandPrimary }}
+          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = colors.brandPrimaryHover)}
+          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = colors.brandPrimary)}
         >
           {t("experience.cta")}
         </Link>
