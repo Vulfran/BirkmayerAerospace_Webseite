@@ -88,7 +88,7 @@ function ExperienceHighlights({ lang }: Props) {
             className="rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow text-white"
             style={{ backgroundColor: colors.brandPrimary }}
           >
-            <div className="text-white mb-4">
+            <div className="text-white mb-4 flex justify-center">
               {item.icon}
             </div>
             <h3 className="text-base font-bold text-white mb-2 leading-snug">
