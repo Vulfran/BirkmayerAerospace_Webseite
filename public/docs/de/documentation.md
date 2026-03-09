@@ -1,6 +1,6 @@
 # Dokumentation
 
-Removed due to duplication
+Bitte siehe Seiten "Leistungen", "Kompetenzen", oder "Projekte".
 
 ---
 
