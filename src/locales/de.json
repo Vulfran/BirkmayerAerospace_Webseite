@@ -40,10 +40,10 @@
     "subtitle": "Wolfram Birkmayer, Interim Executive für Produktentwicklung & Technik"
   },
   "about": {
-    "title": "Stabilisierung, Transformation und Skalierung komplexer Entwicklungs- und Zertifizierungsprogramme in Aerospace & Defence.",
-    "text1": "Als Interim Executive unterstütze ich Unternehmen dabei, die Entwicklung und Serienmontage ihrer Produkte sowie deren Sicherheit und Zuverlässigkeit im Betrieb zu stabilisieren, zu transformieren und zu skalieren basierend auf fundierter Luft- und Raumfahrtexpertise und internationaler Führungsverantwortung bei Airbus und Rolls-Royce in Engineering, Systementwicklung und Projektmanagement.",
-    "text2": "Ich bin spezialisiert auf agile Transformation, Prozessoptimierung, Change-Management, Krisenbewältigung und den Aufbau leistungsstarker Teams. Strategisch denkend, technisch tief fundiert, kommunikativ stark vereinige ich Führungsexzellenz mit ingenieurtechnischer Tiefe und Change-Kompetenz, auch in hochregulierten Branchen.",
-    "text3": "Das Ergebnis: fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, reduzierten Produkt- und Servicekosten und höherer Kundenzufriedenheit."
+    "title": "Kurzbeschreibung",
+    "text1": "Ich übernehme temporäre Führungsverantwortung, um Produktentwicklung und Technik in regulierten Hochtechnologie-Industrien zu stabilisieren, zu transformieren und zu skalieren.",
+    "text2": "Über 30 Jahre Erfahrung in Luft- und Raumfahrt, Systementwicklung und technischer Transformation.",
+    "text3": "    "
   }
   ,
   "projects": {
@@ -54,7 +54,7 @@
         "image": "579_Birkmayer_Profil_Haendeschuetteln_Landscape_Comp.png"
       },
       "project2": {
-        "title": "Aufbau Kompetenzen für sicherheitskritische Systeme",
+        "title": "Aufbau von Kompetenzen für sicherheitskritische Systeme",
         "subtitle": "Industrieunternehmen, 350.000 Mitarbeiter, Umsatz 76 Mrd. EUR",
         "text": "Reduzierung der Zeit zur Definition zentraler Sicherheitsanforderungen um 75 %, deutliche Senkung des Zertifizierungsrisikos und beschleunigter Markteintritt einer bahnbrechenden Technologie.",
         "image": "394_Birkmayer_Bildschirm_Flugzeug_Systemdarstellung_comp.png"
@@ -77,13 +77,13 @@
         "text": "Beim A350 werden erstmals alle Systemkomponenten nach Systemen gebündelt von Systemlieferanten beschafft.",
         "image": "428_Birkmayer_Profil_Buch_abwaegend_Landscape_comp.png"
       },      
-    "sectionTitle": "Projekte"
+    "sectionTitle": "Ausgewählte Projekte"
   },
   "services": {
     "sectionTitle": "Leistungsübersicht",
     "card1": {
       "title": "Stabilisieren",
-      "description": "Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Montagelinien schnell wieder in einen kontrollierten, planbaren Zustand zu führen und wirtschafliche Risiken zu begrenzen.",
+      "description": "Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Montagelinien rasch wieder in einen kontrollierten und wirtschaftlich stabilen Zustand zu führen.",
       "items": [
         "Wiederherstellung von Termin-, Qualitäts- und Kostensteuerung",
         "Technische Klärung kritischer Produkt- oder Systemthemen",
@@ -149,12 +149,12 @@
       "description": "Einführung robuster Entwicklungs-, Industrialisierungs- und Qualitätsprozesse sowie Organisationsstrukturen."
     },
     "item3": {
-      "title": "Skalierung von Engineering, Industrialisierung und Montage",
-      "description": "Aufbau leistungsfähiger Strukturen für Wachstum, Ramp-up, Wachstum und neue Programme."
+      "title": "Skalierung von Engineering und Montage",
+      "description": "Aufbau leistungsfähiger Strukturen für Wachstum, Ramp-up, und neue Programme."
     },
     "item4": {
-      "title": "System, Sicherheit & Zuverlässigkeit",
-      "description": "Fundierte Expertise in System Engineering, Reliability Engineering und Safety Engineering komplexer technischer Systeme."
+      "title": "System Engineering, Safety & Reliability",
+      "description": "Fundierte Erfahrung in der Entwicklung sicherheitskritischer technischer Systeme."
     },
     "item5": {
       "title": "Elektrische Antriebssysteme & Gerätequalifikation",
@@ -162,7 +162,7 @@
     },
     "item6": {
       "title": "Flugzeugentwicklung, Industrialisierung und Zertifizierung",
-      "description": "Ganzheitliche Erfahrung entlang des Produktlebenszyklus von Luftfahrtsystemen."
+      "description": "Erfahrung entlang des gesamten Lebenszyklus komplexer Luftfahrtsystemen."
     },
     "cta": "Mehr erfahren"
   },
