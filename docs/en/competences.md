@@ -44,7 +44,7 @@ The result: reliable, safe, and defect-free products – with shorter time-to-ma
 - Electric propulsion systems and control engineering
 - Power electronics and signal processing
 - Communication and networking technology
-- Environmental hazard protection (lightning protection, EMC, HIRF)
+- Environmental hazard resistance (lightning protection, EMC, HIRF)
 
 ---
 
