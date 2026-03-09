@@ -148,7 +148,7 @@ Define the technical part of the procurement of complete systems
 
 #### Achievements
 
-- ✅ **For the A350 all aircraft systems were procured with „System contracts"** 
+- ✅ **For the A350, procurement** was more strongly focused on suppliers responsible for the system. 
 
 ---
 
