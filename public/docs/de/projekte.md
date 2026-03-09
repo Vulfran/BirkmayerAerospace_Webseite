@@ -151,7 +151,7 @@ Die technische Seite der Beschaffung von kompletten Systemen definieren
 
 #### Erzielte Erfolge
 
-- ✅ **Beim A350 werden die Systemkomponenten** •	von Systemlieferanten geliefert 
+- ✅ **Beim A350 wurde die Beschaffung** stärker auf systemverantwortliche Lieferanten ausgerichtet. 
 
 ---
 

@@ -2,12 +2,12 @@
 
 ## 1. Stabilisieren – Handlungsfähigkeit herstellen und Wertströme sichern
 
-Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Fertigungen schnell wieder in einen kontrollierten, planbaren Zustand zu führen.
+Ich übernehme Verantwortung in technisch kritischen oder organisatorisch überlasteten Entwicklungs- und Industrialisierungsumgebungen. Ziel ist es, Programme, Produkte oder Montagenlinien schnell wieder in einen kontrollierten, planbaren Zustand zu führen.
 
 **Typische Einsatzfelder**:
 - Wiederherstellung von Termin-, Qualitäts- und Kostensteuerung
 - Technische Klärung kritischer Produkt- oder Systemthemen
-- Sofortmaßnahmen zur Sicherung von Entwicklungs- und Produktionsfähigkeit
+- Sofortmaßnahmen zur Sicherung von Entwicklungs- und Montagefähigkeit
 - Neuaufstellung von Teams, Rollen, Führungsritualen und Entscheidungswegen
 - Kompetenzaufbau der Mitarbeitenden im laufenden Einsatz
 
@@ -19,7 +19,7 @@ Minimierung operativer Risiken, Vermeidung drohender Liefer-, Qualitäts- oder Z
 Ich führe Transformationsvorhaben durch, die die Leistungsfähigkeit von Entwicklungs-, Industrialisierungs- oder Fertigungsorganisationen nachhaltig erhöhen. Dazu gehören technische, organisatorische und prozessuale Neuausrichtungen.
 
 **Typische Einsatzfelder**:
-- Effizienzsteigerung in Entwicklung, Industrialisierung oder Fertigung
+- Effizienzsteigerung in Entwicklung, Industrialisierung oder Montage
 - Re-Engineering von Produkten mit hoher Fehlerquote oder Feldreklamationen
 - Einführung robuster, skalierbarer Entwicklungs- und Industrialisierungsprozesse
 - Optimierung technischer Entscheidungslogik, Schnittstellen und Governance
@@ -50,4 +50,4 @@ Für weitere Informationen oder ein unverbindliches Erstgespräch kontaktieren S
 
 ---
 
-*Stand: Januar 2026*
+*Stand: März 2026*

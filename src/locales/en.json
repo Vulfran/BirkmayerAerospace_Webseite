@@ -40,10 +40,10 @@
     "subtitle": "Wolfram Birkmayer, Interim Executive for Product Development & Engineering"
   },
   "about": {
-    "title": "Stabilize, transform and scale complex development and certification programs in aerospace and defence.",
-    "text1": "As an interim executive, I support companies in stabilizing, transforming, and scaling the development and series production of their products, as well as their operational safety and reliability - drawing on solid aerospace expertise and international leadership experience at Airbus and Rolls-Royce in engineering, systems development, and project management.",
-    "text2": "I am specialized in agile transformation, process optimization, change management, crisis resolution, and building high-performance teams. With my strategic mindset, deep technical expertise, and as a strong communicator I combine leadership excellence with engineering depth and transformation skills, even in highly regulated industries.",
-    "text3": "The result: reliable, safe, and defect-free products - with shorter time-to-market, lower product and service costs, and higher customer satisfaction."
+    "title": "Short description",
+    "text1": "I assume temporary executive responsibility in technically critical development and industrialization environments.",
+    "text2": "My focus is on stabilizing complex programs, transforming engineering organizations, and scaling technical performance.",
+    "text3": "More than 30 years of experience in aerospace, systems development, and technical transformation."
   }
   ,
   "projects": {
@@ -77,13 +77,13 @@
       "text": "For the A350 all aircraft systems components are procured from system suppliers with System bundles.",
       "image": "428_Birkmayer_Profil_Buch_abwaegend_Landscape_comp.png"
     },    
-    "sectionTitle": "Projects"
+    "sectionTitle": "Selected Projects"
   },
   "services": {
     "sectionTitle": "Services Overview",
     "card1": {
       "title": "Stabilize",
-      "description": "I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The objective is to quickly return programs, products, or assembly operations back into a controlled, predictable state and to limit economic risks.",
+      "description": "I take responsibility in technically critical or organizationally overloaded development and industrialization environments. The objective is to quickly return programs, products, or assembly operations back into a controlled and economically stable state.",
       "items": [
         "Restoration of schedule, quality, and cost control",
         "Technical resolution of critical product or system issues",
@@ -142,32 +142,32 @@
     "sectionSubtitle": "I bring extensive experience in leading international teams and deep technical expertise in the following areas",
     "item1": {
       "title": "Stabilization & Turnaround of Development and Industrialization",
-      "description": "Restoring stable schedule, cost, and quality control in critical programs."
+      "description": "Restoring reliable schedule, cost, and quality control in critical programs."
     },
     "item2": {
-      "title": "Building and Transforming Engineering Organizations",
-      "description": "Establishing robust development, industrialization, and quality processes as well as organizational structures."
+      "title": "Transformation of Engineering Organizations",
+      "description": "Implementation of robust development, industrialization, and quality processes, as well as high-performing organizational structures."
     },
     "item3": {
-      "title": "Scaling of Engineering, Industrialization, and Assembly",
+      "title": "Scaling Engineering and Assembly",
       "description": "Building high-performance structures for growth, ramp-up, and new programs."
     },
     "item4": {
-      "title": "Systems, Safety & Reliability",
-      "description": "Deep expertise in systems engineering, reliability engineering, and safety engineering of complex technical systems."
+      "title": "Systems Engineering, Safety & Reliability",
+      "description": "Extensive experience in the development of safety-critical technical systems."
     },
     "item5": {
       "title": "Electric Propulsion Systems & Equipment Qualification",
-      "description": "Development and qualification of electric propulsion systems for aircraft as well as power and signal processing electronics."
+      "description": "Development and qualification of electrical systems and power electronics for aircraft."
     },
     "item6": {
       "title": "Aircraft Development, Industrialization, and Certification",
-      "description": "End-to-end experience along the product lifecycle of aerospace systems."
+      "description": "Experience across the entire lifecycle of complex aerospace systems."
     },
     "cta": "Learn more"
   },
   "quote": {
-    "text": "Successful products are not created by good design alone, but by clear leadership, capable teams, and disciplined execution — especially when stabilization, transformation, or scaling is required.",
+    "text": "Successful products are not created by good design alone, but by clear leadership, capable teams, and disciplined execution — especially when organizations must stabilize, transform, or scale.",
     "author": "Wolfram Birkmayer"
   }
 }
