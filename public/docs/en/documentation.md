@@ -1,6 +1,6 @@
 # Documentation
 
-Removed, due to duplication
+Please refer to pages "Services", "Competences", or "Projects".
 
 ---
 
