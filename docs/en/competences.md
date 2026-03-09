@@ -9,52 +9,42 @@ The result: reliable, safe, and defect-free products – with shorter time-to-ma
 
 ## My Core Competencies
 
-### 1. Project and Development Management Expertise
+### 1. Engineering Leadership
 
-- Management of complex technical and organizational challenges
-- Development and implementation of agile methods (Scrum, Kanban)
-- Change management, process optimization, and post-merger integration
-- Systematic coaching of technical and managerial staff
-- Industrialization
-- Scaling of serial assembly
+•	Leading multinational, multidisciplinary engineering teams (up to 60 employees)
+•	Building and transforming international development organizations
+•	Budget responsibility up to €15M
+•	Coaching of technical and managerial staff; sustainable talent development
+•	Executive-level communication in international corporate structures
 
-### 2. Leadership Skills
+### 2. Program & Organizational Development
 
-- Many years of experience leading multinational, multidisciplinary teams (up to 60 employees)
-- Intercultural management and confident communication at executive level
-- Establishment and leadership of transnational engineering departments with budget responsibility up to €15 million
-- Talent development, coaching, and sustainable employee advancement
+•	Management of complex technical and organizational programs
+•	Implementation of agile development processes (Scrum, Kanban)
+•	Change management and process optimization
+•	Integration of organizations post-merger
+•	Industrialization of new technologies and scaling of serial production
 
-### 3. Methodological Expertise
+### 3. Systems Engineering, Safety & Certification
 
-- Agile methods: Scrum, Kanban
-- Process analysis and optimization: APQP, PPAP, FMEA, Ishikawa, 8D, PDCA cycle
-- Lean management: SQCDP, Go-look-see, value stream mapping
-- Structured problem-solving methods
-- Innovation management and patent development
-- Systems and safety engineering according to aviation standards (ARP 4761A, ARP 4754B)
-- Reliability engineering and dependability analysis
-- Certification and validation of complex technical systems
-- Equipment Qualification
-- Application lifecycle management (ALM)
+•	System development of safety-critical technical systems
+•	Safety engineering according to aerospace standards (ARP 4754B, ARP 4761A)
+•	Reliability engineering and dependability analysis
+•	Certification, validation, and equipment qualification of complex systems
 
-### 4. Soft Skills & Personal Strengths
+### 4. Methodology & Technology Competence
 
-- Holistic thinking: strategic overview with the ability to analyze technical details in depth when necessary
-- Strong analytical and conceptual skills
-- Solution-oriented mindset and quick grasp of complex issues
-- Team player with conflict resolution skills and intercultural understanding
-- Confident presence, excellent communication skills, and empathy in international business environments
-- High capacity for innovation and promotion of creativity within teams
+•	Quality and development processes: APQP, PPAP, FMEA, 8D, PDCA
+•	Lean management and production optimization (SQCDP, value stream analysis)
+•	Structured problem-solving methods and innovation management
+•	Application Lifecycle Management (ALM)
 
 ### 5. Technical Expertise
 
-We support you in developing safe, reliable, and defect-free products:
-
-- Electric drive systems and control engineering for aviation
-- Electronics (power and signal processing)
-- Communication and network technology (including high-voltage and protection systems)
-- Lightning Protection, EMC, HIRF
+•	Electric propulsion systems and control engineering
+•	Power electronics and signal processing
+•	Communication and networking technology
+•	Environmental hazard protection (lightning protection, EMC, HIRF)
 
 ---
 
