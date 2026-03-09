@@ -12,50 +12,42 @@ Fehlerfreie, sichere und zuverlässige Produkte mit kürzerer Time-to-Market, re
 
 ## Meine Kernkompetenzen
 
-### 1. Projekt- und Entwicklungsmanagement
+### 1. Engineering Leadership
 
-- Management komplexer technischer und organisatorischer Herausforderungen
-- Entwicklung und Umsetzung agiler Methoden (Scrum, Kanban) 
-- Change-Management, Prozessoptimierung und Integration nach Fusionen 
-- Systematisches Coaching von Fach-und Führungskräften
-- Industrialisierung
-- Skalierung der Serienproduktion 
+- Führung multinationaler, multidisziplinärer Engineering-Teams (bis zu 60 Mitarbeitende)
+- Aufbau und Transformation internationaler Entwicklungsorganisationen
+- Budgetverantwortung bis 15 Mio. EUR
+- Coaching von Fach- und Führungskräften sowie nachhaltige Talententwicklung
+- Executive-Kommunikation in internationalen Unternehmensstrukturen
 
-### 2. Führungskompetenzen
+### 2. Programm- und Organisationsentwicklung
 
-- Langjähriger Erfahrung in der Führung multinationaler, multidisziplinärer Teams (bis zu 60 Mitarbeitende)
-- Interkulturelles Management und souveräne Kommunikation auf Executive-Level
-- Aufbau und Führung transnationaler Engineering-Abteilungen mit Budgetverantwortung bis zu 15 Mio. EUR
-- Talentförderung, Coaching und nachhaltige Mitarbeiterentwicklung
+- Management komplexer technischer und organisatorischer Programme
+- Einführung agiler Entwicklungsprozesse (Scrum, Kanban)
+- Change-Management und Prozessoptimierung
+- Integration von Organisationen nach Fusionen
+- Industrialisierung neuer Technologien und Skalierung der Serienproduktion
 
-### 3. Methodenkompetenz
+### 3. Systems Engineering, Safety & Zertifizierung
 
-- Agile Methoden: Scrum, Kanban
-- Prozessanalyse und -optimierung: APQP, PPAP, FMEA, Ishikawa, 8D, PDCA-Zyklus
-- Lean Management: SQCDP, Go-look-see, Wertstromanalyse
-- Strukturierte Problemlösungsmethoden
-- Innovationsmanagement und Patententwicklung
-- System- und Safety Engineering nach Luftfahrtstandards (ARP 4761A, ARP 4754B)
+- Systementwicklung sicherheitskritischer technischer Systeme
+- Safety Engineering nach Luftfahrtstandards (ARP 4754B, ARP 4761A)
 - Reliability Engineering und Zuverlässigkeitsanalysen
-- Zertifizierung und Validierung komplexer technischer Systeme
-- Gerätequalifikation
+- Zertifizierung, Validierung und Gerätequalifikation komplexer Systeme
+
+### 4. Methoden- und Technologiekompetenz
+
+- Qualitäts- und Entwicklungsprozesse: APQP, PPAP, FMEA, 8D, PDCA
+- Lean-Management und Produktionsoptimierung (SQCDP, Wertstromanalyse)
+- Strukturierte Problemlösungsmethoden und Innovationsmanagement
 - Application Lifecycle Management (ALM)
-
-### 4. Soft Skills & Persönliche Stärken
-
-- Ganzheitliches Denken: strategisches Gesamtverständnis mit der Fähigkeit, technische Details bei Bedarf tiefgehend zu analysieren
-- Starke analytische und konzeptionelle Fähigkeiten
-- Lösungsorientierung und schnelle Auffassungsgabe
-- Teamfähigkeit, Konfliktlösungskompetenz und interkulturelles Verständnis
-- Sicheres Auftreten, Kommunikationsstärke und Empathie in internationalen Geschäftsumgebungen
-- Hohe Innovationskompetenz und Förderung von Kreativität im Team
 
 ### 5. Technische Expertise
 
 - Elektrische Antriebssysteme und Regelungstechnik
-- Elektronik (Leistungs- und Signalverarbeitung)
-- Kommunikations- und Netzwerktechnik (inkl. Hochspannung und Schutzsysteme)
-- Blitzschutz, EMV, HIRF
+- Leistungselektronik und Signalverarbeitung
+- Kommunikations- und Netzwerktechnik
+- Umweltgefahrenfestigkeit (Blitzschutz, EMV, HIRF)
 
 ---
 
