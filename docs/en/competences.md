@@ -27,7 +27,7 @@ The result: reliable, safe, and defect-free products – with shorter time-to-ma
 
 ### 3. Systems Engineering, Safety & Certification
 
-- System development of safety-critical technical systems
+- Systems development of safety-critical technical systems
 - Safety engineering according to aerospace standards (ARP 4754B, ARP 4761A)
 - Reliability engineering and dependability analysis
 - Certification, validation, and equipment qualification of complex systems
