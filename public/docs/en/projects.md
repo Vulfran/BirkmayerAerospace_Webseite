@@ -62,8 +62,8 @@ A leading industrial group developing hybrid-electric propulsion needed to progr
 
 #### Implemented Measures
 
-- Strategic Roadmap developed to build key competencies including those for system safety
-- The Safety-Function is organized centrally with the System Architecture team
+- Strategic Roadmap developed to build key competencies including those for systems safety
+- The Safety-Function is organized centrally with the Systems Architecture team
 - The Safety-Process is integrated into the ALM-System
 - An open and strong network has been built between the safety experts and the development teams to foster the safety culture
 - A catalogue with key design requirements for safety is established in coordination with the development teams
